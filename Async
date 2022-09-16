@@ -1,0 +1,933 @@
+-- scripter: RegularSVilisz#7789
+ 
+-- Design: RegularSVilisz#7789
+ 
+-- Game: https://www.roblox.com/games/10875411398/Hen-Sim-X
+ 
+ 
+--[STEALING ANY SCRIPTS OR WORKS IN HERE MEANS YOU'RE A BULLSH1T N1GGA LM[FAOOOOOOOOO]
+ 
+local mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TopFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local nfA5 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UIScale = Instance.new("UIScale")
+local Frame_4 = Instance.new("Frame")
+local ihave = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local game1 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local hold = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local ware = Instance.new("Frame")
+local clicksA = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local FrameA3 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local ImageButtonA = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local rebirthsA = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local FrameA4 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local ImageButtonA2 = Instance.new("ImageButton")
+local UICorner_12 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local autorebirthsA = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local FrameA5 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local FrameA6 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local helper = Instance.new("Frame")
+local autoclickerA = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local frameA1 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local FrameA2 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local settings1 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local hold_2 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local ware_2 = Instance.new("Frame")
+local uiA = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local nfA3 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local helper_2 = Instance.new("Frame")
+local scripterA = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local nfA4 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local ToggleA = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local nfA1 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local nfA2 = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local TextBox_4 = Instance.new("TextBox")
+local TextLabel_9 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local s1 = Instance.new("UIStroke")
+local s2 = Instance.new("UIStroke")
+local s3 = Instance.new("UIStroke")
+local s4 = Instance.new("UIStroke")
+local s5 = Instance.new("UIStroke")
+local s6 = Instance.new("UIStroke")
+local s7 = Instance.new("UIStroke")
+local s8 = Instance.new("UIStroke")
+local s9 = Instance.new("UIStroke")
+local s10 = Instance.new("UIStroke")
+local s11 = Instance.new("UIStroke")
+local s12 = Instance.new("UIStroke")
+local s13 = Instance.new("UIStroke")
+local s14 = Instance.new("UIStroke")
+local s15 = Instance.new("UIStroke")
+local s16 = Instance.new("UIStroke")
+local s17 = Instance.new("UIStroke")
+local s18 = Instance.new("UIStroke")
+local s19 = Instance.new("UIStroke")
+local s20 = Instance.new("UIStroke")
+local s21 = Instance.new("UIStroke")
+local s22 = Instance.new("UIStroke")
+local s23 = Instance.new("UIStroke")
+mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD.ResetOnSpawn = false
+Frame.Parent = mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD
+Frame.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.757, 0,0.459, 0)
+Frame.Size = UDim2.new(0, 459, 0, 42)
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Frame_2.Position = UDim2.new(-0.000833475962, 0, -0.00581201911, 0)
+Frame_2.Size = UDim2.new(0, 459, 0, 495)
+UICorner.Parent = Frame_2
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = Frame_2
+TopFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TopFrame.Size = UDim2.new(0, 459, 0, 42)
+TopFrame.ZIndex = 999999999
+UICorner_2.Parent = TopFrame
+Frame_3.Parent = TopFrame
+Frame_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.596825719, 0)
+Frame_3.Size = UDim2.new(0, 459, 0, 18)
+Frame_3.ZIndex = 2
+nfA5.Name = "nfA5"
+nfA5.Parent = TopFrame
+nfA5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA5.Position = UDim2.new(0.865777969, 0, 0.178558633, 0)
+nfA5.Size = UDim2.new(0, 79, 0, 37)
+nfA5.ZIndex = 999999999
+UICorner_3.Parent = nfA5
+TextButton.Parent = nfA5
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0500000007, 0, 0.0810000002, 0)
+TextButton.Size = UDim2.new(0, 30, 0, 30)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+UICorner_4.Parent = TextButton
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.0254766941, 0, -0.0300216079, 0)
+ImageLabel.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel.Visible = false
+ImageLabel.ZIndex = 10
+ImageLabel.Image = "rbxassetid://8589545938"
+ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UIScale.Parent = nfA5
+UIScale.Scale = 0.700
+Frame_4.Parent = Frame_2
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.0870033354, 0)
+Frame_4.Size = UDim2.new(0, 458, 0, 451)
+ihave.Name = "ihave"
+ihave.Parent = Frame_4
+ihave.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ihave.Position = UDim2.new(0.0115457773, 0, 0.00987137854, 0)
+ihave.Size = UDim2.new(0, 448, 0, 441)
+ihave.ZIndex = 9
+UICorner_5.Parent = ihave
+ScrollingFrame.Parent = ihave
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.00669642864, 0, 0.0158730168, 0)
+ScrollingFrame.Size = UDim2.new(0, 438, 0, 424)
+ScrollingFrame.BottomImage = "rbxassetid://3062505976"
+ScrollingFrame.MidImage = "rbxassetid://3062506202"
+ScrollingFrame.ScrollBarThickness = 6
+ScrollingFrame.ScrollingEnabled = false
+ScrollingFrame.TopImage = "rbxassetid://3062506445"
+ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
+game1.Name = "game1"
+game1.Parent = ScrollingFrame
+game1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+game1.Position = UDim2.new(0.0180000067, 0, 0.00416039536, 0)
+game1.Size = UDim2.new(0, 416, 0, 45)
+game1.ZIndex = 9
+UICorner_6.Parent = game1
+hold.Name = "hold"
+hold.Parent = game1
+hold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hold.BackgroundTransparency = 1.000
+hold.Size = UDim2.new(0, 9, 0, 6)
+Frame_5.Parent = hold
+Frame_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame_5.BackgroundTransparency = 0.500
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.910523534, 0, 5, 0)
+Frame_5.Size = UDim2.new(0, 398, 0, 3)
+TextLabel.Parent = hold
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.910523534, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 122, 0, 30)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Utilities"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 12.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+TextButton_2.Parent = hold
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Size = UDim2.new(0, 416, 0, 30)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+ware.Name = "ware"
+ware.Parent = hold
+ware.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ware.BackgroundTransparency = 1.000
+ware.Position = UDim2.new(0, 0, 7.33333349, 0)
+ware.Size = UDim2.new(0, 416, 0, 206)
+ware.Visible = false
+ware.ZIndex = 10
+clicksA.Name = "clicksA"
+clicksA.Parent = ware
+clicksA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+clicksA.Position = UDim2.new(0.0192307699, 0, -0.00970873795, 0)
+clicksA.Size = UDim2.new(0, 398, 0, 50)
+clicksA.ZIndex = 10
+UICorner_7.Parent = clicksA
+FrameA3.Name = "FrameA3"
+FrameA3.Parent = clicksA
+FrameA3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA3.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
+FrameA3.Size = UDim2.new(0, 341, 0, 37)
+UICorner_8.Parent = FrameA3
+TextBox.Parent = FrameA3
+TextBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(0.0233465768, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 322, 0, 36)
+TextBox.ZIndex = 99
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.PlaceholderText = "Clicks"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+ImageButtonA.Name = "ImageButtonA"
+ImageButtonA.Parent = FrameA3
+ImageButtonA.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ImageButtonA.Position = UDim2.new(1.01999998, 0, 0, 0)
+ImageButtonA.Size = UDim2.new(0, 37, 0, 37)
+UICorner_9.Parent = ImageButtonA
+ImageLabel_2.Parent = ImageButtonA
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.162162155, 0, 0.16216217, 0)
+ImageLabel_2.Size = UDim2.new(0, 25, 0, 25)
+ImageLabel_2.ZIndex = 11
+ImageLabel_2.Image = "rbxassetid://1510598093"
+rebirthsA.Name = "rebirthsA"
+rebirthsA.Parent = ware
+rebirthsA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+rebirthsA.Position = UDim2.new(0.0189999994, 0, 0.25, 0)
+rebirthsA.Size = UDim2.new(0, 398, 0, 50)
+rebirthsA.ZIndex = 10
+UICorner_10.Parent = rebirthsA
+FrameA4.Name = "FrameA4"
+FrameA4.Parent = rebirthsA
+FrameA4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA4.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
+FrameA4.Size = UDim2.new(0, 341, 0, 37)
+UICorner_11.Parent = FrameA4
+TextBox_2.Parent = FrameA4
+TextBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox_2.BackgroundTransparency = 1.000
+TextBox_2.Position = UDim2.new(0.0233465768, 0, 0, 0)
+TextBox_2.Size = UDim2.new(0, 322, 0, 36)
+TextBox_2.ZIndex = 99
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.MultiLine = true
+TextBox_2.PlaceholderText = "Rebirths"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+ImageButtonA2.Name = "ImageButtonA2"
+ImageButtonA2.Parent = FrameA4
+ImageButtonA2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ImageButtonA2.Position = UDim2.new(1.01999998, 0, 0, 0)
+ImageButtonA2.Size = UDim2.new(0, 37, 0, 37)
+UICorner_12.Parent = ImageButtonA2
+ImageLabel_3.Parent = ImageButtonA2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.162162155, 0, 0.16216217, 0)
+ImageLabel_3.Size = UDim2.new(0, 25, 0, 25)
+ImageLabel_3.ZIndex = 11
+ImageLabel_3.Image = "rbxassetid://1510598093"
+autorebirthsA.Name = "autorebirthsA"
+autorebirthsA.Parent = ware
+autorebirthsA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+autorebirthsA.Position = UDim2.new(0.0189999994, 0, 0.504999995, 0)
+autorebirthsA.Size = UDim2.new(0, 398, 0, 50)
+autorebirthsA.ZIndex = 10
+UICorner_13.Parent = autorebirthsA
+FrameA5.Name = "FrameA5"
+FrameA5.Parent = autorebirthsA
+FrameA5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA5.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
+FrameA5.Size = UDim2.new(0, 276, 0, 37)
+UICorner_14.Parent = FrameA5
+FrameA6.Name = "FrameA6"
+FrameA6.Parent = FrameA5
+FrameA6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA6.Position = UDim2.new(1.02933347, 0, 0.0118919583, 0)
+FrameA6.Size = UDim2.new(0, 97, 0, 37)
+FrameA6.ZIndex = 10
+UICorner_15.Parent = FrameA6
+TextBox_3.Parent = FrameA6
+TextBox_3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextBox_3.BackgroundTransparency = 1.000
+TextBox_3.Position = UDim2.new(-0.0347346067, 0, -0.0151352882, 0)
+TextBox_3.Size = UDim2.new(0, 102, 0, 37)
+TextBox_3.ZIndex = 10
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.PlaceholderText = "Choose 1-9"
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextSize = 14.000
+TextLabel_2.Parent = FrameA5
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(0.0362318829, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 196, 0, 37)
+TextLabel_2.ZIndex = 10
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Auto Rebirths"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 18.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+helper.Name = "helper"
+helper.Parent = ware
+helper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+helper.Position = UDim2.new(0.572115421, 0, 0.74757278, 0)
+helper.Size = UDim2.new(0, 100, 0, 3)
+helper.Visible = false
+helper.ZIndex = 999999999
+autoclickerA.Name = "autoclickerA"
+autoclickerA.Parent = ware
+autoclickerA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+autoclickerA.Position = UDim2.new(0.0189999994, 0, 0.763000011, 0)
+autoclickerA.Size = UDim2.new(0, 398, 0, 50)
+autoclickerA.ZIndex = 10
+UICorner_16.Parent = autoclickerA
+frameA1.Name = "frameA1"
+frameA1.Parent = autoclickerA
+frameA1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+frameA1.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
+frameA1.Size = UDim2.new(0, 295, 0, 37)
+UICorner_17.Parent = frameA1
+FrameA2.Name = "FrameA2"
+FrameA2.Parent = frameA1
+FrameA2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA2.Position = UDim2.new(1.03353393, 0, 0.0118919583, 0)
+FrameA2.Size = UDim2.new(0, 79, 0, 37)
+FrameA2.ZIndex = 10
+UICorner_18.Parent = FrameA2
+TextButton_3.Parent = FrameA2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0500000007, 0, 0.0810000002, 0)
+TextButton_3.Size = UDim2.new(0, 30, 0, 30)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+UICorner_19.Parent = TextButton_3
+ImageLabel_4.Parent = TextButton_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(-0.0254766941, 0, -0.0300216079, 0)
+ImageLabel_4.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_4.Visible = false
+ImageLabel_4.ZIndex = 10
+ImageLabel_4.Image = "rbxassetid://8589545938"
+ImageLabel_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Parent = frameA1
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0.0362318829, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 196, 0, 37)
+TextLabel_3.ZIndex = 10
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Auto Clicker"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 18.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+settings1.Name = "settings1"
+settings1.Parent = ScrollingFrame
+settings1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+settings1.Position = UDim2.new(0.0179999992, 0, 0.061999999, 0)
+settings1.Size = UDim2.new(0, 416, 0, 45)
+settings1.ZIndex = 9
+UICorner_20.Parent = settings1
+hold_2.Name = "hold"
+hold_2.Parent = settings1
+hold_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hold_2.BackgroundTransparency = 1.000
+hold_2.Size = UDim2.new(0, 9, 0, 6)
+Frame_6.Parent = hold_2
+Frame_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame_6.BackgroundTransparency = 0.500
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.910523534, 0, 5, 0)
+Frame_6.Size = UDim2.new(0, 398, 0, 3)
+TextLabel_4.Parent = hold_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.910523534, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 122, 0, 30)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Settings"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 12.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+TextButton_4.Parent = hold_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Size = UDim2.new(0, 416, 0, 30)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+ware_2.Name = "ware"
+ware_2.Parent = hold_2
+ware_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ware_2.BackgroundTransparency = 1.000
+ware_2.Position = UDim2.new(0, 0, 7.33333349, 0)
+ware_2.Size = UDim2.new(0, 416, 0, 206)
+ware_2.Visible = false
+ware_2.ZIndex = 10
+uiA.Name = "uiA"
+uiA.Parent = ware_2
+uiA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+uiA.Position = UDim2.new(0.0192307699, 0, -0.00970873795, 0)
+uiA.Size = UDim2.new(0, 398, 0, 50)
+uiA.ZIndex = 10
+UICorner_21.Parent = uiA
+nfA3.Name = "nfA3"
+nfA3.Parent = uiA
+nfA3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA3.Position = UDim2.new(0.0128995031, 0, 0.099999994, 0)
+nfA3.Size = UDim2.new(0, 388, 0, 40)
+nfA3.ZIndex = 10
+UICorner_22.Parent = nfA3
+TextLabel_5.Parent = nfA3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0227525849, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 322, 0, 36)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "UI:"
+TextLabel_5.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_6.Parent = nfA3
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0691197217, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 307, 0, 36)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "RegularSVilisz#7789"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 18.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+helper_2.Name = "helper"
+helper_2.Parent = ware_2
+helper_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+helper_2.Position = UDim2.new(0.572115421, 0, 0.74757278, 0)
+helper_2.Size = UDim2.new(0, 100, 0, 3)
+helper_2.Visible = false
+helper_2.ZIndex = 999999999
+scripterA.Name = "scripterA"
+scripterA.Parent = ware_2
+scripterA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+scripterA.Position = UDim2.new(0.0189999994, 0, 0.25, 0)
+scripterA.Size = UDim2.new(0, 398, 0, 50)
+scripterA.ZIndex = 10
+UICorner_23.Parent = scripterA
+nfA4.Name = "nfA4"
+nfA4.Parent = scripterA
+nfA4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA4.Position = UDim2.new(0.0128995031, 0, 0.099999994, 0)
+nfA4.Size = UDim2.new(0, 388, 0, 40)
+nfA4.ZIndex = 10
+UICorner_24.Parent = nfA4
+TextLabel_7.Parent = nfA4
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.023, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 322, 0, 36)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Scripter:"
+TextLabel_7.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.Parent = nfA4
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.138707355, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 280, 0, 36)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "RegularSVilisz#7789"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 18.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+ToggleA.Name = "ToggleA"
+ToggleA.Parent = ware_2
+ToggleA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+ToggleA.Position = UDim2.new(0.0189999994, 0, 0.504999995, 0)
+ToggleA.Size = UDim2.new(0, 398, 0, 50)
+ToggleA.ZIndex = 10
+UICorner_25.Parent = ToggleA
+nfA1.Name = "nfA1"
+nfA1.Parent = ToggleA
+nfA1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA1.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
+nfA1.Size = UDim2.new(0, 386, 0, 37)
+UICorner_26.Parent = nfA1
+nfA2.Name = "nfA2"
+nfA2.Parent = nfA1
+nfA2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA2.Position = UDim2.new(0.77705729, 0, 0.120000064, 0)
+nfA2.Size = UDim2.new(0, 79, 0, 27)
+nfA2.ZIndex = 10
+UICorner_27.Parent = nfA2
+TextBox_4.Parent = nfA2
+TextBox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.BackgroundTransparency = 1.000
+TextBox_4.Position = UDim2.new(0.0632911399, 0, 0.145145148, 0)
+TextBox_4.Size = UDim2.new(0, 69, 0, 17)
+TextBox_4.ZIndex = 10
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.PlaceholderText = "KeyBind"
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.TextSize = 14.000
+TextBox_4.TextWrapped = true
+TextLabel_9.Parent = nfA1
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(0.0362318829, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 196, 0, 37)
+TextLabel_9.ZIndex = 10
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Toggle UI Key"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 18.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+Frame_7.Parent = ScrollingFrame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.Position = UDim2.new(0.607305884, 0, 0.0549214184, 0)
+Frame_7.Size = UDim2.new(0, 100, 0, 8)
+Frame_7.Visible = false
+Frame_8.Parent = ihave
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.Position = UDim2.new(1.39285719, 0, 0.371132553, 0)
+Frame_8.Size = UDim2.new(0, 100, 0, 5)
+Frame_8.Visible = false
+Frame_8.ZIndex = 999999999
+ImageLabel_5.Parent = Frame_4
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.Position = UDim2.new(0, 0, -0.0399113074, 0)
+ImageLabel_5.Size = UDim2.new(0, 459, 0, 470)
+ImageLabel_5.Visible = false
+ImageLabel_5.ZIndex = 8
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=10908615416"
+ImageLabel_5.ImageColor3 = Color3.fromRGB(170, 85, 255)
+ImageLabel_5.ScaleType = Enum.ScaleType.Crop
+UICorner_28.Parent = ImageLabel_5
+TextLabel_10.Parent = Frame_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Size = UDim2.new(0, 221, 0, 41)
+TextLabel_10.ZIndex = 999999999
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "SVilisz"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Right
+TextLabel_11.Parent = Frame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.516339898, 0, -0.0238095243, 0)
+TextLabel_11.Size = UDim2.new(0, 221, 0, 42)
+TextLabel_11.ZIndex = 99999999
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Async"
+TextLabel_11.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_11.TextSize = 25.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_12.Parent = Frame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.480648011, 0, -0.0238095243, 0)
+TextLabel_12.Size = UDim2.new(0, 16, 0, 42)
+TextLabel_12.ZIndex = 999999999
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "-"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 22.000
+s1.Color = Color3.fromRGB(25, 25, 25)
+s2.Color = Color3.fromRGB(25, 25, 25)
+s3.Color = Color3.fromRGB(25, 25, 25)
+s4.Color = Color3.fromRGB(25, 25, 25)
+s5.Color = Color3.fromRGB(25, 25, 25)
+s6.Color = Color3.fromRGB(25, 25, 25)
+s7.Color = Color3.fromRGB(25, 25, 25)
+s8.Color = Color3.fromRGB(25, 25, 25)
+s9.Color = Color3.fromRGB(25, 25, 25)
+s10.Color = Color3.fromRGB(25, 25, 25)
+s11.Color = Color3.fromRGB(25, 25, 25)
+s12.Color = Color3.fromRGB(25, 25, 25)
+s13.Color = Color3.fromRGB(25, 25, 25)
+s14.Color = Color3.fromRGB(25, 25, 25)
+s15.Color = Color3.fromRGB(25, 25, 25)
+s16.Color = Color3.fromRGB(25, 25, 25)
+s17.Color = Color3.fromRGB(25, 25, 25)
+s18.Color = Color3.fromRGB(25, 25, 25)
+s19.Color = Color3.fromRGB(25, 25, 25)
+s20.Color = Color3.fromRGB(25, 25, 25)
+s21.Color = Color3.fromRGB(25, 25, 25)
+s22.Color = Color3.fromRGB(25, 25, 25)
+s23.Color = Color3.fromRGB(25, 25, 25)
+s1.Parent = ihave
+s2.Parent = game1
+s3.Parent = autoclickerA
+s4.Parent = frameA1
+s5.Parent = FrameA2
+s6.Parent = clicksA
+s7.Parent = FrameA3
+s8.Parent = ImageButtonA
+s9.Parent = rebirthsA
+s10.Parent = FrameA4
+s11.Parent = ImageButtonA2
+s12.Parent = autorebirthsA
+s13.Parent = FrameA5
+s14.Parent = FrameA6
+s15.Parent = settings1
+s16.Parent = ToggleA
+s17.Parent = nfA1
+s18.Parent = nfA2
+s19.Parent = uiA
+s20.Parent = nfA3
+s21.Parent = scripterA
+s22.Parent = nfA4
+s23.Parent = nfA5
+local function XWYEQY_fake_script()
+	local script = Instance.new('LocalScript', TextButton)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
+			script.Parent:TweenPosition(UDim2.new(0.55, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.ImageLabel.Visible = true
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Frame.Frame.Frame.ImageLabel.Visible = true
+		else
+			script.Parent:TweenPosition(UDim2.new(0.05, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.ImageLabel.Visible = false
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Frame.Frame.Frame.ImageLabel.Visible = false
+		end
+	end)
+end
+coroutine.wrap(XWYEQY_fake_script)()
+local function QYOUEOO_fake_script()
+	local script = Instance.new('LocalScript', TextButton_2)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent.game1.Size == UDim2.new(0, 416,0, 45) then
+			script.Parent.Parent.Parent.Parent.game1:TweenSize(UDim2.new(0, 416,0, 259), "Out", "Quint", 0.35, true)
+			script.Parent.Parent.Parent.Parent.settings1:TweenPosition(UDim2.new(0.018, 0,0.306, 0), "Out", "Quint", 0.35, true)
+			wait(0.36)
+			if script.Parent.Parent.Parent.Parent.game1.Size == UDim2.new(0, 416,0, 259) then
+				script.Parent.Parent.ware.Visible = true
+			end
+		else
+			script.Parent.Parent.Parent.Parent.game1:TweenSize(UDim2.new(0, 416,0, 45), "Out", "Quint", 0.35, true)
+			script.Parent.Parent.Parent.Parent.settings1:TweenPosition(UDim2.new(0.018, 0,0.062, 0), "Out", "Quint", 0.35, true)
+			script.Parent.Parent.ware.Visible = false
+		end
+	end)
+end
+coroutine.wrap(QYOUEOO_fake_script)()
+local function TBCTRY_fake_script()
+	local script = Instance.new('LocalScript', ImageButtonA)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(122, 122, 122)
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "" then
+			-- bruh
+		else
+			game.Players.LocalPlayer.leaderstats.Clicks.Value = script.Parent.Parent.TextBox.Text
+		end
+	end)
+end
+coroutine.wrap(TBCTRY_fake_script)()
+local function UNGTN_fake_script()
+	local script = Instance.new('LocalScript', ImageButtonA2)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(122, 122, 122)
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "" then
+			-- bruh
+		else
+			game.Players.LocalPlayer.leaderstats.Rebirths.Value = script.Parent.Parent.TextBox.Text
+		end
+	end)
+end
+coroutine.wrap(UNGTN_fake_script)()
+local function BHGFAEI_fake_script()
+	local script = Instance.new('LocalScript', TextBox_3)
+	local player = game.Players.LocalPlayer
+	local clicks = player:WaitForChild("leaderstats"):WaitForChild("Clicks")
+	local rebirths = player:WaitForChild("leaderstats"):WaitForChild("Rebirths")
+	while true do
+		wait(0.000000000000000000000001)
+		if script.Parent.Text == "1" then
+			if clicks.Value >= 100 then
+				rebirths.Value = rebirths.Value + 1
+				clicks.Value = 0
+			end
+		elseif script.Parent.Text == "2" then
+			if clicks.Value >= 900 then
+				rebirths.Value = rebirths.Value + 10
+				clicks.Value = 0
+			end
+		elseif script.Parent.Text == "3" then
+			if clicks.Value >= 8500 then
+				rebirths.Value = rebirths.Value + 100
+				clicks.Value = 0
+			end
+		elseif script.Parent.Text == "4" then
+			if clicks.Value >= 42000 then
+				rebirths.Value = rebirths.Value + 500
+				clicks.Value = 0
+			end
+		elseif script.Parent.Text == "5" then
+			if clicks.Value >= 410000 then
+				rebirths.Value = rebirths.Value + 1500
+				clicks.Value = 0
+			end
+		elseif script.Parent.Text == "6" then
+			if clicks.Value >= 80000 then
+				rebirths.Value = rebirths.Value + 3000
+				clicks.Value = 0
+			end
+            elseif script.Parent.Text == "7" then
+			if clicks.Value >= 2500000 then
+				rebirths.Value = rebirths.Value + 10000
+				clicks.Value = 0
+			end
+            elseif script.Parent.Text == "8" then
+			if clicks.Value >= 12500000 then
+				rebirths.Value = rebirths.Value + 50000
+				clicks.Value = 0
+			end
+            elseif script.Parent.Text == "9" then
+			if clicks.Value >= 31250000 then
+				rebirths.Value = rebirths.Value + 135000
+				clicks.Value = 0
+			end
+		end
+	end
+end
+coroutine.wrap(BHGFAEI_fake_script)()
+local function HDVYJ_fake_script()
+	local script = Instance.new('LocalScript', TextButton_3)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
+			script.Parent:TweenPosition(UDim2.new(0.55, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.ImageLabel.Visible = true
+		else
+			script.Parent:TweenPosition(UDim2.new(0.05, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.ImageLabel.Visible = false
+		end
+	end)
+end
+coroutine.wrap(HDVYJ_fake_script)()
+local function JPQSS_fake_script()
+	local script = Instance.new('LocalScript', ware)
+	while true do
+		wait(0.000000000000000000000000000000000000000000000000000000000001)
+		if script.Parent.autoclickerA.frameA1.FrameA2.TextButton.Position == UDim2.new(0.55, 0,0.081, 0) then
+			local clicks = game.Players.LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Clicks")
+			local rebirths = game.Players.LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Rebirths")
+			clicks.Value = clicks.Value + 1
+			if rebirths.Value > 1 then
+				clicks.Value = clicks.Value + rebirths.Value
+			end
+		else
+			-- elsed
+		end
+	end
+end
+coroutine.wrap(JPQSS_fake_script)()
+local function NPDH_fake_script()
+	local script = Instance.new('LocalScript', TextButton_4)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 45) then
+			script.Parent.Parent.Parent.Parent.settings1:TweenSize(UDim2.new(0, 416,0, 209), "Out", "Quint", 0.35, true)
+			wait(0.36)
+			if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 209) then
+				script.Parent.Parent.ware.Visible = true
+			end
+		else
+			script.Parent.Parent.Parent.Parent.settings1:TweenSize(UDim2.new(0, 416,0, 45), "Out", "Quint", 0.35, true)
+			script.Parent.Parent.ware.Visible = false
+		end
+	end)
+end
+coroutine.wrap(NPDH_fake_script)()
+local function VIEHNA_fake_script()
+	local script = Instance.new('LocalScript', ware_2)
+	local seeeeeee = game.Players.LocalPlayer
+	seeeeeee:GetMouse().KeyDown:Connect(function(K)
+		if K == ""..script.Parent.ToggleA.nfA1.nfA2.TextBox.Text.."" then
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Frame.Visible = not script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Frame.Visible
+		end
+	end)
+end
+coroutine.wrap(VIEHNA_fake_script)()
+local function GILPFT_fake_script()
+	local script = Instance.new('LocalScript', ScrollingFrame)
+	script.Parent.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
+	while true do
+		wait(0.00000000001)
+		if script.Parent.game1.Size == UDim2.new(0, 416,0, 259) and
+			script.Parent.settings1.Size == UDim2.new(0, 416,0, 209) then
+			script.Parent.ScrollingEnabled = true
+			script.Parent.ScrollBarImageTransparency = 0
+		else
+			Vector2.new(0, 0)
+			script.Parent.ScrollingEnabled = false
+			script.Parent.ScrollBarImageTransparency = 1
+		end
+	end
+end
+coroutine.wrap(GILPFT_fake_script)()
+local function UOXCAJB_fake_script()
+	local script = Instance.new('LocalScript', Frame)
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.10
+	local dragStart = nil
+	local startPos = nil
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(UOXCAJB_fake_script)()
+local function IZII_fake_script()
+	local script = Instance.new('LocalScript', mainSDHSIDSKDHJSUDIYSHJDSTUYIDVSJHGFUYDSIYOD)
+	script.Parent.Enabled = false
+	wait(5)
+	script.Parent.Enabled = true
+end
+coroutine.wrap(IZII_fake_script)()
+ 
+-- You really thought something funny or helpful there?, nah you're a dumb sass n1gga
