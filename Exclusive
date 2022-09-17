@@ -52,60 +52,66 @@ local TextLabel_4 = Instance.new("TextLabel")
 local FrameA3 = Instance.new("Frame")
 local UICorner_14 = Instance.new("UICorner")
 local TextBox_2 = Instance.new("TextBox")
-local FrameA4 = Instance.new("Frame")
+local nfA6 = Instance.new("Frame")
 local UICorner_15 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local FrameA4 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
 local rSliderFrame_2 = Instance.new("Frame")
 local slideFrame_2 = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
-local amountValue_2 = Instance.new("TextLabel")
-local PovA = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
-local frameA6 = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local FrameA7 = Instance.new("Frame")
+local amountValue_2 = Instance.new("TextLabel")
+local avatar = Instance.new("TextLabel")
+local PovA = Instance.new("Frame")
 local UICorner_19 = Instance.new("UICorner")
+local frameA6 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local FrameA7 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
 local TextBox_3 = Instance.new("TextBox")
 local FrameA5 = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local rSliderFrame_3 = Instance.new("Frame")
 local slideFrame_3 = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local amountValue_3 = Instance.new("TextLabel")
 local settings1 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local hold_2 = Instance.new("Frame")
 local Frame_6 = Instance.new("Frame")
-local TextLabel_6 = Instance.new("TextLabel")
-local TextButton_3 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
 local ware_2 = Instance.new("Frame")
 local uiA = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local nfA39 = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local helper_2 = Instance.new("Frame")
 local scripterA = Instance.new("Frame")
-local UICorner_25 = Instance.new("UICorner")
-local nfA4 = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local TextLabel_10 = Instance.new("TextLabel")
-local ToggleA = Instance.new("Frame")
 local UICorner_27 = Instance.new("UICorner")
-local nfA1 = Instance.new("Frame")
+local nfA4 = Instance.new("Frame")
 local UICorner_28 = Instance.new("UICorner")
-local nfA22 = Instance.new("Frame")
-local UICorner_29 = Instance.new("UICorner")
-local TextBox_4 = Instance.new("TextBox")
+local TextLabel_10 = Instance.new("TextLabel")
 local TextLabel_11 = Instance.new("TextLabel")
+local ToggleA = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local nfA1 = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local nfA22 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local TextBox_4 = Instance.new("TextBox")
+local TextLabel_12 = Instance.new("TextLabel")
 local Frame_7 = Instance.new("Frame")
 local Frame_8 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
-local UICorner_30 = Instance.new("UICorner")
-local TextLabel_12 = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
 local s1 = Instance.new("UIStroke")
 local s2 = Instance.new("UIStroke")
 local s3 = Instance.new("UIStroke")
@@ -129,6 +135,7 @@ local s20 = Instance.new("UIStroke")
 local s21 = Instance.new("UIStroke")
 local s22 = Instance.new("UIStroke")
 local s23 = Instance.new("UIStroke")
+local s24 = Instance.new("UIStroke")
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Name = "mainDSUDIOSDSODIUSDS89D8IUYDSIYOD"
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -138,6 +145,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
 Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.757, 0,0.459, 0)
 Frame.Size = UDim2.new(0, 459, 0, 42)
+Frame.ZIndex = INF
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 Frame_2.Position = UDim2.new(-0.000833475962, 0, -0.00581201911, 0)
@@ -396,13 +404,38 @@ TextBox_2.Text = ""
 TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox_2.TextSize = 14.000
 TextBox_2.TextWrapped = true
+nfA6.Name = "nfA6"
+nfA6.Parent = frameA1
+nfA6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA6.Position = UDim2.new(0.729723573, 0, -0.010630548, 0)
+nfA6.Size = UDim2.new(0, 79, 0, 37)
+nfA6.ZIndex = 999999999
+UICorner_15.Parent = nfA6
+TextButton_3.Parent = nfA6
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0500000007, 0, 0.0810000002, 0)
+TextButton_3.Size = UDim2.new(0, 30, 0, 30)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+UICorner_16.Parent = TextButton_3
+TextLabel_5.Parent = TextButton_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.0250000004, 0, -0.0299999993, 0)
+TextLabel_5.Size = UDim2.new(0, 30, 0, 30)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "R15"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 18.000
 FrameA4.Name = "FrameA4"
 FrameA4.Parent = JumpA
 FrameA4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 FrameA4.Position = UDim2.new(0.0204371158, 0, 0.559999943, 0)
 FrameA4.Size = UDim2.new(0, 383, 0, 37)
 FrameA4.ZIndex = 10
-UICorner_15.Parent = FrameA4
+UICorner_17.Parent = FrameA4
 rSliderFrame_2.Name = "rSliderFrame"
 rSliderFrame_2.Parent = FrameA4
 rSliderFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -418,7 +451,7 @@ slideFrame_2.Parent = rSliderFrame_2
 slideFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 slideFrame_2.BorderSizePixel = 0
 slideFrame_2.Size = UDim2.new(0, 0, 1, 0)
-UICorner_16.Parent = slideFrame_2
+UICorner_18.Parent = slideFrame_2
 amountValue_2.Name = "amountValue"
 amountValue_2.Parent = rSliderFrame_2
 amountValue_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -434,39 +467,49 @@ amountValue_2.TextColor3 = Color3.fromRGB(49, 49, 49)
 amountValue_2.TextScaled = true
 amountValue_2.TextSize = 14.000
 amountValue_2.TextWrapped = true
+avatar.Name = "avatar"
+avatar.Parent = rSliderFrame_2
+avatar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+avatar.Position = UDim2.new(0, 0, -8.11197594e-07, 0)
+avatar.Size = UDim2.new(0, 16, 0, 8)
+avatar.Visible = false
+avatar.Font = Enum.Font.SourceSans
+avatar.Text = "r15"
+avatar.TextColor3 = Color3.fromRGB(0, 0, 0)
+avatar.TextSize = 14.000
 PovA.Name = "PovA"
 PovA.Parent = ware
 PovA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 PovA.Position = UDim2.new(0.0189999994, 0, 1.00970876, 0)
 PovA.Size = UDim2.new(0, 398, 0, 100)
 PovA.ZIndex = 10
-UICorner_17.Parent = PovA
+UICorner_19.Parent = PovA
 frameA6.Name = "frameA6"
 frameA6.Parent = PovA
 frameA6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 frameA6.Position = UDim2.new(0.0179245528, 0, 0.0799999982, 0)
 frameA6.Size = UDim2.new(0, 294, 0, 37)
 frameA6.ZIndex = 10
-UICorner_18.Parent = frameA6
-TextLabel_5.Parent = frameA6
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_5.Position = UDim2.new(0.0362318829, 0, 0, 0)
-TextLabel_5.Size = UDim2.new(0, 196, 0, 37)
-TextLabel_5.ZIndex = 10
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Toggle Pov"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 18.000
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+UICorner_20.Parent = frameA6
+TextLabel_6.Parent = frameA6
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0.0362318829, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 196, 0, 37)
+TextLabel_6.ZIndex = 10
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Toggle Pov"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 18.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
 FrameA7.Name = "FrameA7"
 FrameA7.Parent = frameA6
 FrameA7.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 FrameA7.Position = UDim2.new(1.03160548, 0, -0.0149999997, 0)
 FrameA7.Size = UDim2.new(0, 80, 0, 37)
 FrameA7.ZIndex = 10
-UICorner_19.Parent = FrameA7
+UICorner_21.Parent = FrameA7
 TextBox_3.Parent = FrameA7
 TextBox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox_3.BackgroundTransparency = 2.000
@@ -485,7 +528,7 @@ FrameA5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 FrameA5.Position = UDim2.new(0.0204371158, 0, 0.559999943, 0)
 FrameA5.Size = UDim2.new(0, 383, 0, 37)
 FrameA5.ZIndex = 10
-UICorner_20.Parent = FrameA5
+UICorner_22.Parent = FrameA5
 rSliderFrame_3.Name = "rSliderFrame"
 rSliderFrame_3.Parent = FrameA5
 rSliderFrame_3.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -501,7 +544,7 @@ slideFrame_3.Parent = rSliderFrame_3
 slideFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 slideFrame_3.BorderSizePixel = 0
 slideFrame_3.Size = UDim2.new(0, 0, 1, 0)
-UICorner_21.Parent = slideFrame_3
+UICorner_23.Parent = slideFrame_3
 amountValue_3.Name = "amountValue"
 amountValue_3.Parent = rSliderFrame_3
 amountValue_3.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -523,7 +566,7 @@ settings1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 settings1.Position = UDim2.new(0.0179999992, 0, 0.061999999, 0)
 settings1.Size = UDim2.new(0, 416, 0, 45)
 settings1.ZIndex = 9
-UICorner_22.Parent = settings1
+UICorner_24.Parent = settings1
 hold_2.Name = "hold"
 hold_2.Parent = settings1
 hold_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -535,24 +578,24 @@ Frame_6.BackgroundTransparency = 0.500
 Frame_6.BorderSizePixel = 0
 Frame_6.Position = UDim2.new(0.910523534, 0, 5, 0)
 Frame_6.Size = UDim2.new(0, 398, 0, 3)
-TextLabel_6.Parent = hold_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(0.910523534, 0, 0, 0)
-TextLabel_6.Size = UDim2.new(0, 122, 0, 30)
-TextLabel_6.Font = Enum.Font.Gotham
-TextLabel_6.Text = "Settings"
-TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextSize = 12.000
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
-TextButton_3.Parent = hold_2
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.BackgroundTransparency = 1.000
-TextButton_3.Size = UDim2.new(0, 416, 0, 30)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = ""
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextSize = 14.000
+TextLabel_7.Parent = hold_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.910523534, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 122, 0, 30)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "Settings"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 12.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextButton_4.Parent = hold_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Size = UDim2.new(0, 416, 0, 30)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
 ware_2.Name = "ware"
 ware_2.Parent = hold_2
 ware_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -567,36 +610,36 @@ uiA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 uiA.Position = UDim2.new(0.0192307699, 0, -0.00970873795, 0)
 uiA.Size = UDim2.new(0, 398, 0, 50)
 uiA.ZIndex = 10
-UICorner_23.Parent = uiA
+UICorner_25.Parent = uiA
 nfA39.Name = "nfA39"
 nfA39.Parent = uiA
 nfA39.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 nfA39.Position = UDim2.new(0.0128995031, 0, 0.099999994, 0)
 nfA39.Size = UDim2.new(0, 388, 0, 40)
 nfA39.ZIndex = 10
-UICorner_24.Parent = nfA39
-TextLabel_7.Parent = nfA39
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.Position = UDim2.new(0.0227525849, 0, 0, 0)
-TextLabel_7.Size = UDim2.new(0, 322, 0, 36)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "UI:"
-TextLabel_7.TextColor3 = Color3.fromRGB(178, 178, 178)
-TextLabel_7.TextSize = 14.000
-TextLabel_7.TextWrapped = true
-TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+UICorner_26.Parent = nfA39
 TextLabel_8.Parent = nfA39
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(0.0691197217, 0, 0, 0)
-TextLabel_8.Size = UDim2.new(0, 307, 0, 36)
+TextLabel_8.Position = UDim2.new(0.0227525849, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 322, 0, 36)
 TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "RegularSVilisz#7789"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 18.000
+TextLabel_8.Text = "UI:"
+TextLabel_8.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextLabel_8.TextSize = 14.000
 TextLabel_8.TextWrapped = true
 TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_9.Parent = nfA39
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0691197217, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 307, 0, 36)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "RegularSVilisz#7789"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 18.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
 helper_2.Name = "helper"
 helper_2.Parent = ware_2
 helper_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -610,56 +653,56 @@ scripterA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 scripterA.Position = UDim2.new(0.0189999994, 0, 0.25, 0)
 scripterA.Size = UDim2.new(0, 398, 0, 50)
 scripterA.ZIndex = 10
-UICorner_25.Parent = scripterA
+UICorner_27.Parent = scripterA
 nfA4.Name = "nfA4"
 nfA4.Parent = scripterA
 nfA4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 nfA4.Position = UDim2.new(0.0128995031, 0, 0.099999994, 0)
 nfA4.Size = UDim2.new(0, 388, 0, 40)
 nfA4.ZIndex = 10
-UICorner_26.Parent = nfA4
-TextLabel_9.Parent = nfA4
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(0.023, 0, 0, 0)
-TextLabel_9.Size = UDim2.new(0, 322, 0, 36)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "Scripter:"
-TextLabel_9.TextColor3 = Color3.fromRGB(178, 178, 178)
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextWrapped = true
-TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+UICorner_28.Parent = nfA4
 TextLabel_10.Parent = nfA4
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(0.138707355, 0, 0, 0)
-TextLabel_10.Size = UDim2.new(0, 280, 0, 36)
+TextLabel_10.Position = UDim2.new(0.023, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 322, 0, 36)
 TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "RegularSVilisz#7789"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 18.000
+TextLabel_10.Text = "Scripter:"
+TextLabel_10.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextLabel_10.TextSize = 14.000
 TextLabel_10.TextWrapped = true
 TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_11.Parent = nfA4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.138707355, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 280, 0, 36)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "RegularSVilisz#7789"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 18.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
 ToggleA.Name = "ToggleA"
 ToggleA.Parent = ware_2
 ToggleA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 ToggleA.Position = UDim2.new(0.0189999994, 0, 0.504999995, 0)
 ToggleA.Size = UDim2.new(0, 398, 0, 50)
 ToggleA.ZIndex = 10
-UICorner_27.Parent = ToggleA
+UICorner_29.Parent = ToggleA
 nfA1.Name = "nfA1"
 nfA1.Parent = ToggleA
 nfA1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 nfA1.Position = UDim2.new(0.0179246292, 0, 0.119999997, 0)
 nfA1.Size = UDim2.new(0, 386, 0, 37)
-UICorner_28.Parent = nfA1
+UICorner_30.Parent = nfA1
 nfA22.Name = "nfA22"
 nfA22.Parent = nfA1
 nfA22.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 nfA22.Position = UDim2.new(0.777057409, 0, 0, 0)
 nfA22.Size = UDim2.new(0, 86, 0, 36)
 nfA22.ZIndex = 10
-UICorner_29.Parent = nfA22
+UICorner_31.Parent = nfA22
 TextBox_4.Parent = nfA22
 TextBox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox_4.BackgroundTransparency = 1.000
@@ -672,18 +715,18 @@ TextBox_4.Text = ""
 TextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox_4.TextSize = 14.000
 TextBox_4.TextWrapped = true
-TextLabel_11.Parent = nfA1
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_11.Position = UDim2.new(0.0362318829, 0, 0, 0)
-TextLabel_11.Size = UDim2.new(0, 196, 0, 37)
-TextLabel_11.ZIndex = 10
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "Toggle UI Key"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 18.000
-TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_12.Parent = nfA1
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.Position = UDim2.new(0.0362318829, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 196, 0, 37)
+TextLabel_12.ZIndex = 10
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Toggle UI Key"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 18.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
 Frame_7.Parent = ScrollingFrame
 Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_7.Position = UDim2.new(0.607305884, 0, 0.0549214184, 0)
@@ -704,28 +747,28 @@ ImageLabel_2.ZIndex = 8
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=10908615416"
 ImageLabel_2.ImageColor3 = Color3.fromRGB(170, 85, 255)
 ImageLabel_2.ScaleType = Enum.ScaleType.Crop
-UICorner_30.Parent = ImageLabel_2
-TextLabel_12.Parent = Frame
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.516339898, 0, -0.0238095243, 0)
-TextLabel_12.Size = UDim2.new(0, 221, 0, 42)
-TextLabel_12.ZIndex = 99999999
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Exclusive"
-TextLabel_12.TextColor3 = Color3.fromRGB(170, 0, 255)
-TextLabel_12.TextSize = 25.000
-TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+UICorner_32.Parent = ImageLabel_2
 TextLabel_13.Parent = Frame
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(0.480648011, 0, -0.0238095243, 0)
-TextLabel_13.Size = UDim2.new(0, 16, 0, 42)
-TextLabel_13.ZIndex = 999999999
+TextLabel_13.Position = UDim2.new(0.516339898, 0, -0.0238095243, 0)
+TextLabel_13.Size = UDim2.new(0, 221, 0, 42)
+TextLabel_13.ZIndex = 99999999
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "-"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextSize = 22.000
+TextLabel_13.Text = "Exclusive"
+TextLabel_13.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_13.TextSize = 25.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_14.Parent = Frame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.480648011, 0, -0.0238095243, 0)
+TextLabel_14.Size = UDim2.new(0, 16, 0, 42)
+TextLabel_14.ZIndex = 999999999
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "-"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 22.000
 s1.Color = Color3.fromRGB(25, 25, 25)
 s2.Color = Color3.fromRGB(25, 25, 25)
 s3.Color = Color3.fromRGB(25, 25, 25)
@@ -749,6 +792,7 @@ s20.Color = Color3.fromRGB(25, 25, 25)
 s21.Color = Color3.fromRGB(25, 25, 25)
 s22.Color = Color3.fromRGB(25, 25, 25)
 s23.Color = Color3.fromRGB(25, 25, 25)
+s24.Color = Color3.fromRGB(25, 25, 25)
 s1.Parent = ihave 
 s2.Parent = game1 
 s3.Parent = JumpA 
@@ -772,7 +816,8 @@ s20.Parent = scripterA
 s21.Parent = nfA39
 s22.Parent = nfA5
 s23.Parent = uiA
-local function PIEK_fake_script()
+s24.Parent = nfA6
+local function CMEO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
@@ -786,8 +831,8 @@ local function PIEK_fake_script()
 		end
 	end)
 end
-coroutine.wrap(PIEK_fake_script)()
-local function GASJIR_fake_script()
+coroutine.wrap(CMEO_fake_script)()
+local function EEPZKK_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Parent.game1.Size == UDim2.new(0, 416,0, 45) then
@@ -804,8 +849,8 @@ local function GASJIR_fake_script()
 		end
 	end)
 end
-coroutine.wrap(GASJIR_fake_script)()
-local function NNTWGEQ_fake_script()
+coroutine.wrap(EEPZKK_fake_script)()
+local function MEWTF_fake_script()
 	local script = Instance.new('LocalScript', rSliderFrame)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -834,12 +879,27 @@ local function NNTWGEQ_fake_script()
 		end)
 	end
 	initiateDrag(script.Parent, function(value)
-        script.Parent.amountValue.Text = tostring(math.floor(value*script.Parent.Parent.Parent.Parent.SpeedA.frameA9.FrameA10.TextBox.Text))
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*script.Parent.Parent.Parent.Parent.SpeedA.frameA9.FrameA10.TextBox.Text
+		script.Parent.amountValue.Text = tostring(math.floor(value*script.Parent.Parent.Parent.Parent.SpeedA.frameA9.FrameA10.TextBox.Text))
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*script.Parent.Parent.Parent.Parent.SpeedA.frameA9.FrameA10.TextBox.Text
 	end)
 end
-coroutine.wrap(NNTWGEQ_fake_script)()
-local function OHGCS_fake_script()
+coroutine.wrap(MEWTF_fake_script)()
+local function WSDETA_fake_script()
+	local script = Instance.new('LocalScript', TextButton_3)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
+			script.Parent:TweenPosition(UDim2.new(0.55, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.TextLabel.Text = "R6"
+			script.Parent.Parent.Parent.Parent.Parent.JumpA.FrameA4.rSliderFrame.avatar.Text = "r6"
+		else
+			script.Parent:TweenPosition(UDim2.new(0.05, 0,0.081, 0), "Out", "Quint", 0.35, true)
+			script.Parent.TextLabel.Text = "R15"
+			script.Parent.Parent.Parent.Parent.Parent.JumpA.FrameA4.rSliderFrame.avatar.Text = "r15"
+		end
+	end)
+end
+coroutine.wrap(WSDETA_fake_script)()
+local function GDUSH_fake_script()
 	local script = Instance.new('LocalScript', rSliderFrame_2)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -869,11 +929,15 @@ local function OHGCS_fake_script()
 	end
 	initiateDrag(script.Parent, function(value)
 		script.Parent.amountValue.Text = tostring(math.floor(value*script.Parent.Parent.Parent.Parent.JumpA.frameA1.FrameA3.TextBox.Text))
-		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = value*script.Parent.Parent.Parent.Parent.JumpA.frameA1.FrameA3.TextBox.Text
+		if script.Parent.avatar.Text == "r15" then
+			game.Players.LocalPlayer.Character.Humanoid.JumpHeight = value*script.Parent.Parent.Parent.Parent.JumpA.frameA1.FrameA3.TextBox.Text
+		elseif script.Parent.avatar.Text == "r6" then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = value*script.Parent.Parent.Parent.Parent.JumpA.frameA1.FrameA3.TextBox.Text
+		end
 	end)
 end
-coroutine.wrap(OHGCS_fake_script)()
-local function PYNBCZ_fake_script()
+coroutine.wrap(GDUSH_fake_script)()
+local function NWUH_fake_script()
 	local script = Instance.new('LocalScript', rSliderFrame_3)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -902,13 +966,13 @@ local function PYNBCZ_fake_script()
 		end)
 	end
 	initiateDrag(script.Parent, function(value)
-        script.Parent.amountValue.Text = tostring(math.floor(value*script.Parent.Parent.Parent.Parent.PovA.frameA6.FrameA7.TextBox.Text))
-		game.Workspace.Camera.FieldOfView = value*script.Parent.Parent.Parent.Parent.PovA.frameA6.FrameA7.TextBox.Text
+		script.Parent.amountValue.Text = tostring(math.floor(value*script.Parent.Parent.Parent.Parent.PovA.frameA6.FrameA7.TextBox.Text))
+			game.Workspace.Camera.FieldOfView = value*script.Parent.Parent.Parent.Parent.PovA.frameA6.FrameA7.TextBox.Text
 	end)
 end
-coroutine.wrap(PYNBCZ_fake_script)()
-local function YRMUJ_fake_script()
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(NWUH_fake_script)()
+local function ZZARR_fake_script()
+	local script = Instance.new('LocalScript', TextButton_4)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 45) then
 			script.Parent.Parent.Parent.Parent.settings1:TweenSize(UDim2.new(0, 416,0, 209), "Out", "Quint", 0.35, true)
@@ -922,8 +986,8 @@ local function YRMUJ_fake_script()
 		end
 	end)
 end
-coroutine.wrap(YRMUJ_fake_script)()
-local function HWKNI_fake_script()
+coroutine.wrap(ZZARR_fake_script)()
+local function HYMC_fake_script()
 	local script = Instance.new('LocalScript', ware_2)
 	local seeeeeee = game.Players.LocalPlayer
 	seeeeeee:GetMouse().KeyDown:Connect(function(K)
@@ -932,8 +996,8 @@ local function HWKNI_fake_script()
 		end
 	end)
 end
-coroutine.wrap(HWKNI_fake_script)()
-local function NKWIP_fake_script()
+coroutine.wrap(HYMC_fake_script)()
+local function WFDO_fake_script()
 	local script = Instance.new('LocalScript', ScrollingFrame)
 	script.Parent.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
 	while true do
@@ -949,8 +1013,8 @@ local function NKWIP_fake_script()
 		end
 	end
 end
-coroutine.wrap(NKWIP_fake_script)()
-local function UPVF_fake_script()
+coroutine.wrap(WFDO_fake_script)()
+local function YDEJFCW_fake_script()
 	local script = Instance.new('LocalScript', Frame)
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -984,21 +1048,24 @@ local function UPVF_fake_script()
 		end
 	end)
 end
-coroutine.wrap(UPVF_fake_script)()
-local function OFPLIPZ_fake_script()
+coroutine.wrap(YDEJFCW_fake_script)()
+local function UUIV_fake_script()
 	local script = Instance.new('LocalScript', mainDSUDIOSDSODIUSDS89D8IUYDSIYOD)
 	script.Parent.Enabled = false
+	warn("Exclusive Is Being Loaded...")
+	wait(0.9)
+	warn("Exclusive Is Possible On "..game.Players.LocalPlayer.Name.."")
 	wait(5)
 	script.Parent.Enabled = true
 end
-coroutine.wrap(OFPLIPZ_fake_script)()
-local function BEBD_fake_script()
+coroutine.wrap(UUIV_fake_script)()
+local function NDKV_fake_script()
 	local script = Instance.new('LocalScript', mainDSUDIOSDSODIUSDS89D8IUYDSIYOD)
 	local gui = script.Parent
 	local main = gui:WaitForChild("Frame")
 	local chatlogFrame = main.Frame.Frame.ihave:WaitForChild("ScrollingFrame")
 	local preset = main.Frame.Frame.ihave.ScrollingFrame:WaitForChild("chat")
 end
-coroutine.wrap(BEBD_fake_script)()
+coroutine.wrap(NDKV_fake_script)()
 
 -- You really thought something funny or helpful there?, nah you're a dumb sass n1gga
