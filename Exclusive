@@ -136,6 +136,8 @@ local s21 = Instance.new("UIStroke")
 local s22 = Instance.new("UIStroke")
 local s23 = Instance.new("UIStroke")
 local s24 = Instance.new("UIStroke")
+local ADUS8Y9FDI = Instance.new("ImageLabel")
+local UIScale_x2 = Instance.new("UIScale")
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Name = "mainDSUDIOSDSODIUSDS89D8IUYDSIYOD"
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -817,6 +819,17 @@ s21.Parent = nfA39
 s22.Parent = nfA5
 s23.Parent = uiA
 s24.Parent = nfA6
+ADUS8Y9FDI.Name = "ADUS8Y9FDI"
+ADUS8Y9FDI.Parent = game.StarterGui["mainDSUDIOSDSODIUSDS89D8IUYDSIYOD"].Frame
+ADUS8Y9FDI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ADUS8Y9FDI.BackgroundTransparency = 1.000
+ADUS8Y9FDI.Position = UDim2.new(-0.038924057, 0, -0.442195058, 0)
+ADUS8Y9FDI.Size = UDim2.new(0, 459, 0, 495)
+ADUS8Y9FDI.ZIndex = 0
+ADUS8Y9FDI.Image = "rbxassetid://7010888984"
+ADUS8Y9FDI.ImageColor3 = Color3.fromRGB(13, 13, 13)
+UIScale_x2.Parent = ADUS8Y9FDI
+UIScale_x2.Scale = 1.072
 local function CMEO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 	script.Parent.MouseButton1Click:Connect(function()
