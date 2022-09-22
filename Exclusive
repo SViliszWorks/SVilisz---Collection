@@ -4,7 +4,7 @@
  
 --[STEALING ANY SCRIPTS OR WORKS IN HERE MEANS YOU'RE A BULLSH1T N1GGA LM[FAOOOOOOOOO]
 
-local mainDSUDIOSDSODIUSDS89D8IUYDSIYOD = Instance.new("ScreenGui")
+local mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -106,12 +106,29 @@ local nfA22 = Instance.new("Frame")
 local UICorner_31 = Instance.new("UICorner")
 local TextBox_4 = Instance.new("TextBox")
 local TextLabel_12 = Instance.new("TextLabel")
+local ImageChangerA = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local nfA9 = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local FrameA13 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local rSliderFrame_4 = Instance.new("Frame")
+local slideFrame_4 = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local FrameA3_2 = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextBox_5 = Instance.new("TextBox")
+local ImageButtonSA = Instance.new("ImageButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_37 = Instance.new("UICorner")
 local Frame_7 = Instance.new("Frame")
 local Frame_8 = Instance.new("Frame")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local UICorner_32 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_38 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
 local TextLabel_14 = Instance.new("TextLabel")
+local ADUS8Y9FDI = Instance.new("ImageLabel")
+local UIScale_2 = Instance.new("UIScale")
 local s1 = Instance.new("UIStroke")
 local s2 = Instance.new("UIStroke")
 local s3 = Instance.new("UIStroke")
@@ -136,18 +153,72 @@ local s21 = Instance.new("UIStroke")
 local s22 = Instance.new("UIStroke")
 local s23 = Instance.new("UIStroke")
 local s24 = Instance.new("UIStroke")
-local ADUS8Y9FDI = Instance.new("ImageLabel")
-local UIScale_x2 = Instance.new("UIScale")
-mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Name = "mainDSUDIOSDSODIUSDS89D8IUYDSIYOD"
-mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-mainDSUDIOSDSODIUSDS89D8IUYDSIYOD.ResetOnSpawn = false
-Frame.Parent = mainDSUDIOSDSODIUSDS89D8IUYDSIYOD
+local s25 = Instance.new("UIStroke")
+local s26 = Instance.new("UIStroke")
+local s27 = Instance.new("UIStroke")
+s1.Color = Color3.fromRGB(25, 25, 25)
+s2.Color = Color3.fromRGB(25, 25, 25)
+s3.Color = Color3.fromRGB(25, 25, 25)
+s4.Color = Color3.fromRGB(25, 25, 25)
+s5.Color = Color3.fromRGB(25, 25, 25)
+s6.Color = Color3.fromRGB(25, 25, 25)
+s7.Color = Color3.fromRGB(25, 25, 25)
+s8.Color = Color3.fromRGB(25, 25, 25)
+s9.Color = Color3.fromRGB(25, 25, 25)
+s10.Color = Color3.fromRGB(25, 25, 25)
+s11.Color = Color3.fromRGB(25, 25, 25)
+s12.Color = Color3.fromRGB(25, 25, 25)
+s13.Color = Color3.fromRGB(25, 25, 25)
+s14.Color = Color3.fromRGB(25, 25, 25)
+s15.Color = Color3.fromRGB(25, 25, 25)
+s16.Color = Color3.fromRGB(25, 25, 25)
+s17.Color = Color3.fromRGB(25, 25, 25)
+s18.Color = Color3.fromRGB(25, 25, 25)
+s19.Color = Color3.fromRGB(25, 25, 25)
+s20.Color = Color3.fromRGB(25, 25, 25)
+s21.Color = Color3.fromRGB(25, 25, 25)
+s22.Color = Color3.fromRGB(25, 25, 25)
+s23.Color = Color3.fromRGB(25, 25, 25)
+s24.Color = Color3.fromRGB(25, 25, 25)
+s25.Color = Color3.fromRGB(25, 25, 25)
+s26.Color = Color3.fromRGB(25, 25, 25)
+s27.Color = Color3.fromRGB(25, 25, 25)
+s1.Parent = ihave
+s2.Parent = game1
+s3.Parent = JumpA
+s4.Parent = FrameA4
+s5.Parent = frameA1
+s6.Parent = FrameA3
+s7.Parent = nfA6
+s8.Parent = PovA
+s9.Parent = FrameA5
+s10.Parent = frameA6
+s11.Parent = FrameA7
+s12.Parent = SpeedA
+s13.Parent = FrameA8
+s14.Parent = frameA9
+s15.Parent = FrameA10
+s16.Parent = settings1
+s17.Parent = ToggleA
+s18.Parent = nfA1
+s19.Parent = nfA22
+s20.Parent = scripterA
+s21.Parent = nfA4
+s22.Parent = ImageChangerA
+s23.Parent = nfA9
+s24.Parent = FrameA13
+s25.Parent = uiA
+s26.Parent = nfA39
+s27.Parent = nfA5
+mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP.Name = "mainBGY8D90OFDKDJHUVFY7D89YF0UI-DPOFIJHBUGY8F79DUI0F-P"
+mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP.ResetOnSpawn = false
+Frame.Parent = mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP
 Frame.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
 Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.757, 0,0.459, 0)
 Frame.Size = UDim2.new(0, 459, 0, 42)
-Frame.ZIndex = INF
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
 Frame_2.Position = UDim2.new(-0.000833475962, 0, -0.00581201911, 0)
@@ -645,7 +716,7 @@ TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
 helper_2.Name = "helper"
 helper_2.Parent = ware_2
 helper_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-helper_2.Position = UDim2.new(0.572115421, 0, 0.74757278, 0)
+helper_2.Position = UDim2.new(0.43750003, 0, 0.87378639, 0)
 helper_2.Size = UDim2.new(0, 100, 0, 3)
 helper_2.Visible = false
 helper_2.ZIndex = 999999999
@@ -688,7 +759,7 @@ TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
 ToggleA.Name = "ToggleA"
 ToggleA.Parent = ware_2
 ToggleA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
-ToggleA.Position = UDim2.new(0.0189999994, 0, 0.504999995, 0)
+ToggleA.Position = UDim2.new(0.0189999994, 0, 0.98299998, 0)
 ToggleA.Size = UDim2.new(0, 398, 0, 50)
 ToggleA.ZIndex = 10
 UICorner_29.Parent = ToggleA
@@ -729,6 +800,81 @@ TextLabel_12.Text = "Toggle UI Key"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 18.000
 TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+ImageChangerA.Name = "ImageChangerA"
+ImageChangerA.Parent = ware_2
+ImageChangerA.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+ImageChangerA.Position = UDim2.new(0.0189999994, 0, 0.519999981, 0)
+ImageChangerA.Size = UDim2.new(0, 398, 0, 91)
+ImageChangerA.ZIndex = 10
+UICorner_32.Parent = ImageChangerA
+nfA9.Name = "nfA9"
+nfA9.Parent = ImageChangerA
+nfA9.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+nfA9.Position = UDim2.new(0.0130000003, 0, 0.0480000004, 0)
+nfA9.Size = UDim2.new(0, 388, 0, 81)
+nfA9.ZIndex = 10
+UICorner_33.Parent = nfA9
+FrameA13.Name = "FrameA13"
+FrameA13.Parent = nfA9
+FrameA13.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA13.Position = UDim2.new(0.000144250691, 0, 0.637390792, 0)
+FrameA13.Size = UDim2.new(0, 388, 0, 29)
+FrameA13.ZIndex = 10
+UICorner_34.Parent = FrameA13
+rSliderFrame_4.Name = "rSliderFrame"
+rSliderFrame_4.Parent = FrameA13
+rSliderFrame_4.AnchorPoint = Vector2.new(0.5, 0.5)
+rSliderFrame_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+rSliderFrame_4.BackgroundTransparency = 1.000
+rSliderFrame_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+rSliderFrame_4.BorderSizePixel = 0
+rSliderFrame_4.Position = UDim2.new(0.5, 0, 0.476724595, 0)
+rSliderFrame_4.Size = UDim2.new(0, 388, 0, 29)
+rSliderFrame_4.ZIndex = 10
+slideFrame_4.Name = "slideFrame"
+slideFrame_4.Parent = rSliderFrame_4
+slideFrame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+slideFrame_4.BorderSizePixel = 0
+slideFrame_4.Size = UDim2.new(0, 0, 1, 0)
+UICorner_35.Parent = slideFrame_4
+FrameA3_2.Name = "FrameA3"
+FrameA3_2.Parent = nfA9
+FrameA3_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FrameA3_2.BackgroundTransparency = 1.000
+FrameA3_2.Position = UDim2.new(0.00762876589, 0, 0.0829626024, 0)
+FrameA3_2.Size = UDim2.new(0, 332, 0, 37)
+FrameA3_2.ZIndex = 10
+UICorner_36.Parent = FrameA3_2
+TextBox_5.Parent = FrameA3_2
+TextBox_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox_5.BackgroundTransparency = 1.000
+TextBox_5.Position = UDim2.new(0.0233464986, 0, 0, 0)
+TextBox_5.Size = UDim2.new(0, 330, 0, 36)
+TextBox_5.ZIndex = 99
+TextBox_5.Font = Enum.Font.SourceSans
+TextBox_5.MultiLine = true
+TextBox_5.PlaceholderText = "AssetId"
+TextBox_5.Text = ""
+TextBox_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_5.TextSize = 14.000
+TextBox_5.TextWrapped = true
+TextBox_5.TextXAlignment = Enum.TextXAlignment.Left
+ImageButtonSA.Name = "ImageButtonSA"
+ImageButtonSA.Parent = FrameA3_2
+ImageButtonSA.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+ImageButtonSA.BackgroundTransparency = 1.000
+ImageButtonSA.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageButtonSA.Position = UDim2.new(1.0260241, 0, 0, 0)
+ImageButtonSA.Size = UDim2.new(0, 37, 0, 37)
+ImageButtonSA.ZIndex = 10
+ImageLabel_2.Parent = ImageButtonSA
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.162162155, 0, 0.16216217, 0)
+ImageLabel_2.Size = UDim2.new(0, 25, 0, 25)
+ImageLabel_2.ZIndex = 11
+ImageLabel_2.Image = "rbxassetid://1510598093"
+UICorner_37.Parent = ImageButtonSA
 Frame_7.Parent = ScrollingFrame
 Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_7.Position = UDim2.new(0.607305884, 0, 0.0549214184, 0)
@@ -740,16 +886,16 @@ Frame_8.Position = UDim2.new(1.39285719, 0, 0.371132553, 0)
 Frame_8.Size = UDim2.new(0, 100, 0, 5)
 Frame_8.Visible = false
 Frame_8.ZIndex = 999999999
-ImageLabel_2.Parent = Frame_4
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.Position = UDim2.new(0, 0, -0.0399113074, 0)
-ImageLabel_2.Size = UDim2.new(0, 459, 0, 470)
-ImageLabel_2.Visible = false
-ImageLabel_2.ZIndex = 8
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=10908615416"
-ImageLabel_2.ImageColor3 = Color3.fromRGB(170, 85, 255)
-ImageLabel_2.ScaleType = Enum.ScaleType.Crop
-UICorner_32.Parent = ImageLabel_2
+ImageLabel_3.Parent = Frame_4
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.Position = UDim2.new(0, 0, -0.0399113074, 0)
+ImageLabel_3.Size = UDim2.new(0, 459, 0, 470)
+ImageLabel_3.Visible = false
+ImageLabel_3.ZIndex = 8
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=10908615416"
+ImageLabel_3.ImageColor3 = Color3.fromRGB(170, 85, 255)
+ImageLabel_3.ScaleType = Enum.ScaleType.Crop
+UICorner_38.Parent = ImageLabel_3
 TextLabel_13.Parent = Frame
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
@@ -771,54 +917,6 @@ TextLabel_14.Font = Enum.Font.SourceSans
 TextLabel_14.Text = "-"
 TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.TextSize = 22.000
-s1.Color = Color3.fromRGB(25, 25, 25)
-s2.Color = Color3.fromRGB(25, 25, 25)
-s3.Color = Color3.fromRGB(25, 25, 25)
-s4.Color = Color3.fromRGB(25, 25, 25)
-s5.Color = Color3.fromRGB(25, 25, 25)
-s6.Color = Color3.fromRGB(25, 25, 25)
-s7.Color = Color3.fromRGB(25, 25, 25)
-s8.Color = Color3.fromRGB(25, 25, 25)
-s9.Color = Color3.fromRGB(25, 25, 25)
-s10.Color = Color3.fromRGB(25, 25, 25)
-s11.Color = Color3.fromRGB(25, 25, 25)
-s12.Color = Color3.fromRGB(25, 25, 25)
-s13.Color = Color3.fromRGB(25, 25, 25)
-s14.Color = Color3.fromRGB(25, 25, 25)
-s15.Color = Color3.fromRGB(25, 25, 25)
-s16.Color = Color3.fromRGB(25, 25, 25)
-s17.Color = Color3.fromRGB(25, 25, 25)
-s18.Color = Color3.fromRGB(25, 25, 25)
-s19.Color = Color3.fromRGB(25, 25, 25)
-s20.Color = Color3.fromRGB(25, 25, 25)
-s21.Color = Color3.fromRGB(25, 25, 25)
-s22.Color = Color3.fromRGB(25, 25, 25)
-s23.Color = Color3.fromRGB(25, 25, 25)
-s24.Color = Color3.fromRGB(25, 25, 25)
-s1.Parent = ihave 
-s2.Parent = game1 
-s3.Parent = JumpA 
-s4.Parent = FrameA4 
-s5.Parent = frameA1 
-s6.Parent = FrameA3 
-s7.Parent = PovA 
-s8.Parent = FrameA5 
-s9.Parent = frameA6 
-s10.Parent = FrameA7 
-s11.Parent = SpeedA 
-s12.Parent = FrameA8 
-s13.Parent = frameA9 
-s14.Parent = FrameA10 
-s15.Parent = settings1 
-s16.Parent = ToggleA  
-s17.Parent = nfA1
-s18.Parent = nfA22 
-s19.Parent = nfA4 
-s20.Parent = scripterA 
-s21.Parent = nfA39
-s22.Parent = nfA5
-s23.Parent = uiA
-s24.Parent = nfA6
 ADUS8Y9FDI.Name = "ADUS8Y9FDI"
 ADUS8Y9FDI.Parent = Frame
 ADUS8Y9FDI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -828,9 +926,9 @@ ADUS8Y9FDI.Size = UDim2.new(0, 459, 0, 495)
 ADUS8Y9FDI.ZIndex = 0
 ADUS8Y9FDI.Image = "rbxassetid://7010888984"
 ADUS8Y9FDI.ImageColor3 = Color3.fromRGB(13, 13, 13)
-UIScale_x2.Parent = ADUS8Y9FDI
-UIScale_x2.Scale = 1.072
-local function CMEO_fake_script()
+UIScale_2.Parent = ADUS8Y9FDI
+UIScale_2.Scale = 1.072
+local function ZRHYMH_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
@@ -844,8 +942,8 @@ local function CMEO_fake_script()
 		end
 	end)
 end
-coroutine.wrap(CMEO_fake_script)()
-local function EEPZKK_fake_script()
+coroutine.wrap(ZRHYMH_fake_script)()
+local function WGCCQT_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Parent.game1.Size == UDim2.new(0, 416,0, 45) then
@@ -862,8 +960,8 @@ local function EEPZKK_fake_script()
 		end
 	end)
 end
-coroutine.wrap(EEPZKK_fake_script)()
-local function MEWTF_fake_script()
+coroutine.wrap(WGCCQT_fake_script)()
+local function EYEZ_fake_script() 
 	local script = Instance.new('LocalScript', rSliderFrame)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -896,8 +994,8 @@ local function MEWTF_fake_script()
 			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*script.Parent.Parent.Parent.Parent.SpeedA.frameA9.FrameA10.TextBox.Text
 	end)
 end
-coroutine.wrap(MEWTF_fake_script)()
-local function WSDETA_fake_script()
+coroutine.wrap(EYEZ_fake_script)()
+local function OATLVC_fake_script()
 	local script = Instance.new('LocalScript', TextButton_3)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Position == UDim2.new(0.05, 0,0.081, 0) then
@@ -911,8 +1009,8 @@ local function WSDETA_fake_script()
 		end
 	end)
 end
-coroutine.wrap(WSDETA_fake_script)()
-local function GDUSH_fake_script()
+coroutine.wrap(OATLVC_fake_script)()
+local function GFHD_fake_script()
 	local script = Instance.new('LocalScript', rSliderFrame_2)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -949,8 +1047,8 @@ local function GDUSH_fake_script()
 		end
 	end)
 end
-coroutine.wrap(GDUSH_fake_script)()
-local function NWUH_fake_script()
+coroutine.wrap(GFHD_fake_script)()
+local function FEYW_fake_script()
 	local script = Instance.new('LocalScript', rSliderFrame_3)
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 	local function initiateDrag(frame, callbackFunction)
@@ -983,14 +1081,14 @@ local function NWUH_fake_script()
 			game.Workspace.Camera.FieldOfView = value*script.Parent.Parent.Parent.Parent.PovA.frameA6.FrameA7.TextBox.Text
 	end)
 end
-coroutine.wrap(NWUH_fake_script)()
-local function ZZARR_fake_script()
+coroutine.wrap(FEYW_fake_script)()
+local function OYPP_fake_script()
 	local script = Instance.new('LocalScript', TextButton_4)
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 45) then
-			script.Parent.Parent.Parent.Parent.settings1:TweenSize(UDim2.new(0, 416,0, 209), "Out", "Quint", 0.35, true)
+			script.Parent.Parent.Parent.Parent.settings1:TweenSize(UDim2.new(0, 416,0, 309), "Out", "Quint", 0.35, true)
 			wait(0.36)
-			if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 209) then
+			if script.Parent.Parent.Parent.Parent.settings1.Size == UDim2.new(0, 416,0, 309) then
 				script.Parent.Parent.ware.Visible = true
 			end
 		else
@@ -999,8 +1097,8 @@ local function ZZARR_fake_script()
 		end
 	end)
 end
-coroutine.wrap(ZZARR_fake_script)()
-local function HYMC_fake_script()
+coroutine.wrap(OYPP_fake_script)()
+local function WWMSEA_fake_script()
 	local script = Instance.new('LocalScript', ware_2)
 	local seeeeeee = game.Players.LocalPlayer
 	seeeeeee:GetMouse().KeyDown:Connect(function(K)
@@ -1009,14 +1107,96 @@ local function HYMC_fake_script()
 		end
 	end)
 end
-coroutine.wrap(HYMC_fake_script)()
-local function WFDO_fake_script()
+coroutine.wrap(WWMSEA_fake_script)()
+local function WOYYJZ_fake_script()
+	local script = Instance.new('LocalScript', rSliderFrame_4)
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	local function initiateDrag(frame, callbackFunction)
+		local dragging = false
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+		frame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.slideFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.slideFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	end
+	initiateDrag(script.Parent, function(value)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.BackgroundTransparency = value*1
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.settings1.BackgroundTransparency = value*1
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.ihave.BackgroundTransparency = value*1
+		script.Parent.slideFrame.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.FrameA13.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.nfA9.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.ImageChangerA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.scripterA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.scripterA.nfA4.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.uiA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.uiA.nfA39.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.ToggleA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.ToggleA.nfA1.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.ToggleA.nfA1.nfA22.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.PovA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.SpeedA.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.frameA1.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.frameA1.FrameA3.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.frameA1.nfA6.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.frameA1.nfA6.TextButton.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.FrameA4.rSliderFrame.slideFrame.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.JumpA.FrameA4.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.PovA.FrameA5.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.PovA.frameA6.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.PovA.FrameA5.rSliderFrame.slideFrame.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.PovA.frameA6.FrameA7.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.SpeedA.FrameA8.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.SpeedA.frameA9.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.SpeedA.FrameA8.rSliderFrame.slideFrame.BackgroundTransparency = value*0.7
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.game1.hold.ware.SpeedA.frameA9.FrameA10.BackgroundTransparency = value*0.7
+	end)
+end
+coroutine.wrap(WOYYJZ_fake_script)()
+local function AXGFB_fake_script()
+	local script = Instance.new('LocalScript', ImageButtonSA)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(122, 122, 122)
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "" then
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.ImageLabel.Image = "http://www.roblox.com/asset/?id=10908615416"
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(170, 85, 255)
+		else
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.ImageLabel.Image = "http://www.roblox.com/asset/?id="..script.Parent.Parent.TextBox.Text..""
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+		end
+	end)
+end
+coroutine.wrap(AXGFB_fake_script)()
+local function XHWWLTF_fake_script()
 	local script = Instance.new('LocalScript', ScrollingFrame)
 	script.Parent.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
 	while true do
 		wait(0.00000000001)
 		if script.Parent.game1.Size == UDim2.new(0, 416,0, 365) and
-			script.Parent.settings1.Size == UDim2.new(0, 416,0, 209) then
+			script.Parent.settings1.Size == UDim2.new(0, 416,0, 309) then
 			script.Parent.ScrollingEnabled = true
 			script.Parent.ScrollBarImageTransparency = 0
 		else
@@ -1025,9 +1205,10 @@ local function WFDO_fake_script()
 			script.Parent.ScrollBarImageTransparency = 1
 		end
 	end
+	
 end
-coroutine.wrap(WFDO_fake_script)()
-local function YDEJFCW_fake_script()
+coroutine.wrap(XHWWLTF_fake_script)()
+local function TIZON_fake_script()
 	local script = Instance.new('LocalScript', Frame)
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -1061,24 +1242,24 @@ local function YDEJFCW_fake_script()
 		end
 	end)
 end
-coroutine.wrap(YDEJFCW_fake_script)()
-local function UUIV_fake_script()
-	local script = Instance.new('LocalScript', mainDSUDIOSDSODIUSDS89D8IUYDSIYOD)
-	script.Parent.Enabled = false
+coroutine.wrap(TIZON_fake_script)()
+local function CZRGIQI_fake_script()
+	local script = Instance.new('LocalScript', mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP)
+      script.Parent.Enabled = false
 	warn("Exclusive Is Being Loaded...")
 	wait(0.9)
 	warn("Exclusive Is Possible On "..game.Players.LocalPlayer.Name.."")
 	wait(5)
 	script.Parent.Enabled = true
 end
-coroutine.wrap(UUIV_fake_script)()
-local function NDKV_fake_script()
-	local script = Instance.new('LocalScript', mainDSUDIOSDSODIUSDS89D8IUYDSIYOD)
+coroutine.wrap(CZRGIQI_fake_script)()
+local function SQLMJ_fake_script()
+	local script = Instance.new('LocalScript', mainBGY8D90OFDKDJHUVFY7D89YF0UIDPOFIJHBUGY8F79DUI0FP)
 	local gui = script.Parent
 	local main = gui:WaitForChild("Frame")
 	local chatlogFrame = main.Frame.Frame.ihave:WaitForChild("ScrollingFrame")
 	local preset = main.Frame.Frame.ihave.ScrollingFrame:WaitForChild("chat")
 end
-coroutine.wrap(NDKV_fake_script)()
+coroutine.wrap(SQLMJ_fake_script)()
 
 -- You really thought something funny or helpful there?, nah you're a dumb sass n1gga
