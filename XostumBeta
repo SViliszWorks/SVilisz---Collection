@@ -4059,14 +4059,14 @@ coroutine.wrap(YOGVOMV_script)()
 local function UHUU_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
-	while wait(2) do
+	while wait(0.5) do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1, 20 do
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,10)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,79)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,9)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,8)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
 				end
 			end
