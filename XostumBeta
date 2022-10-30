@@ -4099,7 +4099,7 @@ local function ACGACZB_script() -- Gui.healYS.LocalScript
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			local Target = game:GetService("ReplicatedStorage").RemoteEvents.Cattery;
 			Target:FireServer();
-			for i = 1, 200000 do
+			for i = 1, 1 do
 				wait()
 				local A_1 = "Cat"
 				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
