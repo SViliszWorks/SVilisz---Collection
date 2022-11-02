@@ -5604,8 +5604,11 @@ local function KTGYP_script() -- Gui.healYS.LocalScript
 				local A_1 = "Cat"
 				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
 				Event:FireServer(A_1)
+				wait()
 				Event:FireServer(A_1)
+				wait()
 				Event:FireServer(A_1)
+				wait()
 				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
 			end
 		else
