@@ -5352,10 +5352,10 @@ local function LAJU_script() -- Gui.loopkillem.LocalScript
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1, 50 do
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,20)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,10)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,20)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,15)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,9)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,1)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
 				end
 			end
@@ -5604,11 +5604,6 @@ local function KTGYP_script() -- Gui.healYS.LocalScript
 				local A_1 = "Cat"
 				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
 				Event:FireServer(A_1)
-				wait()
-				Event:FireServer(A_1)
-				wait()
-				Event:FireServer(A_1)
-				wait()
 				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
 			end
 		else
