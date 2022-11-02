@@ -5503,6 +5503,7 @@ local function KHFCNYW_script() -- Gui.openbasedoor.LocalScript
 		if q1.Button.Text == "Open Basement" then
 			q1.Button.Text = "Open Basement  "
 			game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer()
+			game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer()
 		else
 			warn("Basement Is Already Open.")
 		end
@@ -5603,6 +5604,7 @@ local function KTGYP_script() -- Gui.healYS.LocalScript
 				local A_1 = "Cat"
 				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
 				Event:FireServer(A_1)
+				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
 			end
 		else
 			--elsed
