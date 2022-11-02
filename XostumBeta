@@ -5348,14 +5348,14 @@ coroutine.wrap(FHRNOF_script)()
 local function LAJU_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
-	while wait(2.5) do
+	while wait(2.2) do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1, 50 do
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,10)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,20)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,9)
-					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,8)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,20)
+					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,15)
 					game:GetService("ReplicatedStorage").RemoteEvents.HitBadguy:FireServer(v,996)
 				end
 			end
@@ -5569,7 +5569,7 @@ local function WMNUX_script() -- Gui.telebutton.LocalScript
 			end
 		end
 		if fchild == true then
-			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0), {CFrame = child.Character.HumanoidRootPart.CFrame}):Play()
+			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0), {CFrame = child.Character.HumanoidRootPart.Position}):Play()
 		end
 		--
 		wait(0.16)
@@ -5603,6 +5603,8 @@ local function KTGYP_script() -- Gui.healYS.LocalScript
 				wait()
 				local A_1 = "Cat"
 				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
+				Event:FireServer(A_1)
+				Event:FireServer(A_1)
 				Event:FireServer(A_1)
 				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
 			end
