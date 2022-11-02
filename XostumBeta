@@ -1,9 +1,5 @@
 if game.PlaceId == 3851622790 or
 	game.PlaceId == 4620170611 then
--- Monstrum's Gui to Lua\n-- Version: 3.2
-
--- Instances:
-
 local XostumUIBreakIn = {
 	XostumUIBreakIn = Instance.new("ScreenGui"),
 	holding = Instance.new("Frame"),
