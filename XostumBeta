@@ -5462,6 +5462,7 @@ local function OKFNE_script() -- Gui.openbasedoor.LocalScript
 		if q1.Button.Text == "Open Basement" then
 			q1.Button.Text = "Open Basement  "
 			game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer()
+			game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer()
 		else
 			warn("Safe Is Already Open.")
 		end
