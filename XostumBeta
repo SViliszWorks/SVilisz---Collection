@@ -5345,7 +5345,7 @@ coroutine.wrap(MJVHC_script)()
 local function VMKC_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
-	while wait(2.12) do
+	while wait(2.3) do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1, 50 do
