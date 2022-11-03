@@ -5559,7 +5559,7 @@ local function ZCTXEBQ_script() -- Gui.UnlockAttic.LocalScript
 			f1.Button.Text = "Unlock Attic "
 			fireclickdetector(game:GetService("Workspace").Basement.Ladder.ClickDetector)
 			wait(1)
-			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.21592140197754, 20.379079818725586, -227.04872131347656)}):Play()
+			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.21592140197754, 20.379079818725586, -227.04872131347656)}):Play()
 		else
 			warn("Attic Is Already Open.")
 		end
