@@ -5711,8 +5711,6 @@ local function UEPJS_script() -- Gui.Button_40.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
-		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		if script.Parent.Text == "Crash Server" then
 			script.Parent.Text = "Click Again 3"
 			wait(1)
@@ -5847,7 +5845,6 @@ local function UEPJS_script() -- Gui.Button_40.LocalScript
 				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
 			end
 		end
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Section2:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
