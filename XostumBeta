@@ -1,6 +1,6 @@
 if game.PlaceId == 3851622790 or
 	game.PlaceId == 4620170611 then
-local XostumUIBreakIn = {
+	local XostumUIBreakIn = {
 	XostumUIBreakIn = Instance.new("ScreenGui"),
 	holding = Instance.new("Frame"),
 	Frame = Instance.new("Frame"),
@@ -515,12 +515,27 @@ local Gui = {
 	UICorner_136 = Instance.new("UICorner"),
 	UICorner_137 = Instance.new("UICorner"),
 	TextButton_9 = Instance.new("TextButton"),
+	Section5 = Instance.new("Frame"),
+	Line_7 = Instance.new("Frame"),
+	Indicator_10 = Instance.new("ImageButton"),
+	Header_7 = Instance.new("TextLabel"),
+	List_7 = Instance.new("Frame"),
+	UIListLayout_8 = Instance.new("UIListLayout"),
+	UIPadding_7 = Instance.new("UIPadding"),
+	crash = Instance.new("Frame"),
+	Holder_40 = Instance.new("Frame"),
+	Button_40 = Instance.new("TextButton"),
+	UICorner_138 = Instance.new("UICorner"),
+	UICorner_139 = Instance.new("UICorner"),
+	UICorner_140 = Instance.new("UICorner"),
+	UICorner_141 = Instance.new("UICorner"),
+	TextButton_10 = Instance.new("TextButton"),
 }
 
 --Properties:
 
 XostumUIBreakIn.XostumUIBreakIn.Name = "XostumUIBreakIn"
-XostumUIBreakIn.XostumUIBreakIn.Parent = (game:GetService("CoreGui") or gethui())
+XostumUIBreakIn.XostumUIBreakIn.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 XostumUIBreakIn.XostumUIBreakIn.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 XostumUIBreakIn.holding.Name = "holding"
@@ -3686,9 +3701,104 @@ Gui.TextButton_9.Text = ""
 Gui.TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextButton_9.TextSize = 14.000
 
+Gui.Section5.Name = "Section5"
+Gui.Section5.Parent = Gui.ScrollingFrame
+Gui.Section5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Gui.Section5.ClipsDescendants = true
+Gui.Section5.Size = UDim2.new(1, -10, 0, 40)
+
+Gui.Line_7.Name = "Line"
+Gui.Line_7.Parent = Gui.Section5
+Gui.Line_7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Gui.Line_7.BorderSizePixel = 0
+Gui.Line_7.Position = UDim2.new(0, 5, 0, 30)
+Gui.Line_7.Size = UDim2.new(1, -10, 0, 2)
+
+Gui.Indicator_10.Name = "Indicator"
+Gui.Indicator_10.Parent = Gui.Line_7
+Gui.Indicator_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Indicator_10.BackgroundTransparency = 1.000
+Gui.Indicator_10.Position = UDim2.new(1.01381218, -30, -14, 0)
+Gui.Indicator_10.Size = UDim2.new(0, 25, 0, 25)
+Gui.Indicator_10.Image = "rbxassetid://2418686949"
+
+Gui.Header_7.Name = "Header"
+Gui.Header_7.Parent = Gui.Section5
+Gui.Header_7.BackgroundTransparency = 1.000
+Gui.Header_7.Position = UDim2.new(0, 5, 0, 8)
+Gui.Header_7.Size = UDim2.new(1, -40, 0, 14)
+Gui.Header_7.Font = Enum.Font.SourceSans
+Gui.Header_7.Text = "Troll"
+Gui.Header_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Header_7.TextSize = 14.000
+Gui.Header_7.TextWrapped = true
+Gui.Header_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Gui.List_7.Name = "List"
+Gui.List_7.Parent = Gui.Section5
+Gui.List_7.BackgroundTransparency = 1.000
+Gui.List_7.ClipsDescendants = true
+Gui.List_7.Position = UDim2.new(0, 5, 0, 40)
+Gui.List_7.Size = UDim2.new(1, -10, 1, -40)
+
+Gui.UIListLayout_8.Parent = Gui.List_7
+Gui.UIListLayout_8.HorizontalAlignment = Enum.HorizontalAlignment.Center
+Gui.UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+Gui.UIListLayout_8.Padding = UDim.new(0, 5)
+
+Gui.UIPadding_7.Parent = Gui.List_7
+Gui.UIPadding_7.PaddingBottom = UDim.new(0, 1)
+Gui.UIPadding_7.PaddingLeft = UDim.new(0, 1)
+Gui.UIPadding_7.PaddingRight = UDim.new(0, 1)
+Gui.UIPadding_7.PaddingTop = UDim.new(0, 1)
+
+Gui.crash.Name = "crash"
+Gui.crash.Parent = Gui.List_7
+Gui.crash.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Gui.crash.Size = UDim2.new(1, 2, 0, 32)
+
+Gui.Holder_40.Name = "Holder"
+Gui.Holder_40.Parent = Gui.crash
+Gui.Holder_40.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Holder_40.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_40.Size = UDim2.new(1, -2, 1, -2)
+
+Gui.Button_40.Name = "Button"
+Gui.Button_40.Parent = Gui.Holder_40
+Gui.Button_40.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Gui.Button_40.Position = UDim2.new(0, 2, 0, 2)
+Gui.Button_40.Size = UDim2.new(1, -4, 1, -4)
+Gui.Button_40.AutoButtonColor = false
+Gui.Button_40.Font = Enum.Font.SourceSans
+Gui.Button_40.Text = "Crash Server"
+Gui.Button_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Button_40.TextSize = 14.000
+Gui.Button_40.TextWrapped = true
+
+Gui.UICorner_138.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_138.Parent = Gui.Button_40
+
+Gui.UICorner_139.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_139.Parent = Gui.Holder_40
+
+Gui.UICorner_140.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_140.Parent = Gui.crash
+
+Gui.UICorner_141.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_141.Parent = Gui.Section5
+
+Gui.TextButton_10.Parent = Gui.Section5
+Gui.TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_10.BackgroundTransparency = 1.000
+Gui.TextButton_10.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_10.Font = Enum.Font.SourceSans
+Gui.TextButton_10.Text = ""
+Gui.TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_10.TextSize = 14.000
+
 -- Scripts:
 
-local function VYVMTX_script() -- XostumUIBreakIn.Sidebar.LocalScript 
+local function ILTBJCI_script() -- XostumUIBreakIn.Sidebar.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Sidebar)
 
 	script.Parent.List.Utilities.MouseEnter:Connect(function()
@@ -3801,8 +3911,8 @@ local function VYVMTX_script() -- XostumUIBreakIn.Sidebar.LocalScript
 		script.Parent.List.LocalPlayer.Button.Visible = false
 	end)
 end
-coroutine.wrap(VYVMTX_script)()
-local function QYZCOIX_script() -- XostumUIBreakIn.TextButton.LocalScript 
+coroutine.wrap(ILTBJCI_script)()
+local function SXMDSB_script() -- XostumUIBreakIn.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton)
 
 	local TS = game:GetService("TweenService")
@@ -3871,8 +3981,8 @@ local function QYZCOIX_script() -- XostumUIBreakIn.TextButton.LocalScript
 		script.Parent.Parent.Parent.Sidebar:TweenSize(UDim2.new(0, 30,1.092, -40), "Out", "Sine", 0.3, true)
 	end)
 end
-coroutine.wrap(QYZCOIX_script)()
-local function DOVLP_script() -- XostumUIBreakIn.BG.LocalScript 
+coroutine.wrap(SXMDSB_script)()
+local function WGWAGCF_script() -- XostumUIBreakIn.BG.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.BG)
 
 	script.Parent.Parent.channels.settings.ScrollingFrame.Section2.List.fun1.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
@@ -3903,8 +4013,8 @@ local function DOVLP_script() -- XostumUIBreakIn.BG.LocalScript
 		end
 	end
 end
-coroutine.wrap(DOVLP_script)()
-local function OYZKMV_script() -- XostumUIBreakIn.DISLOL.LocalScript 
+coroutine.wrap(WGWAGCF_script)()
+local function PJZQS_script() -- XostumUIBreakIn.DISLOL.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.DISLOL)
 
 	local q1 = script.Parent.Holder
@@ -3934,8 +4044,8 @@ local function OYZKMV_script() -- XostumUIBreakIn.DISLOL.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(OYZKMV_script)()
-local function DTPBJ_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
+coroutine.wrap(PJZQS_script)()
+local function EXCRUU_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3948,8 +4058,8 @@ local function DTPBJ_script() -- XostumUIBreakIn.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DTPBJ_script)()
-local function BQEGPO_script() -- XostumUIBreakIn.reload.LocalScript 
+coroutine.wrap(EXCRUU_script)()
+local function DJIZLSW_script() -- XostumUIBreakIn.reload.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.reload)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3961,16 +4071,16 @@ local function BQEGPO_script() -- XostumUIBreakIn.reload.LocalScript
 	end)
 	
 end
-coroutine.wrap(BQEGPO_script)()
-local function HWWKGV_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
+coroutine.wrap(DJIZLSW_script)()
+local function UADMDM_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_3)
 
 	script.Parent.MouseButton2Click:Connect(function()
 		print("works")
 	end)
 end
-coroutine.wrap(HWWKGV_script)()
-local function UCKP_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
+coroutine.wrap(UADMDM_script)()
+local function YSSG_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3985,8 +4095,8 @@ local function UCKP_script() -- XostumUIBreakIn.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UCKP_script)()
-local function LVFEOMX_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
+coroutine.wrap(YSSG_script)()
+local function TXKAL_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3999,8 +4109,8 @@ local function LVFEOMX_script() -- XostumUIBreakIn.TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LVFEOMX_script)()
-local function GDIUPJN_script() -- XostumUIBreakIn.Slider.mainScript 
+coroutine.wrap(TXKAL_script)()
+local function QZJESC_script() -- XostumUIBreakIn.Slider.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4040,8 +4150,8 @@ local function GDIUPJN_script() -- XostumUIBreakIn.Slider.mainScript
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*200
 	end)
 end
-coroutine.wrap(GDIUPJN_script)()
-local function PLORGH_script() -- XostumUIBreakIn.Slider_2.mainScript 
+coroutine.wrap(QZJESC_script)()
+local function BPFTP_script() -- XostumUIBreakIn.Slider_2.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_2)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4082,8 +4192,8 @@ local function PLORGH_script() -- XostumUIBreakIn.Slider_2.mainScript
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = value*370
 	end)
 end
-coroutine.wrap(PLORGH_script)()
-local function NTKNA_script() -- XostumUIBreakIn.Slider_3.mainScript 
+coroutine.wrap(BPFTP_script)()
+local function DBQJ_script() -- XostumUIBreakIn.Slider_3.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_3)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4123,8 +4233,8 @@ local function NTKNA_script() -- XostumUIBreakIn.Slider_3.mainScript
 		workspace.Gravity = value*196.2
 	end)
 end
-coroutine.wrap(NTKNA_script)()
-local function OQYD_script() -- XostumUIBreakIn.Slider_4.mainScript 
+coroutine.wrap(DBQJ_script)()
+local function JBAG_script() -- XostumUIBreakIn.Slider_4.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_4)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4164,8 +4274,8 @@ local function OQYD_script() -- XostumUIBreakIn.Slider_4.mainScript
 		game.Workspace.Camera.FieldOfView = value*120
 	end)
 end
-coroutine.wrap(OQYD_script)()
-local function NULVSCP_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
+coroutine.wrap(JBAG_script)()
+local function OIOSHD_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4178,8 +4288,8 @@ local function NULVSCP_script() -- XostumUIBreakIn.TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NULVSCP_script)()
-local function EEHA_script() -- XostumUIBreakIn.holding.LocalScript 
+coroutine.wrap(OIOSHD_script)()
+local function QQXIBLY_script() -- XostumUIBreakIn.holding.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.holding)
 
 	local UIXS = game:GetService('UserInputService')
@@ -4216,8 +4326,8 @@ local function EEHA_script() -- XostumUIBreakIn.holding.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EEHA_script)()
-local function TWSK_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(QQXIBLY_script)()
+local function SKHGHS_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(shit)
@@ -4230,8 +4340,8 @@ local function TWSK_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TWSK_script)()
-local function JDSEPO_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(SKHGHS_script)()
+local function UBKJY_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	local P = script.Parent.Protector
@@ -4239,86 +4349,86 @@ local function JDSEPO_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		script.Parent.Name = ""..P.worker1.Text..P.worker2.Text..P.worker3.Text..P.worker4.Text..P.worker5.Text..P.worker6.Text..P.worker7.Text..P.worker8.Text..P.worker9.Text..""
 	end
 end
-coroutine.wrap(JDSEPO_script)()
-local function WMRSDK_script() -- XostumUIBreakIn.worker1.LocalScript 
+coroutine.wrap(UBKJY_script)()
+local function POWGBNK_script() -- XostumUIBreakIn.worker1.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker1)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(WMRSDK_script)()
-local function DSIEE_script() -- XostumUIBreakIn.worker2.LocalScript 
+coroutine.wrap(POWGBNK_script)()
+local function HPTJJ_script() -- XostumUIBreakIn.worker2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker2)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(DSIEE_script)()
-local function ASWE_script() -- XostumUIBreakIn.worker3.LocalScript 
+coroutine.wrap(HPTJJ_script)()
+local function TAUBU_script() -- XostumUIBreakIn.worker3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker3)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(ASWE_script)()
-local function YNKT_script() -- XostumUIBreakIn.worker4.LocalScript 
+coroutine.wrap(TAUBU_script)()
+local function ITOCG_script() -- XostumUIBreakIn.worker4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker4)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(YNKT_script)()
-local function XNTDAIG_script() -- XostumUIBreakIn.worker6.LocalScript 
+coroutine.wrap(ITOCG_script)()
+local function NZSNSJ_script() -- XostumUIBreakIn.worker6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker6)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(XNTDAIG_script)()
-local function KWOPO_script() -- XostumUIBreakIn.worker5.LocalScript 
+coroutine.wrap(NZSNSJ_script)()
+local function NLLRXUA_script() -- XostumUIBreakIn.worker5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker5)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(KWOPO_script)()
-local function PYSCZKD_script() -- XostumUIBreakIn.worker9.LocalScript 
+coroutine.wrap(NLLRXUA_script)()
+local function ASFASZX_script() -- XostumUIBreakIn.worker9.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker9)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(PYSCZKD_script)()
-local function TDKDLWX_script() -- XostumUIBreakIn.worker8.LocalScript 
+coroutine.wrap(ASFASZX_script)()
+local function UHFUCD_script() -- XostumUIBreakIn.worker8.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker8)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(TDKDLWX_script)()
-local function RZRHELP_script() -- XostumUIBreakIn.worker7.LocalScript 
+coroutine.wrap(UHFUCD_script)()
+local function FUBS_script() -- XostumUIBreakIn.worker7.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker7)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(RZRHELP_script)()
-local function IFNVED_script() -- XostumUIBreakIn.Game_Script_Hub.LocalScript 
+coroutine.wrap(FUBS_script)()
+local function EKSQWBZ_script() -- XostumUIBreakIn.Game_Script_Hub.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Game_Script_Hub)
 
 	script.Parent:Destroy()
 end
-coroutine.wrap(IFNVED_script)()
-local function IQEBFY_script() -- Gui.Button.LocalScript 
+coroutine.wrap(EKSQWBZ_script)()
+local function QECYI_script() -- Gui.Button.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4345,8 +4455,8 @@ local function IQEBFY_script() -- Gui.Button.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IQEBFY_script)()
-local function FRDSXO_script() -- Gui.Button_2.LocalScript 
+coroutine.wrap(QECYI_script)()
+local function WCEGCJJ_script() -- Gui.Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4373,8 +4483,8 @@ local function FRDSXO_script() -- Gui.Button_2.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(FRDSXO_script)()
-local function TVEKC_script() -- Gui.Button_3.LocalScript 
+coroutine.wrap(WCEGCJJ_script)()
+local function DNFVDT_script() -- Gui.Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_3)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4401,8 +4511,8 @@ local function TVEKC_script() -- Gui.Button_3.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(TVEKC_script)()
-local function LCCPWB_script() -- Gui.Button_4.LocalScript 
+coroutine.wrap(DNFVDT_script)()
+local function MPAVRR_script() -- Gui.Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_4)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4429,8 +4539,8 @@ local function LCCPWB_script() -- Gui.Button_4.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(LCCPWB_script)()
-local function UAJP_script() -- Gui.Button_5.LocalScript 
+coroutine.wrap(MPAVRR_script)()
+local function AXEXCB_script() -- Gui.Button_5.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_5)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4457,8 +4567,8 @@ local function UAJP_script() -- Gui.Button_5.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(UAJP_script)()
-local function MGHEOA_script() -- Gui.Button_6.LocalScript 
+coroutine.wrap(AXEXCB_script)()
+local function JIKGT_script() -- Gui.Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_6)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4485,8 +4595,8 @@ local function MGHEOA_script() -- Gui.Button_6.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(MGHEOA_script)()
-local function MLMIM_script() -- Gui.Button_7.LocalScript 
+coroutine.wrap(JIKGT_script)()
+local function WZPMBS_script() -- Gui.Button_7.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_7)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4513,8 +4623,8 @@ local function MLMIM_script() -- Gui.Button_7.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(MLMIM_script)()
-local function MHNWN_script() -- Gui.Button_8.LocalScript 
+coroutine.wrap(WZPMBS_script)()
+local function HLHWJO_script() -- Gui.Button_8.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_8)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4541,8 +4651,8 @@ local function MHNWN_script() -- Gui.Button_8.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(MHNWN_script)()
-local function EHHZEBB_script() -- Gui.Button_9.LocalScript 
+coroutine.wrap(HLHWJO_script)()
+local function FBWYD_script() -- Gui.Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_9)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4569,8 +4679,8 @@ local function EHHZEBB_script() -- Gui.Button_9.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(EHHZEBB_script)()
-local function INWD_script() -- Gui.Button_10.LocalScript 
+coroutine.wrap(FBWYD_script)()
+local function XBHLC_script() -- Gui.Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_10)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4597,8 +4707,8 @@ local function INWD_script() -- Gui.Button_10.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(INWD_script)()
-local function XNVLYON_script() -- Gui.Button_11.LocalScript 
+coroutine.wrap(XBHLC_script)()
+local function VEZJUH_script() -- Gui.Button_11.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_11)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4625,8 +4735,8 @@ local function XNVLYON_script() -- Gui.Button_11.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(XNVLYON_script)()
-local function KTTMQ_script() -- Gui.Button_12.LocalScript 
+coroutine.wrap(VEZJUH_script)()
+local function YOPJCJO_script() -- Gui.Button_12.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_12)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4653,8 +4763,8 @@ local function KTTMQ_script() -- Gui.Button_12.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(KTTMQ_script)()
-local function DASU_script() -- Gui.Button_13.LocalScript 
+coroutine.wrap(YOPJCJO_script)()
+local function KBYR_script() -- Gui.Button_13.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_13)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4681,8 +4791,8 @@ local function DASU_script() -- Gui.Button_13.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(DASU_script)()
-local function CZWZ_script() -- Gui.Button_14.LocalScript 
+coroutine.wrap(KBYR_script)()
+local function UGLOMED_script() -- Gui.Button_14.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_14)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -4709,8 +4819,8 @@ local function CZWZ_script() -- Gui.Button_14.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(CZWZ_script)()
-local function RPBAWE_script() -- Gui.TextButton.LocalScript 
+coroutine.wrap(UGLOMED_script)()
+local function HDHA_script() -- Gui.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4725,8 +4835,8 @@ local function RPBAWE_script() -- Gui.TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RPBAWE_script)()
-local function DODDLWA_script() -- Gui.TextButton_2.LocalScript 
+coroutine.wrap(HDHA_script)()
+local function AXVVYOV_script() -- Gui.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4741,8 +4851,8 @@ local function DODDLWA_script() -- Gui.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DODDLWA_script)()
-local function NPKKZ_script() -- Gui.List_4.LocalScript 
+coroutine.wrap(AXVVYOV_script)()
+local function XWIHX_script() -- Gui.List_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.List_4)
 
 	local x1 = script.Parent.o1.Holder
@@ -5220,8 +5330,8 @@ local function NPKKZ_script() -- Gui.List_4.LocalScript
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(NPKKZ_script)()
-local function VWKZQQV_script() -- Gui.TextButton_3.LocalScript 
+coroutine.wrap(XWIHX_script)()
+local function IOZFNR_script() -- Gui.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5237,8 +5347,8 @@ local function VWKZQQV_script() -- Gui.TextButton_3.LocalScript
 	end)
 	--{1, -10},{0, 794}
 end
-coroutine.wrap(VWKZQQV_script)()
-local function BNKM_script() -- Gui.TextButton_4.LocalScript 
+coroutine.wrap(IOZFNR_script)()
+local function RDHS_script() -- Gui.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5253,8 +5363,8 @@ local function BNKM_script() -- Gui.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BNKM_script)()
-local function JMNGLF_script() -- Gui.police.LocalScript 
+coroutine.wrap(RDHS_script)()
+local function COHPBR_script() -- Gui.police.LocalScript 
 	local script = Instance.new('LocalScript', Gui.police)
 
 	local q1 = script.Parent.H2lder
@@ -5282,8 +5392,8 @@ local function JMNGLF_script() -- Gui.police.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(JMNGLF_script)()
-local function LOQYOCH_script() -- Gui.swat.LocalScript 
+coroutine.wrap(COHPBR_script)()
+local function CNSY_script() -- Gui.swat.LocalScript 
 	local script = Instance.new('LocalScript', Gui.swat)
 
 	local q1 = script.Parent.Hilder
@@ -5311,8 +5421,8 @@ local function LOQYOCH_script() -- Gui.swat.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(LOQYOCH_script)()
-local function FIQRHTV_script() -- Gui.TextButton_5.LocalScript 
+coroutine.wrap(CNSY_script)()
+local function WIIO_script() -- Gui.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5325,8 +5435,8 @@ local function FIQRHTV_script() -- Gui.TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FIQRHTV_script)()
-local function MJVHC_script() -- Gui.TextButton_6.LocalScript 
+coroutine.wrap(WIIO_script)()
+local function CRCKIAK_script() -- Gui.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5341,11 +5451,11 @@ local function MJVHC_script() -- Gui.TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MJVHC_script)()
-local function VMKC_script() -- Gui.loopkillem.LocalScript 
+coroutine.wrap(CRCKIAK_script)()
+local function XFORW_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
-	while wait(2.3) do
+	while wait(2.12) do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1, 50 do
@@ -5361,8 +5471,8 @@ local function VMKC_script() -- Gui.loopkillem.LocalScript
 		end
 	end
 end
-coroutine.wrap(VMKC_script)()
-local function WKXUE_script() -- Gui.TextButton_7.LocalScript 
+coroutine.wrap(XFORW_script)()
+local function CXHT_script() -- Gui.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5377,34 +5487,34 @@ local function WKXUE_script() -- Gui.TextButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WKXUE_script)()
-local function EWMASLM_script() -- Gui.healYS.LocalScript 
+coroutine.wrap(CXHT_script)()
+local function MFRQXNV_script() -- Gui.healYS.LocalScript 
 	local script = Instance.new('LocalScript', Gui.healYS)
 
-script.Parent.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
-	game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
-end)
-while wait() do
-	if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
-		for i = 1, 1 do
-			wait()
-			local A_1 = "Cat"
-			local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
-			Event:FireServer(A_1)
-			wait()
-			Event:FireServer(A_1)
-			wait()
-			Event:FireServer(A_1)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
+	script.Parent.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+	end)
+	while wait() do
+		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
+			for i = 1, 1 do
+				wait()
+				local A_1 = "Cat"
+				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
+				Event:FireServer(A_1)
+				wait()
+				Event:FireServer(A_1)
+				wait()
+				Event:FireServer(A_1)
+				wait()
+				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
+			end
+		else
+			--elsed
 		end
-	else
-		--elsed
 	end
 end
-end
-coroutine.wrap(EWMASLM_script)()
-local function EZHBP_script() -- Gui.TextButton_8.LocalScript 
+coroutine.wrap(MFRQXNV_script)()
+local function WLWEYC_script() -- Gui.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5419,8 +5529,8 @@ local function EZHBP_script() -- Gui.TextButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EZHBP_script)()
-local function FMZAOZ_script() -- Gui.infplanks.LocalScript 
+coroutine.wrap(WLWEYC_script)()
+local function KGZEIU_script() -- Gui.infplanks.LocalScript 
 	local script = Instance.new('LocalScript', Gui.infplanks)
 
 	while wait() do
@@ -5430,8 +5540,8 @@ local function FMZAOZ_script() -- Gui.infplanks.LocalScript
 		end
 	end
 end
-coroutine.wrap(FMZAOZ_script)()
-local function ZWMVK_script() -- Gui.removetools.LocalScript 
+coroutine.wrap(KGZEIU_script)()
+local function EKZAHY_script() -- Gui.removetools.LocalScript 
 	local script = Instance.new('LocalScript', Gui.removetools)
 
 	local q1 = script.Parent.Holder
@@ -5472,8 +5582,8 @@ local function ZWMVK_script() -- Gui.removetools.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ZWMVK_script)()
-local function QWSMJKO_script() -- Gui.opensafe.LocalScript 
+coroutine.wrap(EKZAHY_script)()
+local function YBISC_script() -- Gui.opensafe.LocalScript 
 	local script = Instance.new('LocalScript', Gui.opensafe)
 
 	local q1 = script.Parent.H0lder
@@ -5503,8 +5613,8 @@ local function QWSMJKO_script() -- Gui.opensafe.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(QWSMJKO_script)()
-local function QYZRQA_script() -- Gui.openbasedoor.LocalScript 
+coroutine.wrap(YBISC_script)()
+local function WMKO_script() -- Gui.openbasedoor.LocalScript 
 	local script = Instance.new('LocalScript', Gui.openbasedoor)
 
 	local q1 = script.Parent.H3lder
@@ -5535,8 +5645,8 @@ local function QYZRQA_script() -- Gui.openbasedoor.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(QYZRQA_script)()
-local function ZCTXEBQ_script() -- Gui.UnlockAttic.LocalScript 
+coroutine.wrap(WMKO_script)()
+local function BMON_script() -- Gui.UnlockAttic.LocalScript 
 	local script = Instance.new('LocalScript', Gui.UnlockAttic)
 
 	local f1 = script.Parent.Hohlder
@@ -5559,7 +5669,7 @@ local function ZCTXEBQ_script() -- Gui.UnlockAttic.LocalScript
 			f1.Button.Text = "Unlock Attic "
 			fireclickdetector(game:GetService("Workspace").Basement.Ladder.ClickDetector)
 			wait(1)
-			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.21592140197754, 20.379079818725586, -227.04872131347656)}):Play()
+			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.21592140197754, 20.379079818725586, -227.04872131347656)}):Play()
 		else
 			warn("Attic Is Already Open.")
 		end
@@ -5568,8 +5678,8 @@ local function ZCTXEBQ_script() -- Gui.UnlockAttic.LocalScript
 		game:GetService("TweenService"):Create(f1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ZCTXEBQ_script)()
-local function AGIQ_script() -- Gui.TextButton_9.LocalScript 
+coroutine.wrap(BMON_script)()
+local function HZFLC_script() -- Gui.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5582,7 +5692,182 @@ local function AGIQ_script() -- Gui.TextButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AGIQ_script)()
+coroutine.wrap(HZFLC_script)()
+local function UEPJS_script() -- Gui.Button_40.LocalScript 
+	local script = Instance.new('LocalScript', Gui.Button_40)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	script.Parent.MouseButton1Up:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	script.Parent.MouseButton1Down:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
+		--
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+		if script.Parent.Text == "Crash Server" then
+			script.Parent.Text = "Click Again 3"
+			wait(1)
+			script.Parent.Text = "Click Again 2"
+			wait(1)
+			script.Parent.Text = "Click Again 1"
+			wait(1)
+			script.Parent.Text = "Crash Server"
+		else
+			script.Parent.Text = "Crashing"
+			wait(1)
+			while wait() do
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.UnlockDoor:FireServer();
+				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
+			end
+		end
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Section2:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		--
+		wait(0.16)
+		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
+	end)
+end
+coroutine.wrap(UEPJS_script)()
+local function YKIIQ_script() -- Gui.TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Section5.Size == UDim2.new(1, -10,0, 40) then
+			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 90}):Play()
+			script.Parent.Parent.Parent.Section5:TweenSize(UDim2.new(1, -10,0, 79), "Out", "Quad", 0.25, true)
+		else
+			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+			script.Parent.Parent.Parent.Section5:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
+		end
+	end)
+end
+coroutine.wrap(YKIIQ_script)()
 else
 	warn("Unknown Game, "..game.PlaceId.."")
 end
