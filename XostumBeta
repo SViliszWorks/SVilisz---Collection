@@ -535,7 +535,7 @@ local Gui = {
 --Properties:
 
 XostumUIBreakIn.XostumUIBreakIn.Name = "XostumUIBreakIn"
-XostumUIBreakIn.XostumUIBreakIn.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+XostumUIBreakIn.XostumUIBreakIn.Parent = (game:GetService("CoreGui") or gethui())
 XostumUIBreakIn.XostumUIBreakIn.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 XostumUIBreakIn.holding.Name = "holding"
