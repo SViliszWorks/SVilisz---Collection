@@ -5381,24 +5381,27 @@ coroutine.wrap(WKXUE_script)()
 local function EWMASLM_script() -- Gui.healYS.LocalScript 
 	local script = Instance.new('LocalScript', Gui.healYS)
 
-	while wait() do
-		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
-			for i = 1, 1 do
-				wait()
-				local A_1 = "Cat"
-				local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
-				Event:FireServer(A_1)
-				wait()
-				Event:FireServer(A_1)
-				wait()
-				Event:FireServer(A_1)
-				wait()
-				game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
-			end
-		else
-			--elsed
+script.Parent.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage").RemoteEvents.Cattery:FireServer();
+end)
+while wait() do
+	if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
+		for i = 1, 1 do
+			wait()
+			local A_1 = "Cat"
+			local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
+			Event:FireServer(A_1)
+			wait()
+			Event:FireServer(A_1)
+			wait()
+			Event:FireServer(A_1)
+			wait()
+			game:GetService("ReplicatedStorage").RemoteEvents.BedTime:FireServer();
 		end
+	else
+		--elsed
 	end
+end
 end
 coroutine.wrap(EWMASLM_script)()
 local function EZHBP_script() -- Gui.TextButton_8.LocalScript 
