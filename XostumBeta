@@ -5142,7 +5142,6 @@ local function ACEPYGX_script() -- Gui.Button_3.LocalScript
 	local script = Instance.new('LocalScript', Gui.Button_3)
 
 	local PlayerSelected = script.Parent.Parent.Parent.Parent["Player Name"].Holder.TextBox.Holder.Box.Text
-	local item = game:GetService("Players").LocalPlayer.Backpack:GetChildren()
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
 	end)
@@ -5159,16 +5158,12 @@ local function ACEPYGX_script() -- Gui.Button_3.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if script.Parent.Parent.Parent.Parent.SubSection.Holder.NextText.Text == "Cure" then
-			game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cure")
-			wait(0.3)
 			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
 			wait()
 			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
 			wait()
 			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
 		elseif script.Parent.Parent.Parent.Parent.SubSection.Holder.NextText.Text == "MedKit" then
-			game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("MedKit")
-			wait(0.3)
 			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
 			wait()
 			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
