@@ -8179,7 +8179,6 @@ local function RQRN_script() -- Gui.Button_48.LocalScript
 				game:GetService("ReplicatedStorage").RemoteEvents.BasementMission:FireServer();
 			end
 		end
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Section2:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
