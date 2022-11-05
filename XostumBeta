@@ -188,67 +188,6 @@ if game.PlaceId == 3851622790 or
 	worker9 = Instance.new("TextLabel"),
 	worker8 = Instance.new("TextLabel"),
 	worker7 = Instance.new("TextLabel"),
-	Game_Script_Hub = Instance.new("Frame"),
-	localBeta = Instance.new("TextLabel"),
-	localBeta_2 = Instance.new("TextLabel"),
-	localBeta_3 = Instance.new("TextLabel"),
-	localBeta_4 = Instance.new("TextLabel"),
-	localBeta_5 = Instance.new("TextLabel"),
-	localBeta_6 = Instance.new("TextLabel"),
-	localBeta_7 = Instance.new("TextLabel"),
-	localBeta_8 = Instance.new("TextLabel"),
-	localBeta_9 = Instance.new("TextLabel"),
-	localBeta_10 = Instance.new("TextLabel"),
-	localBeta_11 = Instance.new("TextLabel"),
-	localBeta_12 = Instance.new("TextLabel"),
-	localBeta_13 = Instance.new("TextLabel"),
-	localBeta_14 = Instance.new("TextLabel"),
-	localBeta_15 = Instance.new("TextLabel"),
-	localBeta_16 = Instance.new("TextLabel"),
-	localBeta_17 = Instance.new("TextLabel"),
-	localBeta_18 = Instance.new("TextLabel"),
-	localBeta_19 = Instance.new("TextLabel"),
-	localBeta_20 = Instance.new("TextLabel"),
-	localBeta_21 = Instance.new("TextLabel"),
-	localBeta_22 = Instance.new("TextLabel"),
-	localBeta_23 = Instance.new("TextLabel"),
-	localBeta_24 = Instance.new("TextLabel"),
-	localBeta_25 = Instance.new("TextLabel"),
-	localBeta_26 = Instance.new("TextLabel"),
-	localBeta_27 = Instance.new("TextLabel"),
-	localBeta_28 = Instance.new("TextLabel"),
-	localBeta_29 = Instance.new("TextLabel"),
-	localBeta_30 = Instance.new("TextLabel"),
-	localBeta_31 = Instance.new("TextLabel"),
-	localBeta_32 = Instance.new("TextLabel"),
-	localBeta_33 = Instance.new("TextLabel"),
-	localBeta_34 = Instance.new("TextLabel"),
-	localBeta_35 = Instance.new("TextLabel"),
-	localBeta_36 = Instance.new("TextLabel"),
-	localBeta_37 = Instance.new("TextLabel"),
-	localBeta_38 = Instance.new("TextLabel"),
-	localBeta_39 = Instance.new("TextLabel"),
-	localBeta_40 = Instance.new("TextLabel"),
-	localBeta_41 = Instance.new("TextLabel"),
-	localBeta_42 = Instance.new("TextLabel"),
-	localBeta_43 = Instance.new("TextLabel"),
-	localBeta_44 = Instance.new("TextLabel"),
-	localBeta_45 = Instance.new("TextLabel"),
-	localBeta_46 = Instance.new("TextLabel"),
-	localBeta_47 = Instance.new("TextLabel"),
-	localBeta_48 = Instance.new("TextLabel"),
-	localBeta_49 = Instance.new("TextLabel"),
-	localBeta_50 = Instance.new("TextLabel"),
-	localBeta_51 = Instance.new("TextLabel"),
-	localBeta_52 = Instance.new("TextLabel"),
-	localBeta_53 = Instance.new("TextLabel"),
-	localBeta_54 = Instance.new("TextLabel"),
-	localBeta_55 = Instance.new("TextLabel"),
-	localBeta_56 = Instance.new("TextLabel"),
-	localBeta_57 = Instance.new("TextLabel"),
-	localBeta_58 = Instance.new("TextLabel"),
-	localBeta_59 = Instance.new("TextLabel"),
-	localBeta_60 = Instance.new("TextLabel"),
 }
 local Gui = {
 	utilities = Instance.new("Frame"),
@@ -2000,7 +1939,7 @@ Gui.UnScrollTs.Position = UDim2.new(0.0134406965, 0, 0.0023584906, 0)
 Gui.UnScrollTs.Size = UDim2.new(0, 373, 0, 417)
 Gui.UnScrollTs.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
 Gui.UnScrollTs.BottomImage = "rbxassetid://3062505976"
-Gui.UnScrollTs.CanvasSize = UDim2.new(0, 0,5, 236)
+Gui.UnScrollTs.CanvasSize = UDim2.new(0, 0, 5, 0)
 Gui.UnScrollTs.MidImage = "rbxassetid://3062506202"
 Gui.UnScrollTs.ScrollBarThickness = 6
 Gui.UnScrollTs.TopImage = "rbxassetid://3062506445"
@@ -4415,7 +4354,7 @@ Gui.TextButton_12.TextSize = 14.000
 
 -- Scripts:
 
-local function NNTYOHA_script() -- XostumUIBreakIn.Sidebar.LocalScript 
+local function CBIS_script() -- XostumUIBreakIn.Sidebar.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Sidebar)
 
 	script.Parent.List.Utilities.MouseEnter:Connect(function()
@@ -4528,8 +4467,8 @@ local function NNTYOHA_script() -- XostumUIBreakIn.Sidebar.LocalScript
 		script.Parent.List.LocalPlayer.Button.Visible = false
 	end)
 end
-coroutine.wrap(NNTYOHA_script)()
-local function IZMKZE_script() -- XostumUIBreakIn.TextButton.LocalScript 
+coroutine.wrap(CBIS_script)()
+local function HTVUP_script() -- XostumUIBreakIn.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton)
 
 	local TS = game:GetService("TweenService")
@@ -4598,8 +4537,8 @@ local function IZMKZE_script() -- XostumUIBreakIn.TextButton.LocalScript
 		script.Parent.Parent.Parent.Sidebar:TweenSize(UDim2.new(0, 30,1.092, -40), "Out", "Sine", 0.3, true)
 	end)
 end
-coroutine.wrap(IZMKZE_script)()
-local function WBJDQ_script() -- XostumUIBreakIn.BG.LocalScript 
+coroutine.wrap(HTVUP_script)()
+local function MXHQNR_script() -- XostumUIBreakIn.BG.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.BG)
 
 	script.Parent.Parent.channels.settings.ScrollingFrame.Section2.List.fun1.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
@@ -4630,8 +4569,8 @@ local function WBJDQ_script() -- XostumUIBreakIn.BG.LocalScript
 		end
 	end
 end
-coroutine.wrap(WBJDQ_script)()
-local function QMBUC_script() -- XostumUIBreakIn.DISLOL.LocalScript 
+coroutine.wrap(MXHQNR_script)()
+local function ECNXY_script() -- XostumUIBreakIn.DISLOL.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.DISLOL)
 
 	local q1 = script.Parent.Holder
@@ -4661,8 +4600,8 @@ local function QMBUC_script() -- XostumUIBreakIn.DISLOL.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(QMBUC_script)()
-local function DBQOZO_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
+coroutine.wrap(ECNXY_script)()
+local function CYYPID_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4675,8 +4614,8 @@ local function DBQOZO_script() -- XostumUIBreakIn.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DBQOZO_script)()
-local function UVQKOEZ_script() -- XostumUIBreakIn.reload.LocalScript 
+coroutine.wrap(CYYPID_script)()
+local function FWZXIP_script() -- XostumUIBreakIn.reload.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.reload)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4688,16 +4627,16 @@ local function UVQKOEZ_script() -- XostumUIBreakIn.reload.LocalScript
 	end)
 	
 end
-coroutine.wrap(UVQKOEZ_script)()
-local function QZVVQWS_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
+coroutine.wrap(FWZXIP_script)()
+local function XBFBODV_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_3)
 
 	script.Parent.MouseButton2Click:Connect(function()
 		print("works")
 	end)
 end
-coroutine.wrap(QZVVQWS_script)()
-local function REKWUL_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
+coroutine.wrap(XBFBODV_script)()
+local function TYIIZG_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4712,8 +4651,8 @@ local function REKWUL_script() -- XostumUIBreakIn.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(REKWUL_script)()
-local function NXILC_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
+coroutine.wrap(TYIIZG_script)()
+local function XDHH_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4726,8 +4665,8 @@ local function NXILC_script() -- XostumUIBreakIn.TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NXILC_script)()
-local function STKYRUI_script() -- XostumUIBreakIn.Slider.mainScript 
+coroutine.wrap(XDHH_script)()
+local function WBHKH_script() -- XostumUIBreakIn.Slider.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4767,8 +4706,8 @@ local function STKYRUI_script() -- XostumUIBreakIn.Slider.mainScript
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*200
 	end)
 end
-coroutine.wrap(STKYRUI_script)()
-local function XONQE_script() -- XostumUIBreakIn.Slider_2.mainScript 
+coroutine.wrap(WBHKH_script)()
+local function PTFKDKF_script() -- XostumUIBreakIn.Slider_2.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_2)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4809,8 +4748,8 @@ local function XONQE_script() -- XostumUIBreakIn.Slider_2.mainScript
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = value*370
 	end)
 end
-coroutine.wrap(XONQE_script)()
-local function OFQMR_script() -- XostumUIBreakIn.Slider_3.mainScript 
+coroutine.wrap(PTFKDKF_script)()
+local function GIYMZZ_script() -- XostumUIBreakIn.Slider_3.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_3)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4850,8 +4789,8 @@ local function OFQMR_script() -- XostumUIBreakIn.Slider_3.mainScript
 		workspace.Gravity = value*196.2
 	end)
 end
-coroutine.wrap(OFQMR_script)()
-local function SWKM_script() -- XostumUIBreakIn.Slider_4.mainScript 
+coroutine.wrap(GIYMZZ_script)()
+local function CKREX_script() -- XostumUIBreakIn.Slider_4.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_4)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4891,8 +4830,8 @@ local function SWKM_script() -- XostumUIBreakIn.Slider_4.mainScript
 		game.Workspace.Camera.FieldOfView = value*120
 	end)
 end
-coroutine.wrap(SWKM_script)()
-local function IBSTPB_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
+coroutine.wrap(CKREX_script)()
+local function EXDIT_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4905,8 +4844,8 @@ local function IBSTPB_script() -- XostumUIBreakIn.TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IBSTPB_script)()
-local function NXDQAI_script() -- XostumUIBreakIn.holding.LocalScript 
+coroutine.wrap(EXDIT_script)()
+local function ALDSOCE_script() -- XostumUIBreakIn.holding.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.holding)
 
 	local UIXS = game:GetService('UserInputService')
@@ -4943,8 +4882,8 @@ local function NXDQAI_script() -- XostumUIBreakIn.holding.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NXDQAI_script)()
-local function KDKAWI_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(ALDSOCE_script)()
+local function ODALS_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(shit)
@@ -4957,8 +4896,8 @@ local function KDKAWI_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KDKAWI_script)()
-local function DPFDGU_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(ODALS_script)()
+local function FGKOTG_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	local P = script.Parent.Protector
@@ -4966,80 +4905,80 @@ local function DPFDGU_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		script.Parent.Name = "XostumUIBreakIn"..P.worker1.Text..P.worker2.Text..P.worker3.Text..P.worker4.Text..P.worker5.Text..P.worker6.Text..P.worker7.Text..P.worker8.Text..P.worker9.Text..""
 	end
 end
-coroutine.wrap(DPFDGU_script)()
-local function BROD_script() -- XostumUIBreakIn.worker1.LocalScript 
+coroutine.wrap(FGKOTG_script)()
+local function RWQWZAI_script() -- XostumUIBreakIn.worker1.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker1)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(BROD_script)()
-local function KSDU_script() -- XostumUIBreakIn.worker2.LocalScript 
+coroutine.wrap(RWQWZAI_script)()
+local function DULE_script() -- XostumUIBreakIn.worker2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker2)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(KSDU_script)()
-local function OKCC_script() -- XostumUIBreakIn.worker3.LocalScript 
+coroutine.wrap(DULE_script)()
+local function UPOZ_script() -- XostumUIBreakIn.worker3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker3)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(OKCC_script)()
-local function IFZRW_script() -- XostumUIBreakIn.worker4.LocalScript 
+coroutine.wrap(UPOZ_script)()
+local function CFCRK_script() -- XostumUIBreakIn.worker4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker4)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(IFZRW_script)()
-local function INQS_script() -- XostumUIBreakIn.worker6.LocalScript 
+coroutine.wrap(CFCRK_script)()
+local function JVYCQF_script() -- XostumUIBreakIn.worker6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker6)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(INQS_script)()
-local function SVOWP_script() -- XostumUIBreakIn.worker5.LocalScript 
+coroutine.wrap(JVYCQF_script)()
+local function BPTRBZS_script() -- XostumUIBreakIn.worker5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker5)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(SVOWP_script)()
-local function TIEFFBZ_script() -- XostumUIBreakIn.worker9.LocalScript 
+coroutine.wrap(BPTRBZS_script)()
+local function SRMYVB_script() -- XostumUIBreakIn.worker9.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker9)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(TIEFFBZ_script)()
-local function SDEWLPI_script() -- XostumUIBreakIn.worker8.LocalScript 
+coroutine.wrap(SRMYVB_script)()
+local function QSVLPM_script() -- XostumUIBreakIn.worker8.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker8)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(SDEWLPI_script)()
-local function EMYNBF_script() -- XostumUIBreakIn.worker7.LocalScript 
+coroutine.wrap(QSVLPM_script)()
+local function YSRVTK_script() -- XostumUIBreakIn.worker7.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker7)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(EMYNBF_script)()
-local function PZCXPN_script() -- Gui.TextButton.LocalScript 
+coroutine.wrap(YSRVTK_script)()
+local function AYFHVJ_script() -- Gui.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5054,8 +4993,8 @@ local function PZCXPN_script() -- Gui.TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PZCXPN_script)()
-local function NRFBEC_script() -- Gui.Holder.LocalScript 
+coroutine.wrap(AYFHVJ_script)()
+local function QBPEI_script() -- Gui.Holder.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Holder)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5065,8 +5004,8 @@ local function NRFBEC_script() -- Gui.Holder.LocalScript
 		script.Parent.TextBox:TweenSize(UDim2.new(0, 140,1, -4), "Out", "Quad", 0.25, true)
 	end)
 end
-coroutine.wrap(NRFBEC_script)()
-local function TSEHRLS_script() -- Gui.Button.LocalScript 
+coroutine.wrap(QBPEI_script)()
+local function VJCOAU_script() -- Gui.Button.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5093,8 +5032,8 @@ local function TSEHRLS_script() -- Gui.Button.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(TSEHRLS_script)()
-local function QDHK_script() -- Gui.Button_2.LocalScript 
+coroutine.wrap(VJCOAU_script)()
+local function ZYLWMW_script() -- Gui.Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5121,8 +5060,8 @@ local function QDHK_script() -- Gui.Button_2.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(QDHK_script)()
-local function PBNWM_script() -- Gui.TextButton_2.LocalScript 
+coroutine.wrap(ZYLWMW_script)()
+local function NHMBL_script() -- Gui.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5137,11 +5076,12 @@ local function PBNWM_script() -- Gui.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PBNWM_script)()
-local function ACEPYGX_script() -- Gui.Button_3.LocalScript 
+coroutine.wrap(NHMBL_script)()
+local function OWZHDG_script() -- Gui.Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_3)
 
-	local PlayerSelected = script.Parent.Parent.Parent.Parent["Player Name"].Holder.TextBox.Holder.Box.Text
+	local PlayerSelected = script.Parent.Parent.Parent.Parent["Player Name"].Holder.TextBox.Holder.Box
+	local PlayerNameSele = game.Players:GetPlayers()
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
 	end)
@@ -5158,32 +5098,53 @@ local function ACEPYGX_script() -- Gui.Button_3.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if script.Parent.Parent.Parent.Parent.SubSection.Holder.NextText.Text == "Cure" then
-			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected)
-		elseif script.Parent.Parent.Parent.Parent.SubSection.Holder.NextText.Text == "MedKit" then
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait()
-			game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected)
-			wait(0.5)
+			if PlayerSelected.Text == PlayerNameSele then
+				wait(0.3)
+				game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Cure 1X"
+				wait(math.random(1, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Cure 2X"
+				wait(math.random(1, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.CurePlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Cure 3X"
+				wait(math.random(1, 1.999))
+				script.Parent.Text = "Heal/Cure"
+			elseif script.Parent.Parent.Parent.Parent.SubSection.Holder.NextText.Text == "MedKit" then
+				script.Parent.Text = "Healing"
+				wait(0.3)
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 1X"
+				wait(math.random(0.999, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 2X"
+				wait(math.random(0.999, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 3X"
+				wait(math.random(0.999, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 4X"
+				wait(math.random(0.999, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 5X"
+				wait(math.random(0.999, 1.999))
+				game:GetService("ReplicatedStorage").RemoteEvents.HealPlayer:FireServer(PlayerSelected.Text)
+				script.Parent.Text = "Heal 6X"
+				wait(math.random(1, 1.999))
+				script.Parent.Text = "Heal/Cure"
+			elseif script.Parent.Parent.Parent.Parent["Player Name"].Holder.TextBox.Holder.Box.Text == "" then
+				script.Parent.Text = "Wrong User?"
+				wait(1)
+				script.Parent.Text = "Heal/Cure"
+			end
 		end
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ACEPYGX_script)()
-local function HUATXYE_script() -- Gui.Button_4.LocalScript 
+coroutine.wrap(OWZHDG_script)()
+local function XRUCPXS_script() -- Gui.Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_4)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5210,8 +5171,8 @@ local function HUATXYE_script() -- Gui.Button_4.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(HUATXYE_script)()
-local function TMGTUV_script() -- Gui.Button_5.LocalScript 
+coroutine.wrap(XRUCPXS_script)()
+local function DYHF_script() -- Gui.Button_5.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_5)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5238,8 +5199,8 @@ local function TMGTUV_script() -- Gui.Button_5.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(TMGTUV_script)()
-local function IETYZA_script() -- Gui.Button_6.LocalScript 
+coroutine.wrap(DYHF_script)()
+local function TRATLLX_script() -- Gui.Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_6)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5266,8 +5227,8 @@ local function IETYZA_script() -- Gui.Button_6.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IETYZA_script)()
-local function ZGUSNDF_script() -- Gui.Button_7.LocalScript 
+coroutine.wrap(TRATLLX_script)()
+local function AKTC_script() -- Gui.Button_7.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_7)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5294,8 +5255,8 @@ local function ZGUSNDF_script() -- Gui.Button_7.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ZGUSNDF_script)()
-local function PVBOJMZ_script() -- Gui.Button_8.LocalScript 
+coroutine.wrap(AKTC_script)()
+local function JYFZ_script() -- Gui.Button_8.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_8)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5322,8 +5283,8 @@ local function PVBOJMZ_script() -- Gui.Button_8.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(PVBOJMZ_script)()
-local function RBYQQSE_script() -- Gui.Button_9.LocalScript 
+coroutine.wrap(JYFZ_script)()
+local function MBBLNOI_script() -- Gui.Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_9)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5350,8 +5311,8 @@ local function RBYQQSE_script() -- Gui.Button_9.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(RBYQQSE_script)()
-local function FRHW_script() -- Gui.Button_10.LocalScript 
+coroutine.wrap(MBBLNOI_script)()
+local function CJGWVU_script() -- Gui.Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_10)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5378,8 +5339,8 @@ local function FRHW_script() -- Gui.Button_10.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(FRHW_script)()
-local function QJZRSPW_script() -- Gui.Button_11.LocalScript 
+coroutine.wrap(CJGWVU_script)()
+local function ISJSK_script() -- Gui.Button_11.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_11)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5406,8 +5367,8 @@ local function QJZRSPW_script() -- Gui.Button_11.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(QJZRSPW_script)()
-local function XFNX_script() -- Gui.Button_12.LocalScript 
+coroutine.wrap(ISJSK_script)()
+local function HCVX_script() -- Gui.Button_12.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_12)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5434,8 +5395,8 @@ local function XFNX_script() -- Gui.Button_12.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(XFNX_script)()
-local function RWITIP_script() -- Gui.Button_13.LocalScript 
+coroutine.wrap(HCVX_script)()
+local function MRUX_script() -- Gui.Button_13.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_13)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5462,8 +5423,8 @@ local function RWITIP_script() -- Gui.Button_13.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(RWITIP_script)()
-local function VEOUK_script() -- Gui.Button_14.LocalScript 
+coroutine.wrap(MRUX_script)()
+local function NZSA_script() -- Gui.Button_14.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_14)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5490,8 +5451,8 @@ local function VEOUK_script() -- Gui.Button_14.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(VEOUK_script)()
-local function RJCQDI_script() -- Gui.Button_15.LocalScript 
+coroutine.wrap(NZSA_script)()
+local function WRIWRZR_script() -- Gui.Button_15.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_15)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5518,8 +5479,8 @@ local function RJCQDI_script() -- Gui.Button_15.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(RJCQDI_script)()
-local function GWEP_script() -- Gui.Button_16.LocalScript 
+coroutine.wrap(WRIWRZR_script)()
+local function LPWZJF_script() -- Gui.Button_16.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_16)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5546,8 +5507,8 @@ local function GWEP_script() -- Gui.Button_16.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(GWEP_script)()
-local function SGYAUN_script() -- Gui.Button_17.LocalScript 
+coroutine.wrap(LPWZJF_script)()
+local function WMCQSHX_script() -- Gui.Button_17.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_17)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5574,8 +5535,8 @@ local function SGYAUN_script() -- Gui.Button_17.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(SGYAUN_script)()
-local function BRDCVE_script() -- Gui.TextButton_3.LocalScript 
+coroutine.wrap(WMCQSHX_script)()
+local function UKMDIG_script() -- Gui.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5590,8 +5551,8 @@ local function BRDCVE_script() -- Gui.TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BRDCVE_script)()
-local function VPWUJES_script() -- Gui.TextButton_4.LocalScript 
+coroutine.wrap(UKMDIG_script)()
+local function ISLPUV_script() -- Gui.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5606,8 +5567,8 @@ local function VPWUJES_script() -- Gui.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VPWUJES_script)()
-local function URRJ_script() -- Gui.List_6.LocalScript 
+coroutine.wrap(ISLPUV_script)()
+local function BNNUFBD_script() -- Gui.List_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.List_6)
 
 	local x1 = script.Parent.o1.Holder
@@ -6085,8 +6046,8 @@ local function URRJ_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(URRJ_script)()
-local function WFBW_script() -- Gui.TextButton_5.LocalScript 
+coroutine.wrap(BNNUFBD_script)()
+local function QKNPYH_script() -- Gui.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6102,8 +6063,8 @@ local function WFBW_script() -- Gui.TextButton_5.LocalScript
 	end)
 	--{1, -10},{0, 794}
 end
-coroutine.wrap(WFBW_script)()
-local function YWPQJH_script() -- Gui.TextButton_6.LocalScript 
+coroutine.wrap(QKNPYH_script)()
+local function DUTT_script() -- Gui.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6118,8 +6079,8 @@ local function YWPQJH_script() -- Gui.TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YWPQJH_script)()
-local function SSMNNFA_script() -- Gui.TextButton_7.LocalScript 
+coroutine.wrap(DUTT_script)()
+local function KEBHNLE_script() -- Gui.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6134,8 +6095,8 @@ local function SSMNNFA_script() -- Gui.TextButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SSMNNFA_script)()
-local function NMZFNU_script() -- Gui.loopkillem.LocalScript 
+coroutine.wrap(KEBHNLE_script)()
+local function GUAMN_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
 	while wait(2.12) do
@@ -6154,8 +6115,8 @@ local function NMZFNU_script() -- Gui.loopkillem.LocalScript
 		end
 	end
 end
-coroutine.wrap(NMZFNU_script)()
-local function PPGI_script() -- Gui.TextButton_8.LocalScript 
+coroutine.wrap(GUAMN_script)()
+local function QNZEN_script() -- Gui.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6170,8 +6131,8 @@ local function PPGI_script() -- Gui.TextButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PPGI_script)()
-local function LQXWHWW_script() -- Gui.healYS.LocalScript 
+coroutine.wrap(QNZEN_script)()
+local function SSMT_script() -- Gui.healYS.LocalScript 
 	local script = Instance.new('LocalScript', Gui.healYS)
 
 	while wait() do
@@ -6193,8 +6154,8 @@ local function LQXWHWW_script() -- Gui.healYS.LocalScript
 		end
 	end
 end
-coroutine.wrap(LQXWHWW_script)()
-local function PBRMERJ_script() -- Gui.TextButton_9.LocalScript 
+coroutine.wrap(SSMT_script)()
+local function SDDX_script() -- Gui.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6209,8 +6170,8 @@ local function PBRMERJ_script() -- Gui.TextButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PBRMERJ_script)()
-local function XXQCI_script() -- Gui.infplanks.LocalScript 
+coroutine.wrap(SDDX_script)()
+local function RZPFEK_script() -- Gui.infplanks.LocalScript 
 	local script = Instance.new('LocalScript', Gui.infplanks)
 
 	while wait() do
@@ -6220,8 +6181,8 @@ local function XXQCI_script() -- Gui.infplanks.LocalScript
 		end
 	end
 end
-coroutine.wrap(XXQCI_script)()
-local function WLSY_script() -- Gui.removetools.LocalScript 
+coroutine.wrap(RZPFEK_script)()
+local function WZYBTHP_script() -- Gui.removetools.LocalScript 
 	local script = Instance.new('LocalScript', Gui.removetools)
 
 	local q1 = script.Parent.Holder
@@ -6262,11 +6223,22 @@ local function WLSY_script() -- Gui.removetools.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(WLSY_script)()
-local function WYMB_script() -- Gui.opensafe.LocalScript 
+coroutine.wrap(WZYBTHP_script)()
+local function FIYMAML_script() -- Gui.opensafe.LocalScript 
 	local script = Instance.new('LocalScript', Gui.opensafe)
 
 	local q1 = script.Parent.H0lder
+	if game.PlaceId == 4620170611 then
+	game:GetService("Workspace").TheHouse.Painting2.Name = "XostumPaint6"
+	for i = 1, 5 do
+		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint1"
+		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint2"
+		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint3"
+		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint4"
+		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint5"
+	end
+	end
+	
 	q1.Button.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
 	end)
@@ -6283,8 +6255,26 @@ local function WYMB_script() -- Gui.opensafe.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if q1.Button.Text == "Open Safe" then
-			q1.Button.Text = "Open Safe "
+			q1.Button.Text = "Looking For Safe"
+			while wait() do
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint1.ClickDetector)
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint2.ClickDetector)
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint3.ClickDetector)
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint4.ClickDetector)
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint5.ClickDetector)
+				wait(0.2)
+				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint6.ClickDetector)
+			end
+			wait(5)
 			game.ReplicatedStorage.RemoteEvents.Safe:FireServer(game:GetService("Workspace").CodeNote.SurfaceGui.TextLabel.Text)
+			q1.Button.Text = "Open Safe "
+		elseif q1.Button.Text == "Looking For Safe" then
+			warn("Please Wait While Xostum Looking For The Safe.")
 		else
 			warn("Safe Is Already Open.")
 		end
@@ -6293,8 +6283,8 @@ local function WYMB_script() -- Gui.opensafe.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(WYMB_script)()
-local function JSLF_script() -- Gui.openbasedoor.LocalScript 
+coroutine.wrap(FIYMAML_script)()
+local function PZCASPZ_script() -- Gui.openbasedoor.LocalScript 
 	local script = Instance.new('LocalScript', Gui.openbasedoor)
 
 	local q1 = script.Parent.H3lder
@@ -6325,8 +6315,8 @@ local function JSLF_script() -- Gui.openbasedoor.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(JSLF_script)()
-local function ZBOXAP_script() -- Gui.UnlockAttic.LocalScript 
+coroutine.wrap(PZCASPZ_script)()
+local function EZQU_script() -- Gui.UnlockAttic.LocalScript 
 	local script = Instance.new('LocalScript', Gui.UnlockAttic)
 
 	local f1 = script.Parent.Hohlder
@@ -6358,8 +6348,8 @@ local function ZBOXAP_script() -- Gui.UnlockAttic.LocalScript
 		game:GetService("TweenService"):Create(f1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ZBOXAP_script)()
-local function IHWO_script() -- Gui.catfun.LocalScript 
+coroutine.wrap(EZQU_script)()
+local function WSWNFWP_script() -- Gui.catfun.LocalScript 
 	local script = Instance.new('LocalScript', Gui.catfun)
 
 	local v1 = script.Parent.H0Qurlder
@@ -6384,8 +6374,8 @@ local function IHWO_script() -- Gui.catfun.LocalScript
 		game:GetService("TweenService"):Create(v1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IHWO_script)()
-local function CCOZD_script() -- Gui.TextButton_10.LocalScript 
+coroutine.wrap(WSWNFWP_script)()
+local function UHZJKFC_script() -- Gui.TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6398,8 +6388,8 @@ local function CCOZD_script() -- Gui.TextButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CCOZD_script)()
-local function LSPY_script() -- Gui.Officer.LocalScript 
+coroutine.wrap(UHZJKFC_script)()
+local function NTKC_script() -- Gui.Officer.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Officer)
 
 	local qn1 = script.Parent.H2lder
@@ -6427,8 +6417,8 @@ local function LSPY_script() -- Gui.Officer.LocalScript
 		game:GetService("TweenService"):Create(qn1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(LSPY_script)()
-local function UEIMYM_script() -- Gui.Swat.LocalScript 
+coroutine.wrap(NTKC_script)()
+local function OIMDWLT_script() -- Gui.Swat.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Swat)
 
 	local qs1 = script.Parent.Hilder
@@ -6456,8 +6446,8 @@ local function UEIMYM_script() -- Gui.Swat.LocalScript
 		game:GetService("TweenService"):Create(qs1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(UEIMYM_script)()
-local function VRZES_script() -- Gui.Protector.LocalScript 
+coroutine.wrap(OIMDWLT_script)()
+local function ZPJUHB_script() -- Gui.Protector.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Protector)
 
 	local k1 = script.Parent.Hilder
@@ -6485,8 +6475,8 @@ local function VRZES_script() -- Gui.Protector.LocalScript
 		game:GetService("TweenService"):Create(k1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(VRZES_script)()
-local function MHHNU_script() -- Gui.Medic.LocalScript 
+coroutine.wrap(ZPJUHB_script)()
+local function WXMTU_script() -- Gui.Medic.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Medic)
 
 	local l1 = script.Parent.Hilder
@@ -6514,8 +6504,8 @@ local function MHHNU_script() -- Gui.Medic.LocalScript
 		game:GetService("TweenService"):Create(l1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(MHHNU_script)()
-local function BABBJZ_script() -- Gui.Fighter.LocalScript 
+coroutine.wrap(WXMTU_script)()
+local function SQMW_script() -- Gui.Fighter.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Fighter)
 
 	local g1 = script.Parent.H2lder
@@ -6543,8 +6533,8 @@ local function BABBJZ_script() -- Gui.Fighter.LocalScript
 		game:GetService("TweenService"):Create(g1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(BABBJZ_script)()
-local function IMRRKUG_script() -- Gui.lollipop.LocalScript 
+coroutine.wrap(SQMW_script)()
+local function SJRP_script() -- Gui.lollipop.LocalScript 
 	local script = Instance.new('LocalScript', Gui.lollipop)
 
 	local t1 = script.Parent.H2lder
@@ -6572,8 +6562,8 @@ local function IMRRKUG_script() -- Gui.lollipop.LocalScript
 		game:GetService("TweenService"):Create(t1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IMRRKUG_script)()
-local function RRDVN_script() -- Gui.TextButton_11.LocalScript 
+coroutine.wrap(SJRP_script)()
+local function TORBUA_script() -- Gui.TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6586,8 +6576,8 @@ local function RRDVN_script() -- Gui.TextButton_11.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RRDVN_script)()
-local function RQRN_script() -- Gui.Button_48.LocalScript 
+coroutine.wrap(TORBUA_script)()
+local function GCKZC_script() -- Gui.Button_48.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_48)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -8184,8 +8174,8 @@ local function RQRN_script() -- Gui.Button_48.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(RQRN_script)()
-local function JNRVIM_script() -- Gui.TextButton_12.LocalScript 
+coroutine.wrap(GCKZC_script)()
+local function JQDZBF_script() -- Gui.TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -8198,7 +8188,7 @@ local function JNRVIM_script() -- Gui.TextButton_12.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JNRVIM_script)()
+coroutine.wrap(JQDZBF_script)()
 else
 	warn("Unknown Game, "..game.PlaceId.."")
 end
