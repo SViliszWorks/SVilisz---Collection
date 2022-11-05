@@ -2,6 +2,7 @@ if game.PlaceId == 3851622790 or
 	game.PlaceId == 4620170611 then
 	wait(math.random(1.001, 3.999))
 	local XostumUIBreakIn = {
+	local XostumUIBreakIn = {
 	XostumUIBreakIn = Instance.new("ScreenGui"),
 	holding = Instance.new("Frame"),
 	Frame = Instance.new("Frame"),
@@ -6228,17 +6229,6 @@ local function FIYMAML_script() -- Gui.opensafe.LocalScript
 	local script = Instance.new('LocalScript', Gui.opensafe)
 
 	local q1 = script.Parent.H0lder
-	if game.PlaceId == 4620170611 then
-	game:GetService("Workspace").TheHouse.Painting2.Name = "XostumPaint6"
-	for i = 1, 5 do
-		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint1"
-		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint2"
-		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint3"
-		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint4"
-		game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint5"
-	end
-	end
-	
 	q1.Button.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
 	end)
@@ -6256,6 +6246,15 @@ local function FIYMAML_script() -- Gui.opensafe.LocalScript
 		--
 		if q1.Button.Text == "Open Safe" then
 			q1.Button.Text = "Looking For Safe"
+			game:GetService("Workspace").TheHouse.Painting2.Name = "XostumPaint6"
+			for i = 1, 5 do
+				game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint1"
+				game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint2"
+				game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint3"
+				game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint4"
+				game:GetService("Workspace").TheHouse.Painting.Name = "XostumPaint5"
+			end
+			wait(1)
 			while wait() do
 				wait(0.2)
 				fireclickdetector(game:GetService("Workspace").TheHouse.XostumPaint1.ClickDetector)
