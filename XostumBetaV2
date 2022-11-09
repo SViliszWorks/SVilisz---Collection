@@ -5957,6 +5957,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -5984,6 +5985,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x2, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6011,6 +6013,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x3, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6038,6 +6041,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x4, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6065,6 +6069,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x5, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6092,6 +6097,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x6, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6119,6 +6125,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x7, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6146,6 +6153,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x8, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6173,6 +6181,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x9, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6200,6 +6209,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x10, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6227,6 +6237,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x11, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6254,6 +6265,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x12, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6281,6 +6293,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x13, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6308,6 +6321,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x14, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6335,6 +6349,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x15, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6362,6 +6377,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x16, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6389,6 +6405,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x17, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6416,6 +6433,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x18, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
@@ -6443,6 +6461,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			wait(0.8)
 			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
 		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
