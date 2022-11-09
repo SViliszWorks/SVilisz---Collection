@@ -1,7 +1,7 @@
 if game.PlaceId == 3851622790 or
 	game.PlaceId == 4620170611 then
 	wait(math.random(1.001, 3.999))
-local XostumUIBreakIn = {
+	local XostumUIBreakIn = {
 	XostumUIBreakIn = Instance.new("ScreenGui"),
 	holding = Instance.new("Frame"),
 	Frame = Instance.new("Frame"),
@@ -486,26 +486,26 @@ local Gui = {
 	UICorner_121 = Instance.new("UICorner"),
 	UICorner_122 = Instance.new("UICorner"),
 	TextButton_5 = Instance.new("TextButton"),
+	autojump = Instance.new("Frame"),
+	Holder_43 = Instance.new("Frame"),
+	Label_2 = Instance.new("TextLabel"),
+	Indicator_7 = Instance.new("Frame"),
+	Overlay = Instance.new("ImageLabel"),
 	UICorner_123 = Instance.new("UICorner"),
+	UICorner_124 = Instance.new("UICorner"),
 	TextButton_6 = Instance.new("TextButton"),
+	UICorner_125 = Instance.new("UICorner"),
+	UICorner_126 = Instance.new("UICorner"),
+	UICorner_127 = Instance.new("UICorner"),
+	TextButton_7 = Instance.new("TextButton"),
 	Section4 = Instance.new("Frame"),
 	Line_7 = Instance.new("Frame"),
-	Indicator_7 = Instance.new("ImageButton"),
+	Indicator_8 = Instance.new("ImageButton"),
 	Header_7 = Instance.new("TextLabel"),
 	List_7 = Instance.new("Frame"),
 	UIListLayout_8 = Instance.new("UIListLayout"),
 	UIPadding_7 = Instance.new("UIPadding"),
 	loopkillem = Instance.new("Frame"),
-	Holder_43 = Instance.new("Frame"),
-	Label_2 = Instance.new("TextLabel"),
-	Indicator_8 = Instance.new("Frame"),
-	Overlay = Instance.new("ImageLabel"),
-	UICorner_124 = Instance.new("UICorner"),
-	UICorner_125 = Instance.new("UICorner"),
-	TextButton_7 = Instance.new("TextButton"),
-	UICorner_126 = Instance.new("UICorner"),
-	UICorner_127 = Instance.new("UICorner"),
-	healYS = Instance.new("Frame"),
 	Holder_44 = Instance.new("Frame"),
 	Label_3 = Instance.new("TextLabel"),
 	Indicator_9 = Instance.new("Frame"),
@@ -515,7 +515,7 @@ local Gui = {
 	TextButton_8 = Instance.new("TextButton"),
 	UICorner_130 = Instance.new("UICorner"),
 	UICorner_131 = Instance.new("UICorner"),
-	infplanks = Instance.new("Frame"),
+	healYS = Instance.new("Frame"),
 	Holder_45 = Instance.new("Frame"),
 	Label_4 = Instance.new("TextLabel"),
 	Indicator_10 = Instance.new("Frame"),
@@ -525,22 +525,32 @@ local Gui = {
 	TextButton_9 = Instance.new("TextButton"),
 	UICorner_134 = Instance.new("UICorner"),
 	UICorner_135 = Instance.new("UICorner"),
-	removetools = Instance.new("Frame"),
+	infplanks = Instance.new("Frame"),
 	Holder_46 = Instance.new("Frame"),
-	Button_38 = Instance.new("TextButton"),
+	Label_5 = Instance.new("TextLabel"),
+	Indicator_11 = Instance.new("Frame"),
+	Overlay_4 = Instance.new("ImageLabel"),
 	UICorner_136 = Instance.new("UICorner"),
 	UICorner_137 = Instance.new("UICorner"),
+	TextButton_10 = Instance.new("TextButton"),
 	UICorner_138 = Instance.new("UICorner"),
+	UICorner_139 = Instance.new("UICorner"),
+	removetools = Instance.new("Frame"),
+	Holder_47 = Instance.new("Frame"),
+	Button_38 = Instance.new("TextButton"),
+	UICorner_140 = Instance.new("UICorner"),
+	UICorner_141 = Instance.new("UICorner"),
+	UICorner_142 = Instance.new("UICorner"),
 	catfun = Instance.new("Frame"),
 	H0Qurlder = Instance.new("Frame"),
 	Button_39 = Instance.new("TextButton"),
-	UICorner_139 = Instance.new("UICorner"),
-	UICorner_140 = Instance.new("UICorner"),
-	UICorner_141 = Instance.new("UICorner"),
+	UICorner_143 = Instance.new("UICorner"),
+	UICorner_144 = Instance.new("UICorner"),
+	UICorner_145 = Instance.new("UICorner"),
 	SubSection_4 = Instance.new("Frame"),
-	Holder_47 = Instance.new("Frame"),
+	Holder_48 = Instance.new("Frame"),
 	Header_8 = Instance.new("TextLabel"),
-	Indicator_11 = Instance.new("TextLabel"),
+	Indicator_12 = Instance.new("TextLabel"),
 	Line_8 = Instance.new("Frame"),
 	List_8 = Instance.new("Frame"),
 	UIListLayout_9 = Instance.new("UIListLayout"),
@@ -548,29 +558,29 @@ local Gui = {
 	UnlockAttic = Instance.new("Frame"),
 	Hohlder = Instance.new("Frame"),
 	Button_40 = Instance.new("TextButton"),
-	UICorner_142 = Instance.new("UICorner"),
-	UICorner_143 = Instance.new("UICorner"),
-	UICorner_144 = Instance.new("UICorner"),
+	UICorner_146 = Instance.new("UICorner"),
+	UICorner_147 = Instance.new("UICorner"),
+	UICorner_148 = Instance.new("UICorner"),
 	openbasedoor = Instance.new("Frame"),
 	H3lder = Instance.new("Frame"),
 	Button_41 = Instance.new("TextButton"),
-	UICorner_145 = Instance.new("UICorner"),
-	UICorner_146 = Instance.new("UICorner"),
-	UICorner_147 = Instance.new("UICorner"),
-	opensafe = Instance.new("Frame"),
-	H0lder = Instance.new("Frame"),
-	Button_42 = Instance.new("TextButton"),
-	UICorner_148 = Instance.new("UICorner"),
 	UICorner_149 = Instance.new("UICorner"),
 	UICorner_150 = Instance.new("UICorner"),
 	UICorner_151 = Instance.new("UICorner"),
+	opensafe = Instance.new("Frame"),
+	H0lder = Instance.new("Frame"),
+	Button_42 = Instance.new("TextButton"),
 	UICorner_152 = Instance.new("UICorner"),
-	TextButton_10 = Instance.new("TextButton"),
 	UICorner_153 = Instance.new("UICorner"),
+	UICorner_154 = Instance.new("UICorner"),
+	UICorner_155 = Instance.new("UICorner"),
+	UICorner_156 = Instance.new("UICorner"),
 	TextButton_11 = Instance.new("TextButton"),
+	UICorner_157 = Instance.new("UICorner"),
+	TextButton_12 = Instance.new("TextButton"),
 	Section3 = Instance.new("Frame"),
 	Line_9 = Instance.new("Frame"),
-	Indicator_12 = Instance.new("ImageButton"),
+	Indicator_13 = Instance.new("ImageButton"),
 	Header_9 = Instance.new("TextLabel"),
 	List_9 = Instance.new("Frame"),
 	UIListLayout_10 = Instance.new("UIListLayout"),
@@ -578,66 +588,66 @@ local Gui = {
 	Officer = Instance.new("Frame"),
 	H2lder = Instance.new("Frame"),
 	Button_43 = Instance.new("TextButton"),
-	UICorner_154 = Instance.new("UICorner"),
-	UICorner_155 = Instance.new("UICorner"),
-	UICorner_156 = Instance.new("UICorner"),
+	UICorner_158 = Instance.new("UICorner"),
+	UICorner_159 = Instance.new("UICorner"),
+	UICorner_160 = Instance.new("UICorner"),
 	Swat = Instance.new("Frame"),
 	Hilder = Instance.new("Frame"),
 	Button_44 = Instance.new("TextButton"),
-	UICorner_157 = Instance.new("UICorner"),
-	UICorner_158 = Instance.new("UICorner"),
-	UICorner_159 = Instance.new("UICorner"),
+	UICorner_161 = Instance.new("UICorner"),
+	UICorner_162 = Instance.new("UICorner"),
+	UICorner_163 = Instance.new("UICorner"),
 	Protector = Instance.new("Frame"),
 	Hilder_2 = Instance.new("Frame"),
 	Button_45 = Instance.new("TextButton"),
-	UICorner_160 = Instance.new("UICorner"),
-	UICorner_161 = Instance.new("UICorner"),
-	UICorner_162 = Instance.new("UICorner"),
+	UICorner_164 = Instance.new("UICorner"),
+	UICorner_165 = Instance.new("UICorner"),
+	UICorner_166 = Instance.new("UICorner"),
 	Medic = Instance.new("Frame"),
 	Hilder_3 = Instance.new("Frame"),
 	Button_46 = Instance.new("TextButton"),
-	UICorner_163 = Instance.new("UICorner"),
-	UICorner_164 = Instance.new("UICorner"),
-	UICorner_165 = Instance.new("UICorner"),
+	UICorner_167 = Instance.new("UICorner"),
+	UICorner_168 = Instance.new("UICorner"),
+	UICorner_169 = Instance.new("UICorner"),
 	Fighter = Instance.new("Frame"),
 	H2lder_2 = Instance.new("Frame"),
 	Button_47 = Instance.new("TextButton"),
-	UICorner_166 = Instance.new("UICorner"),
-	UICorner_167 = Instance.new("UICorner"),
-	UICorner_168 = Instance.new("UICorner"),
-	lollipop = Instance.new("Frame"),
-	H2lder_3 = Instance.new("Frame"),
-	Button_48 = Instance.new("TextButton"),
-	UICorner_169 = Instance.new("UICorner"),
 	UICorner_170 = Instance.new("UICorner"),
 	UICorner_171 = Instance.new("UICorner"),
 	UICorner_172 = Instance.new("UICorner"),
-	TextButton_12 = Instance.new("TextButton"),
+	lollipop = Instance.new("Frame"),
+	H2lder_3 = Instance.new("Frame"),
+	Button_48 = Instance.new("TextButton"),
+	UICorner_173 = Instance.new("UICorner"),
+	UICorner_174 = Instance.new("UICorner"),
+	UICorner_175 = Instance.new("UICorner"),
+	UICorner_176 = Instance.new("UICorner"),
+	TextButton_13 = Instance.new("TextButton"),
 	Section5 = Instance.new("Frame"),
 	Line_10 = Instance.new("Frame"),
-	Indicator_13 = Instance.new("ImageButton"),
+	Indicator_14 = Instance.new("ImageButton"),
 	Header_10 = Instance.new("TextLabel"),
 	List_10 = Instance.new("Frame"),
 	UIListLayout_11 = Instance.new("UIListLayout"),
 	UIPadding_10 = Instance.new("UIPadding"),
 	crash = Instance.new("Frame"),
-	Holder_48 = Instance.new("Frame"),
-	Button_49 = Instance.new("TextButton"),
-	UICorner_173 = Instance.new("UICorner"),
-	UICorner_174 = Instance.new("UICorner"),
-	UICorner_175 = Instance.new("UICorner"),
-	lag = Instance.new("Frame"),
 	Holder_49 = Instance.new("Frame"),
-	Label_5 = Instance.new("TextLabel"),
-	Indicator_14 = Instance.new("Frame"),
-	Overlay_4 = Instance.new("ImageLabel"),
-	UICorner_176 = Instance.new("UICorner"),
+	Button_49 = Instance.new("TextButton"),
 	UICorner_177 = Instance.new("UICorner"),
-	TextButton_13 = Instance.new("TextButton"),
 	UICorner_178 = Instance.new("UICorner"),
 	UICorner_179 = Instance.new("UICorner"),
+	lag = Instance.new("Frame"),
+	Holder_50 = Instance.new("Frame"),
+	Label_6 = Instance.new("TextLabel"),
+	Indicator_15 = Instance.new("Frame"),
+	Overlay_5 = Instance.new("ImageLabel"),
 	UICorner_180 = Instance.new("UICorner"),
+	UICorner_181 = Instance.new("UICorner"),
 	TextButton_14 = Instance.new("TextButton"),
+	UICorner_182 = Instance.new("UICorner"),
+	UICorner_183 = Instance.new("UICorner"),
+	UICorner_184 = Instance.new("UICorner"),
+	TextButton_15 = Instance.new("TextButton"),
 }
 
 --Properties:
@@ -1057,7 +1067,7 @@ XostumUIBreakIn.Label2_2.BackgroundTransparency = 1.000
 XostumUIBreakIn.Label2_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 XostumUIBreakIn.Label2_2.Size = UDim2.new(0.5, -5, 0, 14)
 XostumUIBreakIn.Label2_2.Font = Enum.Font.SourceSans
-XostumUIBreakIn.Label2_2.Text = "SlaughterHusk"
+XostumUIBreakIn.Label2_2.Text = "CC1X#1400"
 XostumUIBreakIn.Label2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 XostumUIBreakIn.Label2_2.TextSize = 14.000
 XostumUIBreakIn.Label2_2.TextWrapped = true
@@ -1975,7 +1985,7 @@ Gui.UnScrollTs.Position = UDim2.new(0.0134406965, 0, 0.0023584906, 0)
 Gui.UnScrollTs.Size = UDim2.new(0, 373, 0, 417)
 Gui.UnScrollTs.ScrollBarImageColor3 = Color3.fromRGB(25, 25, 25)
 Gui.UnScrollTs.BottomImage = "rbxassetid://3062505976"
-Gui.UnScrollTs.CanvasSize = UDim2.new(0, 0, 5, 353)
+Gui.UnScrollTs.CanvasSize = UDim2.new(0, 0, 5, 392)
 Gui.UnScrollTs.MidImage = "rbxassetid://3062506202"
 Gui.UnScrollTs.ScrollBarThickness = 6
 Gui.UnScrollTs.TopImage = "rbxassetid://3062506445"
@@ -3670,17 +3680,76 @@ Gui.TextButton_5.Text = ""
 Gui.TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextButton_5.TextSize = 14.000
 
-Gui.UICorner_123.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_123.Parent = Gui.Section1
+Gui.autojump.Name = "autojump"
+Gui.autojump.Parent = Gui.List_5
+Gui.autojump.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.autojump.Size = UDim2.new(1, 2, 0, 32)
 
-Gui.TextButton_6.Parent = Gui.Section1
+Gui.Holder_43.Name = "Holder"
+Gui.Holder_43.Parent = Gui.autojump
+Gui.Holder_43.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Gui.Holder_43.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_43.Size = UDim2.new(1, -2, 1, -2)
+
+Gui.Label_2.Name = "Label"
+Gui.Label_2.Parent = Gui.Holder_43
+Gui.Label_2.BackgroundTransparency = 1.000
+Gui.Label_2.Position = UDim2.new(0, 5, 0.5, -7)
+Gui.Label_2.Size = UDim2.new(1, -50, 0, 14)
+Gui.Label_2.Font = Enum.Font.SourceSans
+Gui.Label_2.Text = "Jump When Teleported"
+Gui.Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Label_2.TextSize = 14.000
+Gui.Label_2.TextWrapped = true
+Gui.Label_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Gui.Indicator_7.Name = "Indicator"
+Gui.Indicator_7.Parent = Gui.Holder_43
+Gui.Indicator_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Indicator_7.Position = UDim2.new(1, -42, 0, 2)
+Gui.Indicator_7.Size = UDim2.new(0, 40, 0, 26)
+
+Gui.Overlay.Name = "Overlay"
+Gui.Overlay.Parent = Gui.Indicator_7
+Gui.Overlay.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Gui.Overlay.Position = UDim2.new(0, 2, 0, 2)
+Gui.Overlay.Size = UDim2.new(0, 22, 0, 22)
+Gui.Overlay.Image = "http://www.roblox.com/asset/?id=7827504335"
+Gui.Overlay.ImageTransparency = 1.000
+
+Gui.UICorner_123.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_123.Parent = Gui.Overlay
+
+Gui.UICorner_124.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_124.Parent = Gui.Indicator_7
+
+Gui.TextButton_6.Parent = Gui.Indicator_7
 Gui.TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gui.TextButton_6.BackgroundTransparency = 1.000
-Gui.TextButton_6.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_6.Position = UDim2.new(-7.9000001, 0, -0.0769230798, 0)
+Gui.TextButton_6.Size = UDim2.new(9, -2, 1.23076928, -2)
 Gui.TextButton_6.Font = Enum.Font.SourceSans
 Gui.TextButton_6.Text = ""
 Gui.TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextButton_6.TextSize = 14.000
+
+Gui.UICorner_125.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_125.Parent = Gui.Holder_43
+
+Gui.UICorner_126.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_126.Parent = Gui.autojump
+
+Gui.UICorner_127.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_127.Parent = Gui.Section1
+
+Gui.TextButton_7.Parent = Gui.Section1
+Gui.TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_7.BackgroundTransparency = 1.000
+Gui.TextButton_7.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_7.Font = Enum.Font.SourceSans
+Gui.TextButton_7.Text = ""
+Gui.TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_7.TextSize = 14.000
 
 Gui.Section4.Name = "Section4"
 Gui.Section4.Parent = Gui.UnScrollTs
@@ -3695,13 +3764,13 @@ Gui.Line_7.BorderSizePixel = 0
 Gui.Line_7.Position = UDim2.new(0, 5, 0, 30)
 Gui.Line_7.Size = UDim2.new(1, -10, 0, 2)
 
-Gui.Indicator_7.Name = "Indicator"
-Gui.Indicator_7.Parent = Gui.Line_7
-Gui.Indicator_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Indicator_7.BackgroundTransparency = 1.000
-Gui.Indicator_7.Position = UDim2.new(1.01381218, -30, -14, 0)
-Gui.Indicator_7.Size = UDim2.new(0, 25, 0, 25)
-Gui.Indicator_7.Image = "rbxassetid://2418686949"
+Gui.Indicator_8.Name = "Indicator"
+Gui.Indicator_8.Parent = Gui.Line_7
+Gui.Indicator_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Indicator_8.BackgroundTransparency = 1.000
+Gui.Indicator_8.Position = UDim2.new(1.01381218, -30, -14, 0)
+Gui.Indicator_8.Size = UDim2.new(0, 25, 0, 25)
+Gui.Indicator_8.Image = "rbxassetid://2418686949"
 
 Gui.Header_7.Name = "Header"
 Gui.Header_7.Parent = Gui.Section4
@@ -3738,67 +3807,8 @@ Gui.loopkillem.Parent = Gui.List_7
 Gui.loopkillem.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Gui.loopkillem.Size = UDim2.new(1, 2, 0, 32)
 
-Gui.Holder_43.Name = "Holder"
-Gui.Holder_43.Parent = Gui.loopkillem
-Gui.Holder_43.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Gui.Holder_43.Position = UDim2.new(0, 1, 0, 1)
-Gui.Holder_43.Size = UDim2.new(1, -2, 1, -2)
-
-Gui.Label_2.Name = "Label"
-Gui.Label_2.Parent = Gui.Holder_43
-Gui.Label_2.BackgroundTransparency = 1.000
-Gui.Label_2.Position = UDim2.new(0, 5, 0.5, -7)
-Gui.Label_2.Size = UDim2.new(1, -50, 0, 14)
-Gui.Label_2.Font = Enum.Font.SourceSans
-Gui.Label_2.Text = "Loop Kill Enemies"
-Gui.Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Label_2.TextSize = 14.000
-Gui.Label_2.TextWrapped = true
-Gui.Label_2.TextXAlignment = Enum.TextXAlignment.Left
-
-Gui.Indicator_8.Name = "Indicator"
-Gui.Indicator_8.Parent = Gui.Holder_43
-Gui.Indicator_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.Indicator_8.Position = UDim2.new(1, -42, 0, 2)
-Gui.Indicator_8.Size = UDim2.new(0, 40, 0, 26)
-
-Gui.Overlay.Name = "Overlay"
-Gui.Overlay.Parent = Gui.Indicator_8
-Gui.Overlay.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Gui.Overlay.Position = UDim2.new(0, 2, 0, 2)
-Gui.Overlay.Size = UDim2.new(0, 22, 0, 22)
-Gui.Overlay.Image = "http://www.roblox.com/asset/?id=7827504335"
-Gui.Overlay.ImageTransparency = 1.000
-
-Gui.UICorner_124.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_124.Parent = Gui.Overlay
-
-Gui.UICorner_125.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_125.Parent = Gui.Indicator_8
-
-Gui.TextButton_7.Parent = Gui.Indicator_8
-Gui.TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.TextButton_7.BackgroundTransparency = 1.000
-Gui.TextButton_7.Position = UDim2.new(-7.9000001, 0, -0.0769230798, 0)
-Gui.TextButton_7.Size = UDim2.new(9, -2, 1.23076928, -2)
-Gui.TextButton_7.Font = Enum.Font.SourceSans
-Gui.TextButton_7.Text = ""
-Gui.TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-Gui.TextButton_7.TextSize = 14.000
-
-Gui.UICorner_126.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_126.Parent = Gui.Holder_43
-
-Gui.UICorner_127.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_127.Parent = Gui.loopkillem
-
-Gui.healYS.Name = "healYS"
-Gui.healYS.Parent = Gui.List_7
-Gui.healYS.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.healYS.Size = UDim2.new(1, 2, 0, 32)
-
 Gui.Holder_44.Name = "Holder"
-Gui.Holder_44.Parent = Gui.healYS
+Gui.Holder_44.Parent = Gui.loopkillem
 Gui.Holder_44.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Gui.Holder_44.Position = UDim2.new(0, 1, 0, 1)
 Gui.Holder_44.Size = UDim2.new(1, -2, 1, -2)
@@ -3809,7 +3819,7 @@ Gui.Label_3.BackgroundTransparency = 1.000
 Gui.Label_3.Position = UDim2.new(0, 5, 0.5, -7)
 Gui.Label_3.Size = UDim2.new(1, -50, 0, 14)
 Gui.Label_3.Font = Enum.Font.SourceSans
-Gui.Label_3.Text = "Heal Yourself"
+Gui.Label_3.Text = "Loop Kill Enemies"
 Gui.Label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Label_3.TextSize = 14.000
 Gui.Label_3.TextWrapped = true
@@ -3849,15 +3859,15 @@ Gui.UICorner_130.CornerRadius = UDim.new(0, 5)
 Gui.UICorner_130.Parent = Gui.Holder_44
 
 Gui.UICorner_131.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_131.Parent = Gui.healYS
+Gui.UICorner_131.Parent = Gui.loopkillem
 
-Gui.infplanks.Name = "infplanks"
-Gui.infplanks.Parent = Gui.List_7
-Gui.infplanks.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.infplanks.Size = UDim2.new(1, 2, 0, 32)
+Gui.healYS.Name = "healYS"
+Gui.healYS.Parent = Gui.List_7
+Gui.healYS.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.healYS.Size = UDim2.new(1, 2, 0, 32)
 
 Gui.Holder_45.Name = "Holder"
-Gui.Holder_45.Parent = Gui.infplanks
+Gui.Holder_45.Parent = Gui.healYS
 Gui.Holder_45.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Gui.Holder_45.Position = UDim2.new(0, 1, 0, 1)
 Gui.Holder_45.Size = UDim2.new(1, -2, 1, -2)
@@ -3868,7 +3878,7 @@ Gui.Label_4.BackgroundTransparency = 1.000
 Gui.Label_4.Position = UDim2.new(0, 5, 0.5, -7)
 Gui.Label_4.Size = UDim2.new(1, -50, 0, 14)
 Gui.Label_4.Font = Enum.Font.SourceSans
-Gui.Label_4.Text = "Infinite Planks"
+Gui.Label_4.Text = "Heal Yourself"
 Gui.Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Label_4.TextSize = 14.000
 Gui.Label_4.TextWrapped = true
@@ -3908,21 +3918,80 @@ Gui.UICorner_134.CornerRadius = UDim.new(0, 5)
 Gui.UICorner_134.Parent = Gui.Holder_45
 
 Gui.UICorner_135.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_135.Parent = Gui.infplanks
+Gui.UICorner_135.Parent = Gui.healYS
+
+Gui.infplanks.Name = "infplanks"
+Gui.infplanks.Parent = Gui.List_7
+Gui.infplanks.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.infplanks.Size = UDim2.new(1, 2, 0, 32)
+
+Gui.Holder_46.Name = "Holder"
+Gui.Holder_46.Parent = Gui.infplanks
+Gui.Holder_46.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Gui.Holder_46.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_46.Size = UDim2.new(1, -2, 1, -2)
+
+Gui.Label_5.Name = "Label"
+Gui.Label_5.Parent = Gui.Holder_46
+Gui.Label_5.BackgroundTransparency = 1.000
+Gui.Label_5.Position = UDim2.new(0, 5, 0.5, -7)
+Gui.Label_5.Size = UDim2.new(1, -50, 0, 14)
+Gui.Label_5.Font = Enum.Font.SourceSans
+Gui.Label_5.Text = "Infinite Planks"
+Gui.Label_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Label_5.TextSize = 14.000
+Gui.Label_5.TextWrapped = true
+Gui.Label_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Gui.Indicator_11.Name = "Indicator"
+Gui.Indicator_11.Parent = Gui.Holder_46
+Gui.Indicator_11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Indicator_11.Position = UDim2.new(1, -42, 0, 2)
+Gui.Indicator_11.Size = UDim2.new(0, 40, 0, 26)
+
+Gui.Overlay_4.Name = "Overlay"
+Gui.Overlay_4.Parent = Gui.Indicator_11
+Gui.Overlay_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Gui.Overlay_4.Position = UDim2.new(0, 2, 0, 2)
+Gui.Overlay_4.Size = UDim2.new(0, 22, 0, 22)
+Gui.Overlay_4.Image = "http://www.roblox.com/asset/?id=7827504335"
+Gui.Overlay_4.ImageTransparency = 1.000
+
+Gui.UICorner_136.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_136.Parent = Gui.Overlay_4
+
+Gui.UICorner_137.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_137.Parent = Gui.Indicator_11
+
+Gui.TextButton_10.Parent = Gui.Indicator_11
+Gui.TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_10.BackgroundTransparency = 1.000
+Gui.TextButton_10.Position = UDim2.new(-7.9000001, 0, -0.0769230798, 0)
+Gui.TextButton_10.Size = UDim2.new(9, -2, 1.23076928, -2)
+Gui.TextButton_10.Font = Enum.Font.SourceSans
+Gui.TextButton_10.Text = ""
+Gui.TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_10.TextSize = 14.000
+
+Gui.UICorner_138.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_138.Parent = Gui.Holder_46
+
+Gui.UICorner_139.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_139.Parent = Gui.infplanks
 
 Gui.removetools.Name = "removetools"
 Gui.removetools.Parent = Gui.List_7
 Gui.removetools.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Gui.removetools.Size = UDim2.new(1, 2, 0, 32)
 
-Gui.Holder_46.Name = "Holder"
-Gui.Holder_46.Parent = Gui.removetools
-Gui.Holder_46.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.Holder_46.Position = UDim2.new(0, 1, 0, 1)
-Gui.Holder_46.Size = UDim2.new(1, -2, 1, -2)
+Gui.Holder_47.Name = "Holder"
+Gui.Holder_47.Parent = Gui.removetools
+Gui.Holder_47.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Holder_47.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_47.Size = UDim2.new(1, -2, 1, -2)
 
 Gui.Button_38.Name = "Button"
-Gui.Button_38.Parent = Gui.Holder_46
+Gui.Button_38.Parent = Gui.Holder_47
 Gui.Button_38.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Gui.Button_38.Position = UDim2.new(0, 2, 0, 2)
 Gui.Button_38.Size = UDim2.new(1, -4, 1, -4)
@@ -3933,14 +4002,14 @@ Gui.Button_38.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_38.TextSize = 14.000
 Gui.Button_38.TextWrapped = true
 
-Gui.UICorner_136.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_136.Parent = Gui.Button_38
+Gui.UICorner_140.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_140.Parent = Gui.Button_38
 
-Gui.UICorner_137.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_137.Parent = Gui.Holder_46
+Gui.UICorner_141.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_141.Parent = Gui.Holder_47
 
-Gui.UICorner_138.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_138.Parent = Gui.removetools
+Gui.UICorner_142.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_142.Parent = Gui.removetools
 
 Gui.catfun.Name = "catfun"
 Gui.catfun.Parent = Gui.List_7
@@ -3965,14 +4034,14 @@ Gui.Button_39.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_39.TextSize = 14.000
 Gui.Button_39.TextWrapped = true
 
-Gui.UICorner_139.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_139.Parent = Gui.Button_39
+Gui.UICorner_143.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_143.Parent = Gui.Button_39
 
-Gui.UICorner_140.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_140.Parent = Gui.H0Qurlder
+Gui.UICorner_144.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_144.Parent = Gui.H0Qurlder
 
-Gui.UICorner_141.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_141.Parent = Gui.catfun
+Gui.UICorner_145.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_145.Parent = Gui.catfun
 
 Gui.SubSection_4.Name = "SubSection"
 Gui.SubSection_4.Parent = Gui.List_7
@@ -3980,14 +4049,14 @@ Gui.SubSection_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Gui.SubSection_4.ClipsDescendants = true
 Gui.SubSection_4.Size = UDim2.new(1, 2, 0, 42)
 
-Gui.Holder_47.Name = "Holder"
-Gui.Holder_47.Parent = Gui.SubSection_4
-Gui.Holder_47.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Gui.Holder_47.Position = UDim2.new(0, 1, 0, 1)
-Gui.Holder_47.Size = UDim2.new(1, -2, 1, -2)
+Gui.Holder_48.Name = "Holder"
+Gui.Holder_48.Parent = Gui.SubSection_4
+Gui.Holder_48.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Gui.Holder_48.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_48.Size = UDim2.new(1, -2, 1, -2)
 
 Gui.Header_8.Name = "Header"
-Gui.Header_8.Parent = Gui.Holder_47
+Gui.Header_8.Parent = Gui.Holder_48
 Gui.Header_8.BackgroundTransparency = 1.000
 Gui.Header_8.Position = UDim2.new(0, 5, 0, 8)
 Gui.Header_8.Size = UDim2.new(1, -40, 0, 14)
@@ -3998,26 +4067,26 @@ Gui.Header_8.TextSize = 14.000
 Gui.Header_8.TextWrapped = true
 Gui.Header_8.TextXAlignment = Enum.TextXAlignment.Left
 
-Gui.Indicator_11.Name = "Indicator"
-Gui.Indicator_11.Parent = Gui.Holder_47
-Gui.Indicator_11.AnchorPoint = Vector2.new(1, 0)
-Gui.Indicator_11.BackgroundTransparency = 1.000
-Gui.Indicator_11.Position = UDim2.new(1, -5, 0, 5)
-Gui.Indicator_11.Size = UDim2.new(0, 20, 0, 20)
-Gui.Indicator_11.Font = Enum.Font.SourceSansBold
-Gui.Indicator_11.Text = "+"
-Gui.Indicator_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Indicator_11.TextSize = 20.000
+Gui.Indicator_12.Name = "Indicator"
+Gui.Indicator_12.Parent = Gui.Holder_48
+Gui.Indicator_12.AnchorPoint = Vector2.new(1, 0)
+Gui.Indicator_12.BackgroundTransparency = 1.000
+Gui.Indicator_12.Position = UDim2.new(1, -5, 0, 5)
+Gui.Indicator_12.Size = UDim2.new(0, 20, 0, 20)
+Gui.Indicator_12.Font = Enum.Font.SourceSansBold
+Gui.Indicator_12.Text = "+"
+Gui.Indicator_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Indicator_12.TextSize = 20.000
 
 Gui.Line_8.Name = "Line"
-Gui.Line_8.Parent = Gui.Holder_47
+Gui.Line_8.Parent = Gui.Holder_48
 Gui.Line_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Gui.Line_8.BorderSizePixel = 0
 Gui.Line_8.Position = UDim2.new(0, 5, 0, 30)
 Gui.Line_8.Size = UDim2.new(1, -10, 0, 2)
 
 Gui.List_8.Name = "List"
-Gui.List_8.Parent = Gui.Holder_47
+Gui.List_8.Parent = Gui.Holder_48
 Gui.List_8.BackgroundTransparency = 1.000
 Gui.List_8.ClipsDescendants = true
 Gui.List_8.Position = UDim2.new(0, 5, 0, 40)
@@ -4057,14 +4126,14 @@ Gui.Button_40.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_40.TextSize = 14.000
 Gui.Button_40.TextWrapped = true
 
-Gui.UICorner_142.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_142.Parent = Gui.Button_40
+Gui.UICorner_146.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_146.Parent = Gui.Button_40
 
-Gui.UICorner_143.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_143.Parent = Gui.Hohlder
+Gui.UICorner_147.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_147.Parent = Gui.Hohlder
 
-Gui.UICorner_144.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_144.Parent = Gui.UnlockAttic
+Gui.UICorner_148.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_148.Parent = Gui.UnlockAttic
 
 Gui.openbasedoor.Name = "openbasedoor"
 Gui.openbasedoor.Parent = Gui.List_8
@@ -4089,14 +4158,14 @@ Gui.Button_41.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_41.TextSize = 14.000
 Gui.Button_41.TextWrapped = true
 
-Gui.UICorner_145.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_145.Parent = Gui.Button_41
+Gui.UICorner_149.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_149.Parent = Gui.Button_41
 
-Gui.UICorner_146.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_146.Parent = Gui.H3lder
+Gui.UICorner_150.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_150.Parent = Gui.H3lder
 
-Gui.UICorner_147.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_147.Parent = Gui.openbasedoor
+Gui.UICorner_151.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_151.Parent = Gui.openbasedoor
 
 Gui.opensafe.Name = "opensafe"
 Gui.opensafe.Parent = Gui.List_8
@@ -4121,41 +4190,41 @@ Gui.Button_42.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_42.TextSize = 14.000
 Gui.Button_42.TextWrapped = true
 
-Gui.UICorner_148.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_148.Parent = Gui.Button_42
-
-Gui.UICorner_149.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_149.Parent = Gui.H0lder
-
-Gui.UICorner_150.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_150.Parent = Gui.opensafe
-
-Gui.UICorner_151.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_151.Parent = Gui.Holder_47
-
 Gui.UICorner_152.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_152.Parent = Gui.SubSection_4
-
-Gui.TextButton_10.Parent = Gui.SubSection_4
-Gui.TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.TextButton_10.BackgroundTransparency = 1.000
-Gui.TextButton_10.Size = UDim2.new(0, 353, 0, 30)
-Gui.TextButton_10.Font = Enum.Font.SourceSans
-Gui.TextButton_10.Text = ""
-Gui.TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-Gui.TextButton_10.TextSize = 14.000
+Gui.UICorner_152.Parent = Gui.Button_42
 
 Gui.UICorner_153.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_153.Parent = Gui.Section4
+Gui.UICorner_153.Parent = Gui.H0lder
 
-Gui.TextButton_11.Parent = Gui.Section4
+Gui.UICorner_154.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_154.Parent = Gui.opensafe
+
+Gui.UICorner_155.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_155.Parent = Gui.Holder_48
+
+Gui.UICorner_156.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_156.Parent = Gui.SubSection_4
+
+Gui.TextButton_11.Parent = Gui.SubSection_4
 Gui.TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gui.TextButton_11.BackgroundTransparency = 1.000
-Gui.TextButton_11.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_11.Size = UDim2.new(0, 353, 0, 30)
 Gui.TextButton_11.Font = Enum.Font.SourceSans
 Gui.TextButton_11.Text = ""
 Gui.TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextButton_11.TextSize = 14.000
+
+Gui.UICorner_157.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_157.Parent = Gui.Section4
+
+Gui.TextButton_12.Parent = Gui.Section4
+Gui.TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_12.BackgroundTransparency = 1.000
+Gui.TextButton_12.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_12.Font = Enum.Font.SourceSans
+Gui.TextButton_12.Text = ""
+Gui.TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_12.TextSize = 14.000
 
 Gui.Section3.Name = "Section3"
 Gui.Section3.Parent = Gui.UnScrollTs
@@ -4170,13 +4239,13 @@ Gui.Line_9.BorderSizePixel = 0
 Gui.Line_9.Position = UDim2.new(0, 5, 0, 30)
 Gui.Line_9.Size = UDim2.new(1, -10, 0, 2)
 
-Gui.Indicator_12.Name = "Indicator"
-Gui.Indicator_12.Parent = Gui.Line_9
-Gui.Indicator_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Indicator_12.BackgroundTransparency = 1.000
-Gui.Indicator_12.Position = UDim2.new(1.01381218, -30, -14, 0)
-Gui.Indicator_12.Size = UDim2.new(0, 25, 0, 25)
-Gui.Indicator_12.Image = "rbxassetid://2418686949"
+Gui.Indicator_13.Name = "Indicator"
+Gui.Indicator_13.Parent = Gui.Line_9
+Gui.Indicator_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Indicator_13.BackgroundTransparency = 1.000
+Gui.Indicator_13.Position = UDim2.new(1.01381218, -30, -14, 0)
+Gui.Indicator_13.Size = UDim2.new(0, 25, 0, 25)
+Gui.Indicator_13.Image = "rbxassetid://2418686949"
 
 Gui.Header_9.Name = "Header"
 Gui.Header_9.Parent = Gui.Section3
@@ -4231,14 +4300,14 @@ Gui.Button_43.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_43.TextSize = 14.000
 Gui.Button_43.TextWrapped = true
 
-Gui.UICorner_154.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_154.Parent = Gui.Button_43
+Gui.UICorner_158.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_158.Parent = Gui.Button_43
 
-Gui.UICorner_155.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_155.Parent = Gui.H2lder
+Gui.UICorner_159.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_159.Parent = Gui.H2lder
 
-Gui.UICorner_156.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_156.Parent = Gui.Officer
+Gui.UICorner_160.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_160.Parent = Gui.Officer
 
 Gui.Swat.Name = "Swat"
 Gui.Swat.Parent = Gui.List_9
@@ -4263,14 +4332,14 @@ Gui.Button_44.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_44.TextSize = 14.000
 Gui.Button_44.TextWrapped = true
 
-Gui.UICorner_157.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_157.Parent = Gui.Button_44
+Gui.UICorner_161.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_161.Parent = Gui.Button_44
 
-Gui.UICorner_158.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_158.Parent = Gui.Hilder
+Gui.UICorner_162.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_162.Parent = Gui.Hilder
 
-Gui.UICorner_159.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_159.Parent = Gui.Swat
+Gui.UICorner_163.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_163.Parent = Gui.Swat
 
 Gui.Protector.Name = "Protector"
 Gui.Protector.Parent = Gui.List_9
@@ -4295,14 +4364,14 @@ Gui.Button_45.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_45.TextSize = 14.000
 Gui.Button_45.TextWrapped = true
 
-Gui.UICorner_160.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_160.Parent = Gui.Button_45
+Gui.UICorner_164.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_164.Parent = Gui.Button_45
 
-Gui.UICorner_161.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_161.Parent = Gui.Hilder_2
+Gui.UICorner_165.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_165.Parent = Gui.Hilder_2
 
-Gui.UICorner_162.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_162.Parent = Gui.Protector
+Gui.UICorner_166.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_166.Parent = Gui.Protector
 
 Gui.Medic.Name = "Medic"
 Gui.Medic.Parent = Gui.List_9
@@ -4327,14 +4396,14 @@ Gui.Button_46.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_46.TextSize = 14.000
 Gui.Button_46.TextWrapped = true
 
-Gui.UICorner_163.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_163.Parent = Gui.Button_46
+Gui.UICorner_167.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_167.Parent = Gui.Button_46
 
-Gui.UICorner_164.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_164.Parent = Gui.Hilder_3
+Gui.UICorner_168.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_168.Parent = Gui.Hilder_3
 
-Gui.UICorner_165.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_165.Parent = Gui.Medic
+Gui.UICorner_169.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_169.Parent = Gui.Medic
 
 Gui.Fighter.Name = "Fighter"
 Gui.Fighter.Parent = Gui.List_9
@@ -4359,14 +4428,14 @@ Gui.Button_47.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_47.TextSize = 14.000
 Gui.Button_47.TextWrapped = true
 
-Gui.UICorner_166.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_166.Parent = Gui.Button_47
+Gui.UICorner_170.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_170.Parent = Gui.Button_47
 
-Gui.UICorner_167.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_167.Parent = Gui.H2lder_2
+Gui.UICorner_171.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_171.Parent = Gui.H2lder_2
 
-Gui.UICorner_168.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_168.Parent = Gui.Fighter
+Gui.UICorner_172.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_172.Parent = Gui.Fighter
 
 Gui.lollipop.Name = "lollipop"
 Gui.lollipop.Parent = Gui.List_9
@@ -4391,26 +4460,26 @@ Gui.Button_48.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_48.TextSize = 14.000
 Gui.Button_48.TextWrapped = true
 
-Gui.UICorner_169.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_169.Parent = Gui.Button_48
+Gui.UICorner_173.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_173.Parent = Gui.Button_48
 
-Gui.UICorner_170.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_170.Parent = Gui.H2lder_3
+Gui.UICorner_174.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_174.Parent = Gui.H2lder_3
 
-Gui.UICorner_171.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_171.Parent = Gui.lollipop
+Gui.UICorner_175.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_175.Parent = Gui.lollipop
 
-Gui.UICorner_172.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_172.Parent = Gui.Section3
+Gui.UICorner_176.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_176.Parent = Gui.Section3
 
-Gui.TextButton_12.Parent = Gui.Section3
-Gui.TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.TextButton_12.BackgroundTransparency = 1.000
-Gui.TextButton_12.Size = UDim2.new(0, 372, 0, 30)
-Gui.TextButton_12.Font = Enum.Font.SourceSans
-Gui.TextButton_12.Text = ""
-Gui.TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-Gui.TextButton_12.TextSize = 14.000
+Gui.TextButton_13.Parent = Gui.Section3
+Gui.TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_13.BackgroundTransparency = 1.000
+Gui.TextButton_13.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_13.Font = Enum.Font.SourceSans
+Gui.TextButton_13.Text = ""
+Gui.TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_13.TextSize = 14.000
 
 Gui.Section5.Name = "Section5"
 Gui.Section5.Parent = Gui.UnScrollTs
@@ -4425,13 +4494,13 @@ Gui.Line_10.BorderSizePixel = 0
 Gui.Line_10.Position = UDim2.new(0, 5, 0, 30)
 Gui.Line_10.Size = UDim2.new(1, -10, 0, 2)
 
-Gui.Indicator_13.Name = "Indicator"
-Gui.Indicator_13.Parent = Gui.Line_10
-Gui.Indicator_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Indicator_13.BackgroundTransparency = 1.000
-Gui.Indicator_13.Position = UDim2.new(1.01381218, -30, -14, 0)
-Gui.Indicator_13.Size = UDim2.new(0, 25, 0, 25)
-Gui.Indicator_13.Image = "rbxassetid://2418686949"
+Gui.Indicator_14.Name = "Indicator"
+Gui.Indicator_14.Parent = Gui.Line_10
+Gui.Indicator_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Indicator_14.BackgroundTransparency = 1.000
+Gui.Indicator_14.Position = UDim2.new(1.01381218, -30, -14, 0)
+Gui.Indicator_14.Size = UDim2.new(0, 25, 0, 25)
+Gui.Indicator_14.Image = "rbxassetid://2418686949"
 
 Gui.Header_10.Name = "Header"
 Gui.Header_10.Parent = Gui.Section5
@@ -4468,14 +4537,14 @@ Gui.crash.Parent = Gui.List_10
 Gui.crash.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Gui.crash.Size = UDim2.new(1, 2, 0, 32)
 
-Gui.Holder_48.Name = "Holder"
-Gui.Holder_48.Parent = Gui.crash
-Gui.Holder_48.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.Holder_48.Position = UDim2.new(0, 1, 0, 1)
-Gui.Holder_48.Size = UDim2.new(1, -2, 1, -2)
+Gui.Holder_49.Name = "Holder"
+Gui.Holder_49.Parent = Gui.crash
+Gui.Holder_49.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Holder_49.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_49.Size = UDim2.new(1, -2, 1, -2)
 
 Gui.Button_49.Name = "Button"
-Gui.Button_49.Parent = Gui.Holder_48
+Gui.Button_49.Parent = Gui.Holder_49
 Gui.Button_49.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Gui.Button_49.Position = UDim2.new(0, 2, 0, 2)
 Gui.Button_49.Size = UDim2.new(1, -4, 1, -4)
@@ -4486,89 +4555,89 @@ Gui.Button_49.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui.Button_49.TextSize = 14.000
 Gui.Button_49.TextWrapped = true
 
-Gui.UICorner_173.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_173.Parent = Gui.Button_49
+Gui.UICorner_177.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_177.Parent = Gui.Button_49
 
-Gui.UICorner_174.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_174.Parent = Gui.Holder_48
+Gui.UICorner_178.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_178.Parent = Gui.Holder_49
 
-Gui.UICorner_175.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_175.Parent = Gui.crash
+Gui.UICorner_179.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_179.Parent = Gui.crash
 
 Gui.lag.Name = "lag"
 Gui.lag.Parent = Gui.List_10
 Gui.lag.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Gui.lag.Size = UDim2.new(1, 2, 0, 32)
 
-Gui.Holder_49.Name = "Holder"
-Gui.Holder_49.Parent = Gui.lag
-Gui.Holder_49.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Gui.Holder_49.Position = UDim2.new(0, 1, 0, 1)
-Gui.Holder_49.Size = UDim2.new(1, -2, 1, -2)
+Gui.Holder_50.Name = "Holder"
+Gui.Holder_50.Parent = Gui.lag
+Gui.Holder_50.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Gui.Holder_50.Position = UDim2.new(0, 1, 0, 1)
+Gui.Holder_50.Size = UDim2.new(1, -2, 1, -2)
 
-Gui.Label_5.Name = "Label"
-Gui.Label_5.Parent = Gui.Holder_49
-Gui.Label_5.BackgroundTransparency = 1.000
-Gui.Label_5.Position = UDim2.new(0, 5, 0.5, -7)
-Gui.Label_5.Size = UDim2.new(1, -50, 0, 14)
-Gui.Label_5.Font = Enum.Font.SourceSans
-Gui.Label_5.Text = "Lag Server"
-Gui.Label_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Label_5.TextSize = 14.000
-Gui.Label_5.TextWrapped = true
-Gui.Label_5.TextXAlignment = Enum.TextXAlignment.Left
+Gui.Label_6.Name = "Label"
+Gui.Label_6.Parent = Gui.Holder_50
+Gui.Label_6.BackgroundTransparency = 1.000
+Gui.Label_6.Position = UDim2.new(0, 5, 0.5, -7)
+Gui.Label_6.Size = UDim2.new(1, -50, 0, 14)
+Gui.Label_6.Font = Enum.Font.SourceSans
+Gui.Label_6.Text = "Lag Server"
+Gui.Label_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.Label_6.TextSize = 14.000
+Gui.Label_6.TextWrapped = true
+Gui.Label_6.TextXAlignment = Enum.TextXAlignment.Left
 
-Gui.Indicator_14.Name = "Indicator"
-Gui.Indicator_14.Parent = Gui.Holder_49
-Gui.Indicator_14.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Gui.Indicator_14.Position = UDim2.new(1, -42, 0, 2)
-Gui.Indicator_14.Size = UDim2.new(0, 40, 0, 26)
+Gui.Indicator_15.Name = "Indicator"
+Gui.Indicator_15.Parent = Gui.Holder_50
+Gui.Indicator_15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Gui.Indicator_15.Position = UDim2.new(1, -42, 0, 2)
+Gui.Indicator_15.Size = UDim2.new(0, 40, 0, 26)
 
-Gui.Overlay_4.Name = "Overlay"
-Gui.Overlay_4.Parent = Gui.Indicator_14
-Gui.Overlay_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Gui.Overlay_4.Position = UDim2.new(0, 2, 0, 2)
-Gui.Overlay_4.Size = UDim2.new(0, 22, 0, 22)
-Gui.Overlay_4.Image = "http://www.roblox.com/asset/?id=7827504335"
-Gui.Overlay_4.ImageTransparency = 1.000
-
-Gui.UICorner_176.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_176.Parent = Gui.Overlay_4
-
-Gui.UICorner_177.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_177.Parent = Gui.Indicator_14
-
-Gui.TextButton_13.Parent = Gui.Indicator_14
-Gui.TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.TextButton_13.BackgroundTransparency = 1.000
-Gui.TextButton_13.Position = UDim2.new(-7.9000001, 0, -0.0769230798, 0)
-Gui.TextButton_13.Size = UDim2.new(9, -2, 1.23076928, -2)
-Gui.TextButton_13.Font = Enum.Font.SourceSans
-Gui.TextButton_13.Text = ""
-Gui.TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
-Gui.TextButton_13.TextSize = 14.000
-
-Gui.UICorner_178.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_178.Parent = Gui.Holder_49
-
-Gui.UICorner_179.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_179.Parent = Gui.lag
+Gui.Overlay_5.Name = "Overlay"
+Gui.Overlay_5.Parent = Gui.Indicator_15
+Gui.Overlay_5.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Gui.Overlay_5.Position = UDim2.new(0, 2, 0, 2)
+Gui.Overlay_5.Size = UDim2.new(0, 22, 0, 22)
+Gui.Overlay_5.Image = "http://www.roblox.com/asset/?id=7827504335"
+Gui.Overlay_5.ImageTransparency = 1.000
 
 Gui.UICorner_180.CornerRadius = UDim.new(0, 5)
-Gui.UICorner_180.Parent = Gui.Section5
+Gui.UICorner_180.Parent = Gui.Overlay_5
 
-Gui.TextButton_14.Parent = Gui.Section5
+Gui.UICorner_181.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_181.Parent = Gui.Indicator_15
+
+Gui.TextButton_14.Parent = Gui.Indicator_15
 Gui.TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gui.TextButton_14.BackgroundTransparency = 1.000
-Gui.TextButton_14.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_14.Position = UDim2.new(-7.9000001, 0, -0.0769230798, 0)
+Gui.TextButton_14.Size = UDim2.new(9, -2, 1.23076928, -2)
 Gui.TextButton_14.Font = Enum.Font.SourceSans
 Gui.TextButton_14.Text = ""
 Gui.TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextButton_14.TextSize = 14.000
 
+Gui.UICorner_182.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_182.Parent = Gui.Holder_50
+
+Gui.UICorner_183.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_183.Parent = Gui.lag
+
+Gui.UICorner_184.CornerRadius = UDim.new(0, 5)
+Gui.UICorner_184.Parent = Gui.Section5
+
+Gui.TextButton_15.Parent = Gui.Section5
+Gui.TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextButton_15.BackgroundTransparency = 1.000
+Gui.TextButton_15.Size = UDim2.new(0, 372, 0, 30)
+Gui.TextButton_15.Font = Enum.Font.SourceSans
+Gui.TextButton_15.Text = ""
+Gui.TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextButton_15.TextSize = 14.000
+
 -- Scripts:
 
-local function XNEUP_script() -- XostumUIBreakIn.Sidebar.LocalScript 
+local function PSZY_script() -- XostumUIBreakIn.Sidebar.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Sidebar)
 
 	script.Parent.List.Utilities.MouseEnter:Connect(function()
@@ -4681,8 +4750,8 @@ local function XNEUP_script() -- XostumUIBreakIn.Sidebar.LocalScript
 		script.Parent.List.LocalPlayer.Button.Visible = false
 	end)
 end
-coroutine.wrap(XNEUP_script)()
-local function AIUKRN_script() -- XostumUIBreakIn.TextButton.LocalScript 
+coroutine.wrap(PSZY_script)()
+local function AMQJ_script() -- XostumUIBreakIn.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton)
 
 	local TS = game:GetService("TweenService")
@@ -4751,8 +4820,8 @@ local function AIUKRN_script() -- XostumUIBreakIn.TextButton.LocalScript
 		script.Parent.Parent.Parent.Sidebar:TweenSize(UDim2.new(0, 30,1.092, -40), "Out", "Sine", 0.3, true)
 	end)
 end
-coroutine.wrap(AIUKRN_script)()
-local function AFJYYI_script() -- XostumUIBreakIn.BG.LocalScript 
+coroutine.wrap(AMQJ_script)()
+local function AVUZEP_script() -- XostumUIBreakIn.BG.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.BG)
 
 	script.Parent.Parent.channels.settings.ScrollingFrame.Section2.List.fun1.Holder.Indicator.TextButton.MouseButton1Click:Connect(function()
@@ -4783,8 +4852,8 @@ local function AFJYYI_script() -- XostumUIBreakIn.BG.LocalScript
 		end
 	end
 end
-coroutine.wrap(AFJYYI_script)()
-local function WEYFLF_script() -- XostumUIBreakIn.DISLOL.LocalScript 
+coroutine.wrap(AVUZEP_script)()
+local function EZSBPZI_script() -- XostumUIBreakIn.DISLOL.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.DISLOL)
 
 	local q1 = script.Parent.Holder
@@ -4814,8 +4883,8 @@ local function WEYFLF_script() -- XostumUIBreakIn.DISLOL.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(WEYFLF_script)()
-local function ARCKC_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
+coroutine.wrap(EZSBPZI_script)()
+local function OMMMWFB_script() -- XostumUIBreakIn.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4828,8 +4897,8 @@ local function ARCKC_script() -- XostumUIBreakIn.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ARCKC_script)()
-local function BERVULT_script() -- XostumUIBreakIn.reload.LocalScript 
+coroutine.wrap(OMMMWFB_script)()
+local function UIJC_script() -- XostumUIBreakIn.reload.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.reload)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4841,16 +4910,16 @@ local function BERVULT_script() -- XostumUIBreakIn.reload.LocalScript
 	end)
 	
 end
-coroutine.wrap(BERVULT_script)()
-local function LVTYKTX_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
+coroutine.wrap(UIJC_script)()
+local function URTIGE_script() -- XostumUIBreakIn.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_3)
 
 	script.Parent.MouseButton2Click:Connect(function()
 		print("works")
 	end)
 end
-coroutine.wrap(LVTYKTX_script)()
-local function YCEW_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
+coroutine.wrap(URTIGE_script)()
+local function IAXNO_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4865,8 +4934,8 @@ local function YCEW_script() -- XostumUIBreakIn.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YCEW_script)()
-local function BGJBJI_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
+coroutine.wrap(IAXNO_script)()
+local function VXFMA_script() -- XostumUIBreakIn.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4879,8 +4948,8 @@ local function BGJBJI_script() -- XostumUIBreakIn.TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BGJBJI_script)()
-local function DWQMG_script() -- XostumUIBreakIn.Slider.mainScript 
+coroutine.wrap(VXFMA_script)()
+local function FTPK_script() -- XostumUIBreakIn.Slider.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4921,8 +4990,8 @@ local function DWQMG_script() -- XostumUIBreakIn.Slider.mainScript
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
-coroutine.wrap(DWQMG_script)()
-local function DIRPF_script() -- XostumUIBreakIn.Slider_2.mainScript 
+coroutine.wrap(FTPK_script)()
+local function FPVEOVB_script() -- XostumUIBreakIn.Slider_2.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_2)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -4964,8 +5033,8 @@ local function DIRPF_script() -- XostumUIBreakIn.Slider_2.mainScript
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
-coroutine.wrap(DIRPF_script)()
-local function YZWRF_script() -- XostumUIBreakIn.Slider_3.mainScript 
+coroutine.wrap(FPVEOVB_script)()
+local function KBWJ_script() -- XostumUIBreakIn.Slider_3.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_3)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -5006,8 +5075,8 @@ local function YZWRF_script() -- XostumUIBreakIn.Slider_3.mainScript
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
-coroutine.wrap(YZWRF_script)()
-local function KMGIZIH_script() -- XostumUIBreakIn.Slider_4.mainScript 
+coroutine.wrap(KBWJ_script)()
+local function GWCSZ_script() -- XostumUIBreakIn.Slider_4.mainScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_4)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -5048,8 +5117,8 @@ local function KMGIZIH_script() -- XostumUIBreakIn.Slider_4.mainScript
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
-coroutine.wrap(KMGIZIH_script)()
-local function FOON_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
+coroutine.wrap(GWCSZ_script)()
+local function XHSGCR_script() -- XostumUIBreakIn.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5062,8 +5131,8 @@ local function FOON_script() -- XostumUIBreakIn.TextButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FOON_script)()
-local function ZGNTL_script() -- XostumUIBreakIn.holding.LocalScript 
+coroutine.wrap(XHSGCR_script)()
+local function JSQHYZM_script() -- XostumUIBreakIn.holding.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.holding)
 
 	local UIXS = game:GetService('UserInputService')
@@ -5100,8 +5169,8 @@ local function ZGNTL_script() -- XostumUIBreakIn.holding.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZGNTL_script)()
-local function BICD_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(JSQHYZM_script)()
+local function HQSWDJA_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(shit)
@@ -5114,8 +5183,8 @@ local function BICD_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BICD_script)()
-local function XNSSRTG_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
+coroutine.wrap(HQSWDJA_script)()
+local function ZMCCXT_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.XostumUIBreakIn)
 
 	local P = script.Parent.Protector
@@ -5123,80 +5192,80 @@ local function XNSSRTG_script() -- XostumUIBreakIn.XostumUIBreakIn.LocalScript
 		script.Parent.Name = "XostumUIBreakIn"..P.worker1.Text..P.worker2.Text..P.worker3.Text..P.worker4.Text..P.worker5.Text..P.worker6.Text..P.worker7.Text..P.worker8.Text..P.worker9.Text..""
 	end
 end
-coroutine.wrap(XNSSRTG_script)()
-local function UYYF_script() -- XostumUIBreakIn.worker1.LocalScript 
+coroutine.wrap(ZMCCXT_script)()
+local function CFAKCNG_script() -- XostumUIBreakIn.worker1.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker1)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(UYYF_script)()
-local function SQXY_script() -- XostumUIBreakIn.worker2.LocalScript 
+coroutine.wrap(CFAKCNG_script)()
+local function FVJNWHM_script() -- XostumUIBreakIn.worker2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker2)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(SQXY_script)()
-local function AJNP_script() -- XostumUIBreakIn.worker3.LocalScript 
+coroutine.wrap(FVJNWHM_script)()
+local function RCJAWY_script() -- XostumUIBreakIn.worker3.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker3)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(AJNP_script)()
-local function AUGE_script() -- XostumUIBreakIn.worker4.LocalScript 
+coroutine.wrap(RCJAWY_script)()
+local function CLZQNFC_script() -- XostumUIBreakIn.worker4.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker4)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(AUGE_script)()
-local function YRJINI_script() -- XostumUIBreakIn.worker6.LocalScript 
+coroutine.wrap(CLZQNFC_script)()
+local function KZMBOED_script() -- XostumUIBreakIn.worker6.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker6)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(YRJINI_script)()
-local function TWQQRZ_script() -- XostumUIBreakIn.worker5.LocalScript 
+coroutine.wrap(KZMBOED_script)()
+local function XGWL_script() -- XostumUIBreakIn.worker5.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker5)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(TWQQRZ_script)()
-local function DLIIX_script() -- XostumUIBreakIn.worker9.LocalScript 
+coroutine.wrap(XGWL_script)()
+local function BHIGO_script() -- XostumUIBreakIn.worker9.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker9)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(DLIIX_script)()
-local function KLPKIIV_script() -- XostumUIBreakIn.worker8.LocalScript 
+coroutine.wrap(BHIGO_script)()
+local function WEMKPAE_script() -- XostumUIBreakIn.worker8.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker8)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(KLPKIIV_script)()
-local function YAQIZ_script() -- XostumUIBreakIn.worker7.LocalScript 
+coroutine.wrap(WEMKPAE_script)()
+local function AXBJFP_script() -- XostumUIBreakIn.worker7.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.worker7)
 
 	while wait() do
 		script.Parent.Text = math.random(1, 999999999)
 	end
 end
-coroutine.wrap(YAQIZ_script)()
-local function CTZIBG_script() -- Gui.TextButton.LocalScript 
+coroutine.wrap(AXBJFP_script)()
+local function CWDDYAT_script() -- Gui.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5211,8 +5280,8 @@ local function CTZIBG_script() -- Gui.TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CTZIBG_script)()
-local function HJVSBI_script() -- Gui.Holder.LocalScript 
+coroutine.wrap(CWDDYAT_script)()
+local function JHNAHPZ_script() -- Gui.Holder.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Holder)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5222,8 +5291,8 @@ local function HJVSBI_script() -- Gui.Holder.LocalScript
 		script.Parent.TextBox:TweenSize(UDim2.new(0, 140,1, -4), "Out", "Quad", 0.25, true)
 	end)
 end
-coroutine.wrap(HJVSBI_script)()
-local function ZQDFQBA_script() -- Gui.Button.LocalScript 
+coroutine.wrap(JHNAHPZ_script)()
+local function HVGWWQ_script() -- Gui.Button.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5250,8 +5319,8 @@ local function ZQDFQBA_script() -- Gui.Button.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ZQDFQBA_script)()
-local function YXAT_script() -- Gui.Button_2.LocalScript 
+coroutine.wrap(HVGWWQ_script)()
+local function OOAIRXW_script() -- Gui.Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -5278,8 +5347,8 @@ local function YXAT_script() -- Gui.Button_2.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(YXAT_script)()
-local function RFPBZ_script() -- Gui.TextButton_2.LocalScript 
+coroutine.wrap(OOAIRXW_script)()
+local function ISJSCGX_script() -- Gui.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5294,8 +5363,8 @@ local function RFPBZ_script() -- Gui.TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RFPBZ_script)()
-local function CMMFSS_script() -- Gui.Button_3.LocalScript 
+coroutine.wrap(ISJSCGX_script)()
+local function OAWH_script() -- Gui.Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_3)
 
 	local PlayerSelected = script.Parent.Parent.Parent.Parent["Player Name"].Holder.TextBox.Holder.Box
@@ -5361,8 +5430,8 @@ local function CMMFSS_script() -- Gui.Button_3.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(CMMFSS_script)()
-local function LKKBSHY_script() -- Gui.List_4.LocalScript 
+coroutine.wrap(OAWH_script)()
+local function HOGM_script() -- Gui.List_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.List_4)
 
 	local ja1 = script.Parent.o1.Holder
@@ -5745,8 +5814,8 @@ local function LKKBSHY_script() -- Gui.List_4.LocalScript
 	end)
 
 end
-coroutine.wrap(LKKBSHY_script)()
-local function GZYHYAJ_script() -- Gui.TextButton_3.LocalScript 
+coroutine.wrap(HOGM_script)()
+local function ATPSL_script() -- Gui.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5761,8 +5830,8 @@ local function GZYHYAJ_script() -- Gui.TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GZYHYAJ_script)()
-local function ORVKE_script() -- Gui.Button_18.LocalScript 
+coroutine.wrap(ATPSL_script)()
+local function ENDFIH_script() -- Gui.Button_18.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_18)
 
 	local hostFF1S = script.Parent.Parent.Parent.Parent.SubSection.Holder.List
@@ -5832,8 +5901,8 @@ local function ORVKE_script() -- Gui.Button_18.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(ORVKE_script)()
-local function ITVUKXG_script() -- Gui.TextButton_4.LocalScript 
+coroutine.wrap(ENDFIH_script)()
+local function CWSRHY_script() -- Gui.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -5848,10 +5917,11 @@ local function ITVUKXG_script() -- Gui.TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ITVUKXG_script)()
-local function REDCH_script() -- Gui.List_6.LocalScript 
+coroutine.wrap(CWSRHY_script)()
+local function GVOPCI_script() -- Gui.List_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.List_6)
 
+	local togglejump = script.Parent.Parent.Parent.Parent.autojump.Holder.Indicator.Overlay
 	local x1 = script.Parent.o1.Holder
 	local x2 = script.Parent.o2.Holder
 	local x3 = script.Parent.o3.Holder
@@ -5886,6 +5956,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x1.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-23.098073959350586, 3.5694773197174072, -212.10377502441406)}):Play()
@@ -5910,6 +5983,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x2.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x2, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-37.80261993408203, 3.97241473197937, -163.86109924316406)}):Play()
@@ -5934,6 +6010,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x3.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x3, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-48.073204040527344, 19.198543548583984, -204.19540405273438)}):Play()
@@ -5958,6 +6037,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x4.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x4, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(7.075776100158691, 19.450626373291016, -226.13023376464844)}):Play()
@@ -5982,6 +6064,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x5.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x5, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(16.90801239013672, 19.450626373291016, -193.13668823242188)}):Play()
@@ -6006,6 +6091,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x6.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x6, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(72.55574798583984, -14.030505180358887, -157.10716247558594)}):Play()
@@ -6030,6 +6118,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x7.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x7, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.392662048339844, 36.064796447753906, -219.856201171875)}):Play()
@@ -6054,6 +6145,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x8.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x8, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-58.33769226074219, 3.5694773197174072, -214.5098114013672)}):Play()
@@ -6078,6 +6172,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x9.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x9, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-15.005739212036133, 19.450626373291016, -186.34080505371094)}):Play()
@@ -6102,6 +6199,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x10.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x10, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(130.08753967285156, 4.250436305999756, -125.23743438720703)}):Play()
@@ -6126,6 +6226,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x11.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x11, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-429.0875549316406, 4.503622055053711, -120.84120178222656)}):Play()
@@ -6150,6 +6253,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x12.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x12, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-59.79267883300781, -286.5016784667969, -1472.144775390625)}):Play()
@@ -6174,6 +6280,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x13.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x13, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(265.8382263183594, -250.9675750732422, -1602.8133544921875)}):Play()
@@ -6198,6 +6307,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x14.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x14, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-33.61156463623047, -198.6395721435547, 1122.3699951171875)}):Play()
@@ -6222,6 +6334,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x15.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x15, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-5.9383344650268555, 3.569477081298828, -208.07656860351562)}):Play()
@@ -6246,6 +6361,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x16.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x16, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-46.3376579284668, 3.569185256958008, -193.1593475341797)}):Play()
@@ -6270,6 +6388,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x17.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x17, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-42.972801208496094, 3.5694773197174072, -224.65155029296875)}):Play()
@@ -6294,6 +6415,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x18.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x18, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-2485.063232421875, 1404.220458984375, -1897.572509765625)}):Play()
@@ -6318,6 +6442,9 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 	x19.Button.MouseButton1Click:Connect(function()
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
+		if togglejump.Position == UDim2.new(1, -24,0, 2) then
+			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+		end
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(2987.767333984375, 4414.787109375, -2269.5048828125)}):Play()
@@ -6327,42 +6454,26 @@ local function REDCH_script() -- Gui.List_6.LocalScript
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(REDCH_script)()
-local function YQKUZQO_script() -- Gui.TextButton_5.LocalScript 
+coroutine.wrap(GVOPCI_script)()
+local function HSSRQ_script() -- Gui.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.SubSection.Size == UDim2.new(1, 2,0, 42) then
 			game:GetService("TweenService"):Create(script.Parent.Parent.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 45}):Play()
 			script.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 748), "Out", "Quad", 0.25, true)
-			script.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 794), "Out", "Quad", 0.25, true)
+			script.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 831), "Out", "Quad", 0.25, true)
 		else
 			game:GetService("TweenService"):Create(script.Parent.Parent.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 			script.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
-			script.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+			script.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		end
 	end)
 	--{1, -10},{0, 794}
 end
-coroutine.wrap(YQKUZQO_script)()
-local function CMNTO_script() -- Gui.TextButton_6.LocalScript 
+coroutine.wrap(HSSRQ_script)()
+local function SDOUSF_script() -- Gui.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', Gui.TextButton_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Parent.Section1.Size == UDim2.new(1, -10,0, 40) then
-			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 90}):Play()
-			script.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
-		else
-			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
-			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Section1.List.SubSection.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
-			script.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
-			script.Parent.Parent.Parent.Section1.List.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
-		end
-	end)
-end
-coroutine.wrap(CMNTO_script)()
-local function RGYCM_script() -- Gui.TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Overlay.Position == UDim2.new(0, 2,0, 2) then
@@ -6376,8 +6487,40 @@ local function RGYCM_script() -- Gui.TextButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RGYCM_script)()
-local function TALUQ_script() -- Gui.loopkillem.LocalScript 
+coroutine.wrap(SDOUSF_script)()
+local function RJAHMG_script() -- Gui.TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Section1.Size == UDim2.new(1, -10,0, 40) then
+			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 90}):Play()
+			script.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
+		else
+			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Section1.List.SubSection.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+			script.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
+			script.Parent.Parent.Parent.Section1.List.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
+		end
+	end)
+end
+coroutine.wrap(RJAHMG_script)()
+local function YTAYLU_script() -- Gui.TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Overlay.Position == UDim2.new(0, 2,0, 2) then
+			script.Parent.Parent.Overlay:TweenPosition(UDim2.new(1, -24,0, 2), "Out", "Quad", 0.15, true)
+			game:GetService("TweenService"):Create(script.Parent.Parent.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {ImageTransparency = 0}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(75, 255, 75)}):Play()
+		else
+			game:GetService("TweenService"):Create(script.Parent.Parent.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {ImageTransparency = 1}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(45, 45, 45)}):Play()
+			script.Parent.Parent.Overlay:TweenPosition(UDim2.new(0, 2,0, 2), "Out", "Quad", 0.15, true)
+		end
+	end)
+end
+coroutine.wrap(YTAYLU_script)()
+local function BSDSEBS_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
 	while wait(2.12) do
@@ -6396,9 +6539,9 @@ local function TALUQ_script() -- Gui.loopkillem.LocalScript
 		end
 	end
 end
-coroutine.wrap(TALUQ_script)()
-local function DSCCUX_script() -- Gui.TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_8)
+coroutine.wrap(BSDSEBS_script)()
+local function KWVNKT_script() -- Gui.TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Overlay.Position == UDim2.new(0, 2,0, 2) then
@@ -6412,8 +6555,8 @@ local function DSCCUX_script() -- Gui.TextButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DSCCUX_script)()
-local function KAPAB_script() -- Gui.healYS.LocalScript 
+coroutine.wrap(KWVNKT_script)()
+local function HMXRNL_script() -- Gui.healYS.LocalScript 
 	local script = Instance.new('LocalScript', Gui.healYS)
 
 	while wait() do
@@ -6435,9 +6578,9 @@ local function KAPAB_script() -- Gui.healYS.LocalScript
 		end
 	end
 end
-coroutine.wrap(KAPAB_script)()
-local function DWDOSCL_script() -- Gui.TextButton_9.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_9)
+coroutine.wrap(HMXRNL_script)()
+local function GANVMKB_script() -- Gui.TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Overlay.Position == UDim2.new(0, 2,0, 2) then
@@ -6451,8 +6594,8 @@ local function DWDOSCL_script() -- Gui.TextButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DWDOSCL_script)()
-local function MMRXKY_script() -- Gui.infplanks.LocalScript 
+coroutine.wrap(GANVMKB_script)()
+local function ZIZAKW_script() -- Gui.infplanks.LocalScript 
 	local script = Instance.new('LocalScript', Gui.infplanks)
 
 	while wait() do
@@ -6462,8 +6605,8 @@ local function MMRXKY_script() -- Gui.infplanks.LocalScript
 		end
 	end
 end
-coroutine.wrap(MMRXKY_script)()
-local function NXKIR_script() -- Gui.removetools.LocalScript 
+coroutine.wrap(ZIZAKW_script)()
+local function OOBUEB_script() -- Gui.removetools.LocalScript 
 	local script = Instance.new('LocalScript', Gui.removetools)
 
 	local q1 = script.Parent.Holder
@@ -6504,8 +6647,8 @@ local function NXKIR_script() -- Gui.removetools.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(NXKIR_script)()
-local function JZBJ_script() -- Gui.catfun.LocalScript 
+coroutine.wrap(OOBUEB_script)()
+local function KSVZZ_script() -- Gui.catfun.LocalScript 
 	local script = Instance.new('LocalScript', Gui.catfun)
 
 	local v1 = script.Parent.H0Qurlder
@@ -6530,8 +6673,8 @@ local function JZBJ_script() -- Gui.catfun.LocalScript
 		game:GetService("TweenService"):Create(v1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(JZBJ_script)()
-local function PGIHQMR_script() -- Gui.UnlockAttic.LocalScript 
+coroutine.wrap(KSVZZ_script)()
+local function NORAO_script() -- Gui.UnlockAttic.LocalScript 
 	local script = Instance.new('LocalScript', Gui.UnlockAttic)
 
 	local f1 = script.Parent.Hohlder
@@ -6567,8 +6710,8 @@ local function PGIHQMR_script() -- Gui.UnlockAttic.LocalScript
 		game:GetService("TweenService"):Create(f1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(PGIHQMR_script)()
-local function IVDDU_script() -- Gui.openbasedoor.LocalScript 
+coroutine.wrap(NORAO_script)()
+local function OYWC_script() -- Gui.openbasedoor.LocalScript 
 	local script = Instance.new('LocalScript', Gui.openbasedoor)
 
 	local q1 = script.Parent.H3lder
@@ -6603,8 +6746,8 @@ local function IVDDU_script() -- Gui.openbasedoor.LocalScript
 		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IVDDU_script)()
-local function AMCG_script() -- Gui.opensafe.LocalScript 
+coroutine.wrap(OYWC_script)()
+local function IHJAN_script() -- Gui.opensafe.LocalScript 
 	local script = Instance.new('LocalScript', Gui.opensafe)
 
 	local qq1 = script.Parent.H0lder
@@ -6638,9 +6781,9 @@ local function AMCG_script() -- Gui.opensafe.LocalScript
 		game:GetService("TweenService"):Create(qq1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(AMCG_script)()
-local function GNSPAPS_script() -- Gui.TextButton_10.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_10)
+coroutine.wrap(IHJAN_script)()
+local function DEWSH_script() -- Gui.TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.SubSection.Size == UDim2.new(1, 2,0, 42) then
@@ -6654,9 +6797,9 @@ local function GNSPAPS_script() -- Gui.TextButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GNSPAPS_script)()
-local function WFBOF_script() -- Gui.TextButton_11.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_11)
+coroutine.wrap(DEWSH_script)()
+local function ZESTS_script() -- Gui.TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Section4.Size == UDim2.new(1, -10,0, 40) then
@@ -6670,8 +6813,8 @@ local function WFBOF_script() -- Gui.TextButton_11.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WFBOF_script)()
-local function YNDAS_script() -- Gui.Officer.LocalScript 
+coroutine.wrap(ZESTS_script)()
+local function QPAHJAG_script() -- Gui.Officer.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Officer)
 
 	local qn1 = script.Parent.H2lder
@@ -6699,8 +6842,8 @@ local function YNDAS_script() -- Gui.Officer.LocalScript
 		game:GetService("TweenService"):Create(qn1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(YNDAS_script)()
-local function IHUTQGE_script() -- Gui.Swat.LocalScript 
+coroutine.wrap(QPAHJAG_script)()
+local function SNBN_script() -- Gui.Swat.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Swat)
 
 	local qs1 = script.Parent.Hilder
@@ -6728,8 +6871,8 @@ local function IHUTQGE_script() -- Gui.Swat.LocalScript
 		game:GetService("TweenService"):Create(qs1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(IHUTQGE_script)()
-local function SCBXIIT_script() -- Gui.Protector.LocalScript 
+coroutine.wrap(SNBN_script)()
+local function JKPWTOC_script() -- Gui.Protector.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Protector)
 
 	local k1 = script.Parent.Hilder
@@ -6757,8 +6900,8 @@ local function SCBXIIT_script() -- Gui.Protector.LocalScript
 		game:GetService("TweenService"):Create(k1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(SCBXIIT_script)()
-local function JMCDKD_script() -- Gui.Medic.LocalScript 
+coroutine.wrap(JKPWTOC_script)()
+local function FMEQLEC_script() -- Gui.Medic.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Medic)
 
 	local l1 = script.Parent.Hilder
@@ -6786,8 +6929,8 @@ local function JMCDKD_script() -- Gui.Medic.LocalScript
 		game:GetService("TweenService"):Create(l1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(JMCDKD_script)()
-local function EPSSM_script() -- Gui.Fighter.LocalScript 
+coroutine.wrap(FMEQLEC_script)()
+local function HTGK_script() -- Gui.Fighter.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Fighter)
 
 	local g1 = script.Parent.H2lder
@@ -6815,8 +6958,8 @@ local function EPSSM_script() -- Gui.Fighter.LocalScript
 		game:GetService("TweenService"):Create(g1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(EPSSM_script)()
-local function KQWXWFG_script() -- Gui.lollipop.LocalScript 
+coroutine.wrap(HTGK_script)()
+local function PRDNOY_script() -- Gui.lollipop.LocalScript 
 	local script = Instance.new('LocalScript', Gui.lollipop)
 
 	local t1 = script.Parent.H2lder
@@ -6844,9 +6987,9 @@ local function KQWXWFG_script() -- Gui.lollipop.LocalScript
 		game:GetService("TweenService"):Create(t1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(KQWXWFG_script)()
-local function IGPV_script() -- Gui.TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_12)
+coroutine.wrap(PRDNOY_script)()
+local function WBLOI_script() -- Gui.TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Section3.Size == UDim2.new(1, -10,0, 40) then
@@ -6858,8 +7001,8 @@ local function IGPV_script() -- Gui.TextButton_12.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IGPV_script)()
-local function JVOT_script() -- Gui.Button_49.LocalScript 
+coroutine.wrap(WBLOI_script)()
+local function NSAE_script() -- Gui.Button_49.LocalScript 
 	local script = Instance.new('LocalScript', Gui.Button_49)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -7166,9 +7309,9 @@ local function JVOT_script() -- Gui.Button_49.LocalScript
 		game:GetService("TweenService"):Create(script.Parent.Parent, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
 	end)
 end
-coroutine.wrap(JVOT_script)()
-local function XXPU_script() -- Gui.TextButton_13.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_13)
+coroutine.wrap(NSAE_script)()
+local function XQQN_script() -- Gui.TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Overlay.Position == UDim2.new(0, 2,0, 2) then
@@ -7182,8 +7325,8 @@ local function XXPU_script() -- Gui.TextButton_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XXPU_script)()
-local function JNTP_script() -- Gui.lag.LocalScript 
+coroutine.wrap(XQQN_script)()
+local function MSHKAJ_script() -- Gui.lag.LocalScript 
 	local script = Instance.new('LocalScript', Gui.lag)
 
 	while wait() do
@@ -7194,9 +7337,9 @@ local function JNTP_script() -- Gui.lag.LocalScript
 		end
 	end
 end
-coroutine.wrap(JNTP_script)()
-local function QWAFU_script() -- Gui.TextButton_14.LocalScript 
-	local script = Instance.new('LocalScript', Gui.TextButton_14)
+coroutine.wrap(MSHKAJ_script)()
+local function TPCYNM_script() -- Gui.TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', Gui.TextButton_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Parent.Section5.Size == UDim2.new(1, -10,0, 40) then
@@ -7208,7 +7351,7 @@ local function QWAFU_script() -- Gui.TextButton_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QWAFU_script)()
+coroutine.wrap(TPCYNM_script)()
 else
 	warn("Unknown Game, "..game.PlaceId.."")
 end
