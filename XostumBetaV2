@@ -5962,7 +5962,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-23.098073959350586, 3.5694773197174072, -212.10377502441406)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -5989,7 +5989,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-37.80261993408203, 3.97241473197937, -163.86109924316406)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x2, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6016,7 +6016,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-48.073204040527344, 19.198543548583984, -204.19540405273438)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x3, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6043,7 +6043,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(7.075776100158691, 19.450626373291016, -226.13023376464844)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x4, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6070,7 +6070,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(16.90801239013672, 19.450626373291016, -193.13668823242188)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x5, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6097,7 +6097,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(72.55574798583984, -14.030505180358887, -157.10716247558594)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x6, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6124,7 +6124,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.392662048339844, 36.064796447753906, -219.856201171875)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x7, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6151,7 +6151,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-58.33769226074219, 3.5694773197174072, -214.5098114013672)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x8, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6178,7 +6178,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-15.005739212036133, 19.450626373291016, -186.34080505371094)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x9, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6205,7 +6205,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(130.08753967285156, 4.250436305999756, -125.23743438720703)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x10, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6232,7 +6232,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-429.0875549316406, 4.503622055053711, -120.84120178222656)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x11, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6259,7 +6259,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-59.79267883300781, -286.5016784667969, -1472.144775390625)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x12, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6286,7 +6286,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(265.8382263183594, -250.9675750732422, -1602.8133544921875)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x13, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6313,7 +6313,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-33.61156463623047, -198.6395721435547, 1122.3699951171875)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x14, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6340,7 +6340,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-5.9383344650268555, 3.569477081298828, -208.07656860351562)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x15, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6367,7 +6367,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-46.3376579284668, 3.569185256958008, -193.1593475341797)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x16, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6394,7 +6394,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-42.972801208496094, 3.5694773197174072, -224.65155029296875)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x17, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6421,7 +6421,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-2485.063232421875, 1404.220458984375, -1897.572509765625)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x18, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
@@ -6448,7 +6448,7 @@ local function GVOPCI_script() -- Gui.List_6.LocalScript
 		script.Parent.Parent.Parent.Parent.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.SubSection.Holder.Indicator, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(2987.767333984375, 4414.787109375, -2269.5048828125)}):Play()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 90), "Out", "Quad", 0.25, true)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 125), "Out", "Quad", 0.25, true)
 		--
 		wait(0.16)
 		game:GetService("TweenService"):Create(x19, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
