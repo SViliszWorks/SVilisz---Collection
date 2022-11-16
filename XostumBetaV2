@@ -7310,12 +7310,6 @@ local function MHYE_script() -- Gui.TextButton_15.LocalScript
 	end)
 end
 coroutine.wrap(MHYE_script)()
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Xostum V3.1";
- Icon = "";
- Duration = 1;
- Callback = NotificationBindable;
-})
 else
 	warn("Unknown Game, "..game.PlaceId.."")
 end
