@@ -6899,8 +6899,7 @@ local function BRDU_script() -- Gui.findsafe.LocalScript
 		game:GetService("TweenService"):Create(vw, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if vw.Button.Text == "Find Safe" then
-			vw.Button.Text = "Looking For Safe"
-			wait(math.random(1.8, 3.999))
+			wait(1)
 			while wait() do
 				fireclickdetector(game:GetService("Workspace").TheHouse.P1.ClickDetector)
 				wait(0.2)
@@ -6914,7 +6913,6 @@ local function BRDU_script() -- Gui.findsafe.LocalScript
 				wait(0.2)
 				fireclickdetector(game:GetService("Workspace").TheHouse.P6.ClickDetector)
 			end
-			wait(7.32)
 			vw.Button.Text = "Find Safe "
 		elseif vw.Button.Text == "Looking For Safe" then
 			warn("Please Wait While Xostum Look For The Safe.")
