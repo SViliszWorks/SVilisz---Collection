@@ -6494,154 +6494,116 @@ local function HZWFI_script() -- Gui.Indicator_7.LocalScript
 	end
 	buttons.x1.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x2.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x3.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x4.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3);
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1);
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x5.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x6.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x7.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x8.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x9.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x10.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x11.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x12.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x13.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x14.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x15.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x16.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x17.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x18.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 	buttons.x19.Button.MouseButton1Click:Connect(function()
 		if PlayerJump == true then
-			wait(0.3)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
-			wait(0.1)
-			game:GetService("ReplicatedStorage").RemoteEvents.makeJump:FireServer()
+			wait(0.4)
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
 		end
 	end)
 end
