@@ -6938,7 +6938,7 @@ local function BRDU_script() -- Gui.findsafe.LocalScript
 		--
 		if vw.Button.Text == "Find Safe" then
 			vw.Button.Text = "Looking For Safe"
-			wait(1)
+			wait(math.random(1.8, 3.999))
 			while wait() do
 				fireclickdetector(game:GetService("Workspace").TheHouse.P1.ClickDetector)
 				wait(0.2)
