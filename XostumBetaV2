@@ -5299,8 +5299,6 @@ local function OVZOSTE_script() -- XostumUIBreakIn.TextButton_7.LocalScript
 		else
 			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 			script.Parent.Parent.Parent.Section1:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
-			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Section1.List.SubSection.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
-			script.Parent.Parent.Parent.Section1.List.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		end
 	end)
 end
