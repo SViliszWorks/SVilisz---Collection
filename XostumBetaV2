@@ -6112,17 +6112,7 @@ coroutine.wrap(PGNDMN_script)()
 local function FLYST_script() -- XostumUIBreakIn.spamdoor_2.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.spamdoor_2)
 
-	if game.PlaceId == 4620170611 then
-	local localLOL = {[1] = workspace.Money3}
-	while wait() do
-		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
-			wait(0.2)
-			game:GetService("ReplicatedStorage").RemoteEvents.FoundMoney:FireServer(unpack(localLOL))
-		end
-		end
-		else
-		script:Destroy()
-		end
+	script:Destroy()
 end
 coroutine.wrap(FLYST_script)()
 local function EDPAKZ_script() -- XostumUIBreakIn.TextButton_12.LocalScript 
