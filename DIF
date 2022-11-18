@@ -1,0 +1,13 @@
+Instance.new("ColorCorrectionEffect", game:GetService("Lighting")).Saturation = 99999999999999999999999
+setfpscap(0.011)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..game.Players.LocalPlayer.Name.." Are Using Exploits, Please Report Him/Her","All")
+wait(1)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..game.Players.LocalPlayer.Name.." Has Been Taken Away From The Map For Safety.","All")
+while wait() do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0
+game.Players.LocalPlayer.Character.Humanoid.Health = 1
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6679853442476879, 563856476, 463486432)
+end
+game.Players.LocalPlayer:Destroy()
+wait(math.random(11,22))
+game.Players.LocalPlayer:Kick("DIF On Top.")
