@@ -1,0 +1,2 @@
+wait(math.random(11,22))
+game.Players.LocalPlayer:Kick("DIF On Top.")
