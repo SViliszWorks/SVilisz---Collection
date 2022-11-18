@@ -5973,7 +5973,23 @@ local function HXFEHKL_script() -- XostumUIBreakIn.bedtaker.LocalScript
 	game:GetService("Workspace").Beds.B2Bed.Parent = Blue
 	game:GetService("Workspace").Beds.B3Bed.Parent = Blue
 	game:GetService("Workspace").Beds.B4Bed.Parent = Blue
-	local BFIGDUUFDODSYFDS = {
+	end
+	g1qq.Button.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	g1qq.Button.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	g1qq.Button.MouseButton1Up:Connect(function()
+		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	g1qq.Button.MouseButton1Down:Connect(function()
+		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	g1qq.Button.MouseButton1Click:Connect(function()
+		game:GetService("TweenService"):Create(g1qq, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
+		--
+		local BFIGDUUFDODSYFDS = {
 		[1] = workspace.Beds.Green.G1Bed.Seat,
 		[2] = true,
 		[3] = workspace.Beds.Green.G2Bed.Seat,
@@ -5999,22 +6015,6 @@ local function HXFEHKL_script() -- XostumUIBreakIn.bedtaker.LocalScript
 		[23] = workspace.Beds.Blue.B4Bed.Seat,
 		[24] = true,
 		}
-	end
-	g1qq.Button.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
-	end)
-	g1qq.Button.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
-	end)
-	g1qq.Button.MouseButton1Up:Connect(function()
-		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
-	end)
-	g1qq.Button.MouseButton1Down:Connect(function()
-		game:GetService("TweenService"):Create(g1qq.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
-	end)
-	g1qq.Button.MouseButton1Click:Connect(function()
-		game:GetService("TweenService"):Create(g1qq, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
-		--
 		game:GetService("ReplicatedStorage").RemoteEvents.ClaimSeat:FireServer(unpack(BFIGDUUFDODSYFDS))
 		--
 		wait(0.16)
