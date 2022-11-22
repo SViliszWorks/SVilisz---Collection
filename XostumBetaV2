@@ -1,10 +1,11 @@
 if game.PlaceId == 3851622790 or
-	game.PlaceId == 4620170611 then
-	game.StarterGui:SetCore("SendNotification",  {
+game.PlaceId == 4620170611 then
+game.StarterGui:SetCore("SendNotification",  {
  Title = "Xostum Notification";
  Text = "Loaded V3.2b";
  Icon = "";
- Duration = 1;
+ Duration = 10;
+ Button1 = "no u";
  Callback = NotificationBindable;
 })
 	wait(math.random(1.001, 3.999))
