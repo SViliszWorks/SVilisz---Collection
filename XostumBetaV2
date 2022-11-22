@@ -5436,7 +5436,7 @@ local function PXPE_script() -- XostumUIBreakIn.Sidebar.LocalScript
 		script.Parent.List.LocalPlayer.Button.Visible = false
 		script.Parent.List.Workspace.Button.Visible = false
 	end)
-	
+
 	script.Parent.List.LocalPlayer.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent.List.LocalPlayer.Button, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
 		game:GetService("TweenService"):Create(script.Parent.List.LocalPlayer.Button, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0), {TextColor3 = Color3.fromRGB(125, 125, 125)}):Play()
@@ -5577,7 +5577,7 @@ local function GUWN_script() -- XostumUIBreakIn.TextButton.LocalScript
 			script.Parent.Parent.List.Settings.Button.Visible = false
 			script.Parent.Parent.List.LocalPlayer.Button.Visible = false
 			script.Parent.Parent.List.Workspace.Button.Visible = false
-	end
+		end
 	end)
 	Q.MouseEnter:Connect(function()
 		TS:Create(Q, TFUNC, {TextColor3 = In}):Play()
@@ -5680,7 +5680,7 @@ local function CTWR_script() -- XostumUIBreakIn.cammode.LocalScript
 			game.Players.LocalPlayer.DevCameraOcclusionMode = Enum.DevCameraOcclusionMode.Zoom
 		end
 	end
-	
+
 end
 coroutine.wrap(CTWR_script)()
 local function GTXUUGH_script() -- XostumUIBreakIn.TextButton_4.LocalScript 
@@ -5866,6 +5866,8 @@ local function JJKLPO_script() -- XostumUIBreakIn.TextButton_9.LocalScript
 		else
 			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 			script.Parent.Parent.Parent.Section2:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Section2.List.SubSection.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+			script.Parent.Parent.Parent.Section2.List.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		end
 	end)
 end
@@ -5874,29 +5876,29 @@ local function LROOHNN_script() -- XostumUIBreakIn.Slider.mainScript
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
-	
+
 	local function initiateDrag(frame, callbackFunction)
 		local dragging = false
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = true
 			end
 		end)
-		
+
 		frame.InputEnded:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = false
 			end
 		end)
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
 				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
 			end
 		end)
-		
+
 		game:GetService("UserInputService").InputChanged:Connect(function(input)
 			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
@@ -5904,7 +5906,7 @@ local function LROOHNN_script() -- XostumUIBreakIn.Slider.mainScript
 			end
 		end)
 	end
-	
+
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*game.Players.LocalPlayer.Character.Humanoid.WalkSpeed))
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*200
@@ -5916,29 +5918,29 @@ local function EGGPQZ_script() -- XostumUIBreakIn.Slider_2.mainScript
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_2)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
-	
+
 	local function initiateDrag(frame, callbackFunction)
 		local dragging = false
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = true
 			end
 		end)
-		
+
 		frame.InputEnded:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = false
 			end
 		end)
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
 				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
 			end
 		end)
-		
+
 		game:GetService("UserInputService").InputChanged:Connect(function(input)
 			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
@@ -5946,7 +5948,7 @@ local function EGGPQZ_script() -- XostumUIBreakIn.Slider_2.mainScript
 			end
 		end)
 	end
-	
+
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*game.Players.LocalPlayer.Character.Humanoid.JumpHeight))
 		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = value*200
@@ -5959,29 +5961,29 @@ local function DLGTFQJ_script() -- XostumUIBreakIn.Slider_3.mainScript
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_3)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
-	
+
 	local function initiateDrag(frame, callbackFunction)
 		local dragging = false
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = true
 			end
 		end)
-		
+
 		frame.InputEnded:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = false
 			end
 		end)
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
 				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
 			end
 		end)
-		
+
 		game:GetService("UserInputService").InputChanged:Connect(function(input)
 			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
@@ -5989,7 +5991,7 @@ local function DLGTFQJ_script() -- XostumUIBreakIn.Slider_3.mainScript
 			end
 		end)
 	end
-	
+
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*workspace.Gravity))
 		workspace.Gravity = value*196.2
@@ -6001,29 +6003,29 @@ local function IEUH_script() -- XostumUIBreakIn.Slider_4.mainScript
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Slider_4)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
-	
+
 	local function initiateDrag(frame, callbackFunction)
 		local dragging = false
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = true
 			end
 		end)
-		
+
 		frame.InputEnded:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				dragging = false
 			end
 		end)
-		
+
 		frame.InputBegan:Connect(function(input)
 			if input.UserInputType == Enum.UserInputType.MouseButton1 then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
 				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
 			end
 		end)
-		
+
 		game:GetService("UserInputService").InputChanged:Connect(function(input)
 			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
 				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
@@ -6031,7 +6033,7 @@ local function IEUH_script() -- XostumUIBreakIn.Slider_4.mainScript
 			end
 		end)
 	end
-	
+
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*game.Workspace.Camera.FieldOfView))
 		game.Workspace.Camera.FieldOfView = value*120
@@ -6082,7 +6084,7 @@ local function AYSPIJ_script() -- XostumUIBreakIn.Holder_15.LocalScript
 			end)
 		end
 	end
-	
+
 end
 coroutine.wrap(AYSPIJ_script)()
 local function AEXGY_script() -- XostumUIBreakIn.TextButton_11.LocalScript 
@@ -6343,14 +6345,14 @@ local function QBOAK_script() -- XostumUIBreakIn.holding.LocalScript
 	local dragSpeed = 0.05
 	local dragStart = nil
 	local startPos = nil
-	
+
 	local function updateInput(input)
 		local delta = input.Position - dragStart
 		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
 			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		game:GetService('TweenService'):Create(script.Parent, TweenInfo.new(dragSpeed), {Position = position}):Play()
 	end
-	
+
 	script.Parent.InputBegan:Connect(function(input)
 		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
 			dragToggle = true
@@ -6363,7 +6365,7 @@ local function QBOAK_script() -- XostumUIBreakIn.holding.LocalScript
 			end)
 		end
 	end)
-	
+
 	UIXS.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			if dragToggle then
