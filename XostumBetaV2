@@ -7099,7 +7099,7 @@ local function IFLFISM_script() -- Gui.Slider.mainScript
 	end
 
 	initiateDrag(script.Parent, function(value)
-		script.Parent.Parent.Input.Text = tostring(math.floor(value*500))
+		script.Parent.Parent.Input.Text = tostring(math.floor(value*1000))
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
@@ -7815,7 +7815,7 @@ coroutine.wrap(BQOAH_script)()
 local function GLGKWI_script() -- Gui.loopkillem.LocalScript 
 	local script = Instance.new('LocalScript', Gui.loopkillem)
 
-	while wait(1) do
+	while wait(0.21) do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
 			for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
 				for i = 1,1 do
@@ -7892,7 +7892,12 @@ local function SYWKFL_script() -- Gui.infplanks.LocalScript
 
 	while wait() do
 		if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
+		for i = 1,10 do
 			game:GetService("ReplicatedStorage").RemoteEvents.RefreshPlanks:FireServer()
+			game:GetService("ReplicatedStorage").RemoteEvents.RefreshPlanks:FireServer()
+			game:GetService("ReplicatedStorage").RemoteEvents.RefreshPlanks:FireServer()
+			game:GetService("ReplicatedStorage").RemoteEvents.RefreshPlanks:FireServer()
+			end
 		end
 	end
 end
