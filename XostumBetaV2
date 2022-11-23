@@ -7087,7 +7087,6 @@ local function FKVQGYL_script() -- Gui.Button_17.LocalScript
 				game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("BloxyCola")
 			else
 				for i = 1,amount.Text do
-				wait()
 					game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("BloxyCola")
 				end
 			end
@@ -7098,7 +7097,6 @@ local function FKVQGYL_script() -- Gui.Button_17.LocalScript
 				game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
 			else
 				for i = 1,amount.Text do
-				wait()
 					game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
 				end
 			end
@@ -7129,7 +7127,6 @@ local function FKVQGYL_script() -- Gui.Button_17.LocalScript
 				game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cookie")
 			else
 				for i = 1,amount.Text do
-				wait()
 					game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cookie")
 				end
 			end
