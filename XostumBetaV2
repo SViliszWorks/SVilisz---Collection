@@ -5989,7 +5989,7 @@ local function EVSENU_script() -- XostumUIBreakIn.Slider.mainScript
 	
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*game.Players.LocalPlayer.Character.Humanoid.WalkSpeed))
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*200
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value*500
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
@@ -6031,8 +6031,8 @@ local function HPESFBZ_script() -- XostumUIBreakIn.Slider_2.mainScript
 	
 	initiateDrag(script.Parent, function(value)
 		script.Parent.Parent.Input.Text = tostring(math.floor(value*game.Players.LocalPlayer.Character.Humanoid.JumpHeight))
-		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = value*200
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = value*370
+		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = value*600
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = value*600
 	end)
 	script.Parent.Parent.Input.TextEditable = false
 end
