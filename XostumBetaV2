@@ -2,10 +2,9 @@ if game.PlaceId == 3851622790 or
 game.PlaceId == 4620170611 then
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Xostum Notification";
- Text = "Loaded V3.2b";
+ Text = "Loaded V3.2N";
  Icon = "";
  Duration = 10;
- Button1 = "no u";
  Callback = NotificationBindable;
 })
 	wait(math.random(1.001, 3.999))
@@ -9680,6 +9679,8 @@ local function JVGJIJ_script() -- Gui.TextButton_8.LocalScript
 		else
 			game:GetService("TweenService"):Create(script.Parent.Parent.Line.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
 			script.Parent.Parent.Parent.Section6:TweenSize(UDim2.new(1, -10,0, 40), "Out", "Quad", 0.25, true)
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Section6.List.SubSection.Holder.Indicator, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Rotation = 0}):Play()
+			script.Parent.Parent.Parent.Section6.List.SubSection:TweenSize(UDim2.new(1, 2,0, 42), "Out", "Quad", 0.25, true)
 		end
 	end)
 end
