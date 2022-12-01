@@ -2,7 +2,7 @@ if game.PlaceId == 3851622790 or
 game.PlaceId == 4620170611 then
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Xostum Notification";
- Text = "Loaded V3.2N";
+ Text = "Loaded V3.2O";
  Icon = "";
  Duration = 10;
  Callback = NotificationBindable;
@@ -9931,7 +9931,8 @@ local function XTKFYNR_script() -- Gui.UnlockAttic.LocalScript
 		--
 		if f1.Button.Text == "Unlock Attic" then
 			f1.Button.Text = "Unlock Attic "
-			fireclickdetector(game:GetService("Workspace").Basement.Ladder.ClickDetector)
+			local AtticLadderTaker = {[1] = 1}
+            game:GetService("ReplicatedStorage").RemoteEvents.Ladder:FireServer(unpack(AtticLadderTaker))
 			wait(1)
 			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {CFrame = CFrame.new(-20.21592140197754, 20.379079818725586, -227.04872131347656)}):Play()
 		else
