@@ -7811,33 +7811,36 @@ coroutine.wrap(GOUWJD_script)()
 local function FVILAKA_script() -- XostumUIBreakIn.Holder_18.LocalScript 
 	local script = Instance.new('LocalScript', XostumUIBreakIn.Holder_18)
 
-	local NoClipFunction = false
-	local Clipon = false
-	local Plr = game.Players.LocalPlayer
-	while wait(0.6) do
-		if script.Parent.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
-			NoClipFunction = true
-		else
-			NoClipFunction = false
-		end
-        if NoClipFunction==true then
-            Clipon = true
-            Stepped = game:GetService("RunService").Stepped:Connect(function()
-                if not Clipon == false then
-                    for a, b in pairs(game.Workspace:GetChildren()) do
-                        if b.Name == Plr.Name then
-                            for i, v in pairs(game.Workspace[Plr.Name]:GetChildren()) do
-                                if v:IsA("BasePart") then
-                                    v.CanCollide = false
-                                end end end end
-                else
-                    Stepped:Disconnect()
-                end
-            end)
-        elseif NoClipFunction == false then
-            Clipon = false
-        end
+	local NoClipFunction=true
+local Clipon = false
+local Plr = game.Players.LocalPlayer
+while wait() do
+	if script.Parent.Indicator.Overlay.Position == UDim2.new(1, -24,0, 2) then
+		NoClipFunction = true
+	else
+		NoClipFunction = false
 	end
+end
+script.Parent.Indicator.TextButton.MouseButton1Click:Connect(function()
+	wait(0.001)
+	if NoClipFunction==true then
+		Clipon = true
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(game.Workspace:GetChildren()) do
+					if b.Name == Plr.Name then
+						for i, v in pairs(game.Workspace[Plr.Name]:GetChildren()) do
+							if v:IsA("BasePart") then
+								v.CanCollide = false
+							end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif NoClipFunction == false then
+		Clipon = false
+	end
+end)
 end
 coroutine.wrap(FVILAKA_script)()
 local function PGVAK_script() -- XostumUIBreakIn.TextButton_14.LocalScript 
