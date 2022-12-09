@@ -2,7 +2,7 @@ if game.PlaceId == 3851622790 or
 game.PlaceId == 4620170611 then
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Xostum Notification";
- Text = "Loaded V3.2O";
+ Text = "Loaded V3.2Z";
  Icon = "";
  Duration = 10;
  Callback = NotificationBindable;
