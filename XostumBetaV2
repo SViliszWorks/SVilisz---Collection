@@ -1,3 +1,7 @@
+--Version:V3.2Z
+--LastUpdate:FixedRainbowESP
+--Supports:Break In (Story) (BothMap)
+
 if game.PlaceId == 3851622790 or
 game.PlaceId == 4620170611 then
 	if not game.CoreGui:FindFirstChild("XostumNotifer") then
@@ -8188,7 +8192,11 @@ local function PGRI_script() -- XostumUIBreakIn.Rainbow.LocalScript
 			else
 				for i,v in pairs(game:GetService("Workspace").BadGuys:GetChildren()) do
 					if script.Parent.Holder.Indicator.Overlay.Position == UDim2.new(0, 2,0, 2) then
-					v:FindFirstChild("Highlight").OutlineColor = Color3.fromRGB(255,255,255)
+						if v:FindFirstChild("Highlight").OutlineColor == Color3.fromRGB(255,255,255) then
+								--
+							else
+								v:FindFirstChild("Highlight").OutlineColor = Color3.fromRGB(255,255,255)
+						end
 					end
 				end
 			end
