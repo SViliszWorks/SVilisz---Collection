@@ -10820,6 +10820,7 @@ else
  Icon = "";
  Duration = 10;
  Callback = NotificationBindable;
+})
 end
 else
 	warn("Unknown Game, "..game.PlaceId.."")
