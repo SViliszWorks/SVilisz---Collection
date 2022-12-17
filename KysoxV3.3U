@@ -1,0 +1,1413 @@
+local ProSprint = Instance.new("ScreenGui")
+local Holder = Instance.new("Frame")
+local ScriptService = Instance.new("Folder")
+local MaxSprints = Instance.new("IntValue")
+local View1 = Instance.new("Frame")
+local UIStroke = Instance.new("UIStroke")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Counter = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local BarTaker = Instance.new("Frame")
+local Bar1 = Instance.new("Frame")
+local Fill = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local Bar2 = Instance.new("Frame")
+local Fill_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Bar3 = Instance.new("Frame")
+local Fill_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Bar4 = Instance.new("Frame")
+local Fill_4 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local View2 = Instance.new("Frame")
+local UIStroke_2 = Instance.new("UIStroke")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local List = Instance.new("Frame")
+local UseRainbow = Instance.new("Frame")
+local Holder_2 = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Indicator = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local OverLayTaker = Instance.new("Frame")
+local Overlay = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UITrans = Instance.new("Frame")
+local Holder_3 = Instance.new("Frame")
+local Label_2 = Instance.new("TextLabel")
+local Slider = Instance.new("Frame")
+local Bar = Instance.new("Frame")
+local Fill_5 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local BypassLimit = Instance.new("Frame")
+local Holder_4 = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local ToggleSprintKey = Instance.new("Frame")
+local Holder_5 = Instance.new("Frame")
+local Label_3 = Instance.new("TextLabel")
+local Bind = Instance.new("Frame")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
+local Fire = Instance.new("TextButton")
+local UIPadding = Instance.new("UIPadding")
+local UICorner_29 = Instance.new("UICorner")
+local UIStroke_3 = Instance.new("UIStroke")
+
+--Properties:
+
+ProSprint.Name = "ProSprint"
+ProSprint.Parent = (game:GetService("CoreGui") or gethui())
+ProSprint.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Holder.Name = "Holder"
+Holder.Parent = ProSprint
+Holder.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Holder.Position = UDim2.new(0.249342099, 0, 0.117283948, 0)
+Holder.Size = UDim2.new(0, 225, 0, 8)
+
+ScriptService.Name = "ScriptService"
+ScriptService.Parent = Holder
+
+MaxSprints.Name = "MaxSprints"
+MaxSprints.Parent = ScriptService
+MaxSprints.Value = 100
+
+View1.Name = "View1"
+View1.Parent = Holder
+View1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+View1.Position = UDim2.new(-0, 0, 1.824, 0)
+View1.Size = UDim2.new(0, 225, 0, 80)
+
+UIStroke.Color = Color3.fromRGB(60, 60, 60)
+UIStroke.Thickness = 0.000
+UIStroke.Parent = View1
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = View1
+
+TextLabel.Parent = View1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 89, 0, 29)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Sprint Limit"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextButton.Parent = View1
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(0, 225, 0, 80)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = TextButton
+
+Counter.Name = "Counter"
+Counter.Parent = View1
+Counter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Counter.BackgroundTransparency = 1.000
+Counter.Position = UDim2.new(0.395555556, 0, 0.0625, 0)
+Counter.Size = UDim2.new(0, 127, 0, 18)
+Counter.Font = Enum.Font.FredokaOne
+Counter.Text = "100"
+Counter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Counter.TextScaled = true
+Counter.TextSize = 14.000
+Counter.TextWrapped = true
+Counter.TextXAlignment = Enum.TextXAlignment.Right
+
+Credits.Name = "Credits"
+Credits.Parent = View1
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.369761705, 0, 0.662500024, 0)
+Credits.Size = UDim2.new(0, 55, 0, 21)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "RegularSVilisz - Kysox V3.3"
+Credits.TextColor3 = Color3.fromRGB(132, 132, 132)
+Credits.TextSize = 14.000
+Credits.TextTransparency = 0.900
+
+BarTaker.Name = "BarTaker"
+BarTaker.Parent = View1
+BarTaker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BarTaker.BackgroundTransparency = 1.000
+BarTaker.Position = UDim2.new(0.0222222805, 0, 0.350000024, 0)
+BarTaker.Size = UDim2.new(0, 215, 0, 24)
+
+Bar1.Name = "Bar1"
+Bar1.Parent = BarTaker
+Bar1.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar1.ClipsDescendants = true
+Bar1.Size = UDim2.new(0.981999993, 0, 0.200000003, 0)
+
+Fill.Name = "Fill"
+Fill.Parent = Bar1
+Fill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fill.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = Fill
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = Bar1
+
+UIListLayout.Parent = BarTaker
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 1)
+
+Bar2.Name = "Bar2"
+Bar2.Parent = BarTaker
+Bar2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar2.ClipsDescendants = true
+Bar2.Size = UDim2.new(0.981999993, 0, 0.200000003, 0)
+
+Fill_2.Name = "Fill"
+Fill_2.Parent = Bar2
+Fill_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fill_2.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = Fill_2
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = Bar2
+
+Bar3.Name = "Bar3"
+Bar3.Parent = BarTaker
+Bar3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar3.ClipsDescendants = true
+Bar3.Size = UDim2.new(0.981999993, 0, 0.200000003, 0)
+
+Fill_3.Name = "Fill"
+Fill_3.Parent = Bar3
+Fill_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fill_3.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = Fill_3
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = Bar3
+
+Bar4.Name = "Bar4"
+Bar4.Parent = BarTaker
+Bar4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar4.ClipsDescendants = true
+Bar4.Size = UDim2.new(0.981999993, 0, 0.200000003, 0)
+
+Fill_4.Name = "Fill"
+Fill_4.Parent = Bar4
+Fill_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fill_4.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = Fill_4
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = Bar4
+
+View2.Name = "View2"
+View2.Parent = Holder
+View2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+View2.Position = UDim2.new(-0, 0, 12.6899996, 0)
+View2.Size = UDim2.new(0, 225, 0, 155)
+
+UIStroke_2.Color = Color3.fromRGB(60, 60, 60)
+UIStroke_2.Thickness = 0.000
+UIStroke_2.Parent = View2
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = View2
+
+TextButton_2.Parent = View2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Size = UDim2.new(0, 225, 0, 298)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = TextButton_2
+
+List.Name = "List"
+List.Parent = View2
+List.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+List.BackgroundTransparency = 1.000
+List.Position = UDim2.new(0.022222206, 0, 0.0304752272, 0)
+List.Size = UDim2.new(0, 215, 0, 145)
+
+UseRainbow.Name = "UseRainbow"
+UseRainbow.Parent = List
+UseRainbow.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+UseRainbow.Size = UDim2.new(0.9911111, 2, 0, 32)
+
+Holder_2.Name = "Holder"
+Holder_2.Parent = UseRainbow
+Holder_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_2.Position = UDim2.new(0, 1, 0, 1)
+Holder_2.Size = UDim2.new(1, -2, 1, -2)
+
+Label.Name = "Label"
+Label.Parent = Holder_2
+Label.BackgroundTransparency = 1.000
+Label.Position = UDim2.new(0, 5, 0.5, -7)
+Label.Size = UDim2.new(1, -50, 0, 14)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "Rainbow UI"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 14.000
+Label.TextWrapped = true
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+Indicator.Name = "Indicator"
+Indicator.Parent = Holder_2
+Indicator.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Indicator.Position = UDim2.new(1, -42, 0, 2)
+Indicator.Size = UDim2.new(0, 40, 0, 26)
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = Indicator
+
+TextButton_3.Parent = Indicator
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(-4.55000019, 0, -0.0769230798, 0)
+TextButton_3.Size = UDim2.new(5.6500001, -2, 1.23076928, -2)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+OverLayTaker.Name = "OverLayTaker"
+OverLayTaker.Parent = Indicator
+OverLayTaker.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+OverLayTaker.BackgroundTransparency = 1.000
+OverLayTaker.Position = UDim2.new(0, 2, 0, 2)
+OverLayTaker.Size = UDim2.new(0, 22, 0, 22)
+
+Overlay.Name = "Overlay"
+Overlay.Parent = OverLayTaker
+Overlay.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Overlay.Size = UDim2.new(0, 22, 0, 22)
+Overlay.Image = "http://www.roblox.com/asset/?id=7827504335"
+Overlay.ImageTransparency = 1.000
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = Overlay
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = OverLayTaker
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = Holder_2
+
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = UseRainbow
+
+UIListLayout_2.Parent = List
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Right
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 2)
+
+UITrans.Name = "UITrans"
+UITrans.Parent = List
+UITrans.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+UITrans.Position = UDim2.new(-0.000413335743, 0, 0.118055552, 0)
+UITrans.Size = UDim2.new(0.991110981, 2, 0, 41)
+
+Holder_3.Name = "Holder"
+Holder_3.Parent = UITrans
+Holder_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_3.Position = UDim2.new(0, 1, 0, 1)
+Holder_3.Size = UDim2.new(1.00002182, -2, 1, -2)
+
+Label_2.Name = "Label"
+Label_2.Parent = Holder_3
+Label_2.BackgroundTransparency = 1.000
+Label_2.Position = UDim2.new(0, 5, 0, 5)
+Label_2.Size = UDim2.new(1, -75, 0, 14)
+Label_2.Font = Enum.Font.SourceSans
+Label_2.Text = "UI Transparency"
+Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.TextSize = 14.000
+Label_2.TextWrapped = true
+Label_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider.Name = "Slider"
+Slider.Parent = Holder_3
+Slider.BackgroundTransparency = 1.000
+Slider.Position = UDim2.new(0, 5, 1, -15)
+Slider.Size = UDim2.new(1, -10, 0, 10)
+
+Bar.Name = "Bar"
+Bar.Parent = Slider
+Bar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bar.ClipsDescendants = true
+Bar.Size = UDim2.new(1, 0, 1, 0)
+
+Fill_5.Name = "Fill"
+Fill_5.Parent = Bar
+Fill_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fill_5.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = Fill_5
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = Bar
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = Holder_3
+
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = UITrans
+
+BypassLimit.Name = "BypassLimit"
+BypassLimit.Parent = List
+BypassLimit.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+BypassLimit.Position = UDim2.new(-0.000413335743, 0, 0.267361104, 0)
+BypassLimit.Size = UDim2.new(0.991110981, 2, 0, 32)
+
+Holder_4.Name = "Holder"
+Holder_4.Parent = BypassLimit
+Holder_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_4.Position = UDim2.new(0, 1, 0, 1)
+Holder_4.Size = UDim2.new(1, -2, 1, -2)
+
+Button.Name = "Button"
+Button.Parent = Holder_4
+Button.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Button.Position = UDim2.new(0, 2, 0, 2)
+Button.Size = UDim2.new(1, -4, 1, -4)
+Button.AutoButtonColor = false
+Button.Font = Enum.Font.SourceSans
+Button.Text = "Bypass Limit"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = Button
+
+UICorner_23.CornerRadius = UDim.new(0, 5)
+UICorner_23.Parent = Holder_4
+
+UICorner_24.CornerRadius = UDim.new(0, 5)
+UICorner_24.Parent = BypassLimit
+
+ToggleSprintKey.Name = "ToggleSprintKey"
+ToggleSprintKey.Parent = List
+ToggleSprintKey.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ToggleSprintKey.Position = UDim2.new(-0.000413335743, 0, 0.385416657, 0)
+ToggleSprintKey.Size = UDim2.new(0.991110981, 2, 0, 32)
+
+Holder_5.Name = "Holder"
+Holder_5.Parent = ToggleSprintKey
+Holder_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Holder_5.Position = UDim2.new(0, 1, 0, 1)
+Holder_5.Size = UDim2.new(1, -2, 1, -2)
+
+Label_3.Name = "Label"
+Label_3.Parent = Holder_5
+Label_3.BackgroundTransparency = 1.000
+Label_3.Position = UDim2.new(0, 5, 0.5, -7)
+Label_3.Size = UDim2.new(1.06570029, -135, 0, 14)
+Label_3.Font = Enum.Font.SourceSans
+Label_3.Text = "Toggle Sprint Key"
+Label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.TextSize = 14.000
+Label_3.TextWrapped = true
+Label_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Bind.Name = "Bind"
+Bind.Parent = Holder_5
+Bind.AnchorPoint = Vector2.new(1, 0)
+Bind.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Bind.Position = UDim2.new(1, -2, 0, 2)
+Bind.Size = UDim2.new(0, 59, 0, 26)
+Bind.ZIndex = 2
+
+Label_4.Name = "Label"
+Label_4.Parent = Bind
+Label_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Label_4.Position = UDim2.new(0, 1, 0, 1)
+Label_4.Size = UDim2.new(1, -2, 1, -2)
+Label_4.Font = Enum.Font.SourceSans
+Label_4.Text = "LeftAlt"
+Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.TextSize = 14.000
+
+UICorner_25.CornerRadius = UDim.new(0, 5)
+UICorner_25.Parent = Label_4
+
+UICorner_26.CornerRadius = UDim.new(0, 5)
+UICorner_26.Parent = Bind
+
+UICorner_27.CornerRadius = UDim.new(0, 5)
+UICorner_27.Parent = Holder_5
+
+UICorner_28.CornerRadius = UDim.new(0, 5)
+UICorner_28.Parent = ToggleSprintKey
+
+Fire.Name = "Fire"
+Fire.Parent = ToggleSprintKey
+Fire.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fire.BackgroundTransparency = 1.000
+Fire.Size = UDim2.new(0, 212, 0, 32)
+Fire.Font = Enum.Font.SourceSans
+Fire.Text = ""
+Fire.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fire.TextSize = 14.000
+
+UIPadding.Parent = View2
+UIPadding.PaddingBottom = UDim.new(0, 5)
+UIPadding.PaddingRight = UDim.new(0, 5)
+UIPadding.PaddingTop = UDim.new(0, 3)
+
+UICorner_29.CornerRadius = UDim.new(1, 1)
+UICorner_29.Parent = Holder
+
+UIStroke_3.Color = Color3.fromRGB(60, 60, 60)
+UIStroke_3.Parent = Holder
+
+-- Scripts:
+
+local function VONR_fake_script() -- ScriptService.ScriptOfHolder 
+	local script = Instance.new('LocalScript', ScriptService)
+
+	local BarLimit = script.Parent.MaxSprints
+	local BarLimitUse = true
+	local ToggleKey = script.Parent.Parent.View2.List.ToggleSprintKey.Holder.Bind.Label
+	local FindText = script.Parent.Parent.View1.Counter
+	game:GetService("UserInputService").InputBegan:Connect(function(Key1)
+		if Key1.KeyCode == Enum.KeyCode[ToggleKey.Text] then
+			script.Parent.Parent.View1.BarTaker.Bar1.Fill:TweenSize(UDim2.new(1, 0,1, 0),"Out","Quad",0.3,true)
+			script.Parent.Parent.View1.BarTaker.Bar2.Fill:TweenSize(UDim2.new(1, 0,1, 0),"Out","Quad",0.6,true)
+			script.Parent.Parent.View1.BarTaker.Bar3.Fill:TweenSize(UDim2.new(1, 0,1, 0),"Out","Quad",0.9,true)
+			script.Parent.Parent.View1.BarTaker.Bar4.Fill:TweenSize(UDim2.new(1, 0,1, 0),"Out","Quad",1.2,true)
+			if BarLimitUse == true then
+				game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"), TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {WalkSpeed = 32}):Play()
+				game:GetService("TweenService"):Create(game.Workspace.CurrentCamera, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {FieldOfView = 120}):Play()
+			end
+			if BarLimitUse == true then
+				if BarLimit.Value == 0 or FindText.Text == "0" then
+					BarLimitUse = false
+				else
+					BarLimit.Value = BarLimit.Value - 1
+				end
+			end
+		end
+	end)
+	game:GetService("UserInputService").InputEnded:Connect(function(Key2)
+		if Key2.KeyCode == Enum.KeyCode[ToggleKey.Text] then
+			script.Parent.Parent.View1.BarTaker.Bar4.Fill:TweenSize(UDim2.new(0, 0,1, 0),"Out","Quad",1.2,true)
+			script.Parent.Parent.View1.BarTaker.Bar3.Fill:TweenSize(UDim2.new(0, 0,1, 0),"Out","Quad",0.9,true)
+			script.Parent.Parent.View1.BarTaker.Bar2.Fill:TweenSize(UDim2.new(0, 0,1, 0),"Out","Quad",0.6,true)
+			script.Parent.Parent.View1.BarTaker.Bar1.Fill:TweenSize(UDim2.new(0, 0,1, 0),"Out","Quad",0.3,true)
+			game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"), TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {WalkSpeed = 16}):Play()
+			game:GetService("TweenService"):Create(game.Workspace.CurrentCamera, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {FieldOfView = 70}):Play()
+		end
+	end)
+	game:GetService("RunService").Stepped:Connect(function()
+		if BarLimitUse == false then
+			if FindText.Text == "0" then
+				--stop
+			else
+				BarLimitUse = true
+			end
+		end
+	end)
+end
+coroutine.wrap(VONR_fake_script)()
+local function QVIHR_fake_script() -- ScriptService.Script 
+	local script = Instance.new('Script', ScriptService)
+
+	local MakeValue=true
+	
+	;if MakeValue==true then local I=Instance.new("IntValue");I.Name="MaxSprints";I.Parent=script.Parent;end
+end
+coroutine.wrap(QVIHR_fake_script)()
+local function MBRYTR_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local MaxValAdd=script.Parent.Parent.Parent.ScriptService.MaxSprints
+	script.Parent.MouseButton2Click:Connect(function()
+		MaxValAdd.Value=MaxValAdd.Value+math.random(1,5)
+	end)
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.Parent.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Thickness = 1.9}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.View1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(30,30,30)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.Parent.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Thickness = 0}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.View1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(15,15,15)}):Play()
+	end)
+end
+coroutine.wrap(MBRYTR_fake_script)()
+local function TGTFYF_fake_script() -- Counter.LocalScript 
+	local script = Instance.new('LocalScript', Counter)
+
+	local InvSpMax = script.Parent.Parent.Parent.ScriptService.MaxSprints
+	game:GetService("RunService").Stepped:Connect(function()
+		script.Parent.Text = InvSpMax.Value
+	end)
+end
+coroutine.wrap(TGTFYF_fake_script)()
+local function AAMCES_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.Parent.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Thickness = 1.9}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.View2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(30,30,30)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent.Parent.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Thickness = 0}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.View2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(15,15,15)}):Play()
+	end)
+end
+coroutine.wrap(AAMCES_fake_script)()
+local function CONQQO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local madMoi = false
+	local UiRain = {
+		S1 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.UIStroke,
+		S2 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View2.UIStroke,
+		S3 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Holder.UIStroke,
+		SC1 = script.Parent.Parent.Parent.Parent.Parent.UITrans.Holder.Slider.Bar.Fill,
+		SC2 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar1.Fill,
+		SC3 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar2.Fill,
+		SC4 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar3.Fill,
+		SC5 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar4.Fill,
+		T1 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.TextLabel,
+		T2 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.Counter,
+		T3 = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.View1.Credits
+	}
+	script.Parent.MouseButton1Click:Connect(function()
+		if madMoi == false then
+			script.Parent.Parent.OverLayTaker:TweenPosition(UDim2.new(1, -24,0, 2), "Out", "Quad", 0.15, true)
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = 1}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {ImageTransparency = 0}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = 0}):Play()
+			madMoi = true
+		else
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = 0}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker.Overlay, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {ImageTransparency = 1}):Play()
+			game:GetService("TweenService"):Create(script.Parent.Parent.OverLayTaker, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = 1}):Play()
+			script.Parent.Parent.OverLayTaker:TweenPosition(UDim2.new(0, 2,0, 2), "Out", "Quad", 0.15, true)
+			madMoi = false
+		end
+	end)
+	game:GetService("RunService").Stepped:Connect(function()
+		if madMoi == true then
+			script.Parent.Parent.OverLayTaker.BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))
+			game:GetService("TweenService"):Create(UiRain.S1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.S2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.S3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC4, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC5, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(tick() % 5 / 5, 1, 1))}):Play()
+		else
+			script.Parent.Parent.OverLayTaker.BackgroundColor3 = Color3.fromRGB(45,45,45)
+			game:GetService("TweenService"):Create(UiRain.S1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = Color3.fromRGB(60,60,60)}):Play()
+			game:GetService("TweenService"):Create(UiRain.S2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = Color3.fromRGB(60,60,60)}):Play()
+			game:GetService("TweenService"):Create(UiRain.S3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Color = Color3.fromRGB(60,60,60)}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC4, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.SC5, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+			game:GetService("TweenService"):Create(UiRain.T3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {TextColor3 = (Color3.fromHSV(0, 0, 1))}):Play()
+		end
+	end)
+	
+end
+coroutine.wrap(CONQQO_fake_script)()
+local function CYJKAO_fake_script() -- Slider.mainScript 
+	local script = Instance.new('LocalScript', Slider)
+
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	
+	local function initiateDrag(frame, callbackFunction)
+		local dragging = false
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+			end
+		end)
+	
+		frame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				local pos = UDim2.new(math.clamp((mouse.X - frame.AbsolutePosition.X) / frame.AbsoluteSize.X, 0, 1), 0, 1, 0)
+				frame.Bar.Fill:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.18, true, callbackFunction(pos.X.Scale))
+			end
+		end)
+	end
+	
+	initiateDrag(script.Parent, function(value)
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar1, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar2, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar3, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+		game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Parent.Parent.Parent.View1.BarTaker.Bar4, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundTransparency = value*1.00000000000000}):Play()
+	end)
+end
+coroutine.wrap(CYJKAO_fake_script)()
+local function RWOG_fake_script() -- BypassLimit.LocalScript 
+	local script = Instance.new('LocalScript', BypassLimit)
+
+	local q1 = script.Parent.Holder
+	q1.Button.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	q1.Button.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	q1.Button.MouseButton1Up:Connect(function()
+		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+	end)
+	q1.Button.MouseButton1Down:Connect(function()
+		game:GetService("TweenService"):Create(q1.Button, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+	end)
+	q1.Button.MouseButton1Click:Connect(function()
+		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
+		--
+		script.Parent.Parent.Parent.Parent.ScriptService.MaxSprints.Value = script.Parent.Parent.Parent.Parent.ScriptService.MaxSprints.Value + 9999999999999999
+		--
+		wait(0.16)
+		game:GetService("TweenService"):Create(q1, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(35, 35, 35)}):Play()
+	end)
+end
+coroutine.wrap(RWOG_fake_script)()
+local function BBWE_fake_script() -- Bind.LocalScript 
+	local script = Instance.new('LocalScript', Bind)
+
+	local KeyWorker = false
+	local KeyBinds = {
+		A = Enum.KeyCode.A,
+		B = Enum.KeyCode.B,
+		C = Enum.KeyCode.C,
+		D = Enum.KeyCode.D,
+		E = Enum.KeyCode.E,
+		F = Enum.KeyCode.F,
+		G = Enum.KeyCode.G,
+		H = Enum.KeyCode.H,
+		I = Enum.KeyCode.I,
+		J = Enum.KeyCode.J,
+		K = Enum.KeyCode.K,
+		L = Enum.KeyCode.L,
+		M = Enum.KeyCode.M,
+		N = Enum.KeyCode.N,
+		O = Enum.KeyCode.O,
+		P = Enum.KeyCode.P,
+		Q = Enum.KeyCode.Q,
+		R = Enum.KeyCode.R,
+		S = Enum.KeyCode.S,
+		T = Enum.KeyCode.T,
+		U = Enum.KeyCode.U,
+		V = Enum.KeyCode.V,
+		W = Enum.KeyCode.W,
+		X = Enum.KeyCode.X,
+		Y = Enum.KeyCode.Y,
+		Z = Enum.KeyCode.Z,
+		One = Enum.KeyCode.One,
+		Two = Enum.KeyCode.Two,
+		Three = Enum.KeyCode.Three,
+		Four = Enum.KeyCode.Four,
+		Five = Enum.KeyCode.Five,
+		Six = Enum.KeyCode.Six,
+		Seven = Enum.KeyCode.Seven,
+		Eight = Enum.KeyCode.Eight,
+		Nine = Enum.KeyCode.Nine,
+		Zero = Enum.KeyCode.Zero,
+		CapsLock = Enum.KeyCode.CapsLock,
+		F1 = Enum.KeyCode.F1,
+		F2 = Enum.KeyCode.F2,
+		F3 = Enum.KeyCode.F3,
+		F4 = Enum.KeyCode.F4,
+		F5 = Enum.KeyCode.F5,
+		F6 = Enum.KeyCode.F6,
+		F7 = Enum.KeyCode.F7,
+		F8 = Enum.KeyCode.F8,
+		F9 = Enum.KeyCode.F9,
+		F10 = Enum.KeyCode.F10,
+		F11 = Enum.KeyCode.F11,
+		F12 = Enum.KeyCode.F12,
+		Home = Enum.KeyCode.Home,
+		Backquote = Enum.KeyCode.Backquote,
+		Period = Enum.KeyCode.Period,
+		Minus = Enum.KeyCode.Minus,
+		Delete = Enum.KeyCode.Delete,
+		Comma = Enum.KeyCode.Comma,
+		SColon = Enum.KeyCode.Semicolon,
+		LeftShift = Enum.KeyCode.LeftShift,
+		LeftControl = Enum.KeyCode.LeftControl,
+		LeftAlt = Enum.KeyCode.LeftAlt,
+		RightShift = Enum.KeyCode.RightShift,
+		RightControl = Enum.KeyCode.RightControl,
+		RightAlt = Enum.KeyCode.RightAlt
+	}
+	script.Parent.Parent.Parent.Fire.MouseButton1Click:Connect(function()
+		if KeyWorker == false then
+			game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(60, 60, 60)}):Play()
+			KeyWorker = true
+		end
+	end)
+	game:GetService("UserInputService").InputBegan:Connect(function(CKey)
+		if CKey.KeyCode == KeyBinds.A then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "A"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.B then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "B"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.C then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "C"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.D then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "D"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.E then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "E"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.G then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "G"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.H then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "H"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.I then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "I"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.J then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "J"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.K then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "K"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.L then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "L"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.M then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "M"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.N then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "N"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.O then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "O"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.P then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "P"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Q then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Q"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.R then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "R"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.S then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "S"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.T then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "T"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.U then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "U"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.V then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "V"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.W then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "W"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.X then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "X"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Y then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Y"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Z then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Z"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 26,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		---------------------------------JFBGDYFOIDSFY7DFTDYGHFBDJFNDJFHDFUYUDT7FD8FIFD
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.One then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "One"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 43,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Two then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Two"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 43,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Three then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Three"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Four then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Four"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Five then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Five"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Six then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Six"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 43,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Seven then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Seven"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Eight then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Eight"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Nine then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Nine"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Zero then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Zero"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 46,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		---------------------------------JFBGDYFOIDSFY7DFTDYGHFBDJFNDJFHDFUYUDT7FD8FIFD
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F1 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F1"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F2 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F2"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F3 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F3"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F4 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F4"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F5 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F5"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F6 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F6"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F7 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F7"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F8 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F8"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F9 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F9"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F10 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F10"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F11 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F11"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 36,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.F12 then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "F12"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 34,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		---------------------------------JFBGDYFOIDSFY7DFTDYGHFBDJFNDJFHDFUYUDT7FD8FIFD
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.CapsLock then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "CapsLock"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 60,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Home then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Home"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 45,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Backquote then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Backquote"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 73,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Period then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Period"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 49,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Minus then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Minus"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 45,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Delete then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Delete"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 45,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.Comma then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Comma"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 49,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.SColon then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "Semicolon"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 68,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.LeftShift then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "LeftShift"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 65,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.LeftControl then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "LeftControl"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 75,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.LeftAlt then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "LeftAlt"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 59,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.RightShift then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "RightShift"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 67,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.RightControl then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "RightControl"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 78,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+		--A-B-C----------------------------------------------------------------DICK
+		if CKey.KeyCode == KeyBinds.RightAlt then
+			if KeyWorker == true then
+				script.Parent.Label.Text = "RightAlt"
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder.Bind, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {Size = UDim2.new(0, 61,0, 26)}):Play()
+				KeyWorker = false
+				game:GetService("TweenService"):Create(script.Parent.Parent.Parent.Holder, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0), {BackgroundColor3 = Color3.fromRGB(25, 25, 25)}):Play()
+			end
+		end
+	end)
+end
+coroutine.wrap(BBWE_fake_script)()
+local function MVFOWC_fake_script() -- Holder.LocalScript 
+	local script = Instance.new('LocalScript', Holder)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+	local UIXS = game:GetService('UserInputService')
+	local dragToggle = nil
+	local dragSpeed = 0.05
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(script.Parent, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	script.Parent.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = script.Parent.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIXS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(MVFOWC_fake_script)()
